@@ -7,7 +7,7 @@ setup(
 
     # general metadata
     description='List of open (http://opensource.org/, http://opendefinition.org/) licenses',
-    license='MIT',
+    license='PD',
     author='Open Knowledge Foundation',
     author_email='info@okfn.org',
     url='http://www.knowledgeforge.net/okfn/licenses/',
