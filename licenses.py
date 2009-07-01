@@ -10,7 +10,7 @@ class LicenseList(object):
         u'Other',
         ]
 
-    okf_compliant_formatted = [ u'OKD Compliant::' + x for x in okd_compliant ]
+    okd_compliant_formatted = [ u'OKD Compliant::' + x for x in okd_compliant ]
 
     non_okd_compliant = [
         u'Creative Commons Non-Commercial (Any)',
