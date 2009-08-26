@@ -8,6 +8,7 @@ class LicenseList(object):
         u'GNU Free Documentation License (GFDL)',
         u'UK Click Use PSI',
         u'Other',
+        u'Other (Public Domain)',
         ]
 
     okd_compliant_formatted = [ u'OKD Compliant::' + x for x in okd_compliant ]
