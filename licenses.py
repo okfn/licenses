@@ -16,7 +16,7 @@ class LicenseList(object):
     non_okd_compliant = [
         u'Creative Commons Non-Commercial (Any)',
         u'Crown Copyright',
-        u'Non-Commerical Other',
+        u'Non-Commercial Other',
         u'Other',
         ]
 
