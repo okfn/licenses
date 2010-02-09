@@ -1,5 +1,9 @@
 import licenses
 
+def test_total():
+    ourlist = licenses.LicenseList.all_formatted
+    assert len(ourlist) == 73, len(ourlist)
+
 def test_basic():
     ourlist = licenses.LicenseList.all_formatted
     okd = licenses.LicenseList.okd_compliant_formatted

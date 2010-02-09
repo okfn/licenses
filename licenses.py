@@ -9,6 +9,7 @@ class LicenseList(object):
         u'UK Click Use PSI',
         u'Other',
         u'Other (Public Domain)',
+        u'Other (Attribution)',
         ]
 
     okd_compliant_formatted = [ u'OKD Compliant::' + x for x in okd_compliant ]
