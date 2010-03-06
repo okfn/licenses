@@ -1,5 +1,5 @@
 from setuptools import setup
-__version__ = 0.2
+__version__ = 0.3
 
 setup(
     name='licenses',
@@ -12,4 +12,5 @@ setup(
     author_email='info@okfn.org',
     url='http://www.knowledgeforge.net/okfn/licenses/',
     py_modules=['licenses'],
+    scripts=['licenses-deploy'],
 )
