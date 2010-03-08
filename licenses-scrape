@@ -1,0 +1,98 @@
+#!/usr/bin/env python
+
+"""
+Script to scrape licenses and update the package records (licenses.db).
+"""
+
+od = {
+    'fqdn': 'http://www.opendefinition.org',
+    'list': '/licenses/',
+    'rexp': '^/licenses/.+'
+}
+os = {
+    'fqdn': 'http://www.opensource.org',
+    'list': '/licenses/alphabetical',
+    'rexp': '^/licenses/(?!(category|alphabetical|historical|do-not-use)).+(\\.php|\\.html|\\.txt)?'
+}
+od_licenses_url = "http://www.opendefinition.org/licenses"
+os_licenses_url = "http://www.opensource.org/licenses/alphabetical"
+
+licenses_db_path = './licenses/licenses.db'
+
+from BeautifulSoup import BeautifulSoup
+from urllib2 import urlopen
+import re
+import sys
+from simplejson import loads, dumps
+import pprint
+import datetime
+
+def scrape(site):
+    licenses = []
+    url = site['fqdn']+site['list']
+    print "Scraping: %s" % url
+    soup = BeautifulSoup(urlopen(url).read())
+    for a in soup.findAll('a', href=re.compile(site['rexp'])):
+        license_url = a['href']
+        if not 'http://' in license_url:
+            license_url = site['fqdn'] + license_url
+        license_id = a['href'].strip('/').split('/')[-1]
+        license_id = license_id.split('.html')[0]
+        license_id = license_id.split('.php')[0]
+        license_id = license_id.split('.txt')[0]
+        license_title = a.contents[0]
+        license = {
+            'id': license_id,
+            'title': license_title,
+            'url': license_url,
+        }
+        license['okd_compliance'] = 'www.opendefinition' in site['fqdn']
+        license['osi_compliance'] = 'www.opensource' in site['fqdn']
+        license['status'] = 'active'
+        license['date_created'] = datetime.datetime.utcnow().isoformat()
+        license['tags'] = ''
+        license['category'] = ''
+        licenses.append(license)
+    return licenses
+
+try:
+    licenses_db = open(licenses_db_path, 'r')
+except Exception, inst:
+    msg = "Couldn't open existing licenses records: %s" % inst
+    print "Error: %s" % msg
+    sys.exit(1)
+
+try:
+    all_licenses = loads(licenses_db.read())
+    if type(all_licenses) != dict:
+        msg = "Loaded data type not 'dict': %s" % type(all_licenses)
+        raise Exception, msg
+except Exception, inst:
+    msg = "Couldn't read existing licenses records: %s" % inst
+    print "Error: %s" % msg
+    sys.exit(1)
+
+licenses_db.close()
+    
+print "There are %d licenses in the records." % len(all_licenses)
+
+od_licenses = scrape(od)
+os_licenses = scrape(os)
+
+for license in od_licenses + os_licenses:
+    if license['id'] in all_licenses:
+        pass #print 'Skipping license: %s"' % (license['id'])
+    else:
+        print 'Added new license: %s "%s"' % (license['id'], license['url'])
+        all_licenses[license['id']] = license
+
+try:
+    licenses_db = open(licenses_db_path, 'w')
+except Exception, inst:
+    msg = "Couldn't open existing licenses records for writing: %s" % inst
+    print "Error: %s" % msg
+    sys.exit(1)
+
+licenses_db.write(dumps(all_licenses, indent=2))
+
+print "There are now %d licenses in the records." % len(all_licenses)

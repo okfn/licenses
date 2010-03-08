@@ -1,3 +1,12 @@
+# For Licenses SoS v2.0.
+
+class Licenses(object):
+    
+    groups = ['okd_compliant', 'non_okd_compliant']
+
+
+# For Licenses SoS v1.0.
+
 class LicenseList(object):
     okd_compliant = [
         u'Open Data Commons Public Domain Dedication and License (PDDL)',

@@ -18,6 +18,12 @@ Todo: More about linking data at run-time (easy_install licenseservice; import .
     author='Open Knowledge Foundation',
     author_email='info@okfn.org',
     url='http://www.knowledgeforge.net/okfn/licenses/',
-    py_modules=['licenses'],
+    packages=['licenses'],
+    #py_modules=['licenses'],
     scripts=['licenses-deploy'],
+    include_package_data = True,
+    package_data = {
+        '': ['licenses.db'],
+    },
+    zip_safe= False,
 )
