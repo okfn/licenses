@@ -1,50 +1,3 @@
-# For Licenses SoS v2.0.
-
-class Licenses(object):
-    
-    def __iter__(self):
-        return iter(self.get_licenses().keys())
-
-    def __getitem__(self, key):
-        return self.get_licenses()[key]
-
-    def keys(self):
-        return self.get_licenses().keys()
-
-    def values(self):
-        return self.get_licenses().values()
-
-    def get_licenses(self):
-        return self.get_data()['licenses']
-
-    def get_data(self):
-        if not hasattr(self, '_data'):
-            self._data = self.load_data()
-        return self._data
-
-    def load_data(self):
-        import pkg_resources
-        import simplejson
-        import os
-        try:
-            path = pkg_resources.resource_filename(
-                pkg_resources.Requirement.parse('licenses'),
-                'licenses/licenses.db'
-            )
-        except Exception, inst:
-            msg = "Couldn't make path for 'licenses.db' resource."
-            raise Exception, msg
-        if not os.path.exists(path):
-            print "Couldn't find licenses data file: %s" % path
-        return simplejson.loads(open(path).read())
-
-    def get_group(self, group_name):
-        if group_name == 'all':
-            return self.keys()
-        else:
-            msg = "Group name '%s' is not supported." % group_name
-            raise Exception, msg
-
 # For Licenses SoS v1.0.
 
 class LicenseList(object):
@@ -147,4 +100,53 @@ class LicenseList(object):
 
     all_formatted = other_formatted + okd_compliant_formatted + \
         non_okd_compliant_formatted + osi_approved_formatted
+
+
+# For Licenses SoS v2.0.
+
+class Licenses(object):
+    
+    def __iter__(self):
+        return iter(self.get_licenses().keys())
+
+    def __getitem__(self, key):
+        return self.get_licenses()[key]
+
+    def keys(self):
+        return self.get_licenses().keys()
+
+    def values(self):
+        return self.get_licenses().values()
+
+    def get_licenses(self):
+        return self.get_data()['licenses']
+
+    def get_data(self):
+        if not hasattr(self, '_data'):
+            self._data = self.load_data()
+        return self._data
+
+    def load_data(self):
+        import pkg_resources
+        import simplejson
+        import os
+        try:
+            path = pkg_resources.resource_filename(
+                pkg_resources.Requirement.parse('licenses'),
+                'licenses/licenses.db'
+            )
+        except Exception, inst:
+            msg = "Couldn't make path for 'licenses.db' resource."
+            raise Exception, msg
+        if not os.path.exists(path):
+            print "Couldn't find licenses data file: %s" % path
+        return simplejson.loads(open(path).read())
+
+    def get_group(self, group_name):
+        if group_name == 'all':
+            return self.keys()
+        else:
+            msg = "Group name '%s' is not supported." % group_name
+            raise Exception, msg
+
 
