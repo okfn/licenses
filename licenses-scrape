@@ -46,12 +46,13 @@ def scrape(site):
             'title': license_title,
             'url': license_url,
         }
-        license['okd_compliance'] = 'www.opendefinition' in site['fqdn']
-        license['osi_compliance'] = 'www.opensource' in site['fqdn']
+        license['is_okd_compliant'] = 'www.opendefinition' in site['fqdn']
+        license['is_osi_compliant'] = 'www.opensource' in site['fqdn']
         license['status'] = 'active'
         license['date_created'] = datetime.datetime.utcnow().isoformat()
-        license['tags'] = ''
-        license['category'] = ''
+        license['tags'] = []
+        license['family'] = ''
+        license['maintainer'] = ''
         licenses.append(license)
     return licenses
 
@@ -63,9 +64,11 @@ except Exception, inst:
     sys.exit(1)
 
 try:
-    all_licenses = loads(licenses_db.read())
+    all_data = loads(licenses_db.read())
+    groups_register = all_data['groups']
+    licenses_register = all_data['licenses']
     if type(all_licenses) != dict:
-        msg = "Loaded data type not 'dict': %s" % type(all_licenses)
+        msg = "Loaded licenses data type not 'dict': %s" % type(all_licenses)
         raise Exception, msg
 except Exception, inst:
     msg = "Couldn't read existing licenses records: %s" % inst
@@ -81,9 +84,25 @@ os_licenses = scrape(os)
 
 for license in od_licenses + os_licenses:
     if license['id'] in all_licenses:
+        existing = all_licenses[license['id']]
+        for attr_name, value in license.items():
+            if attr_name in existing:
+                if attr_name == 'date_created' and existing[attr_name]:
+                    pass
+                elif value != existing[attr_name]:
+                    print "Updating attribute on %s: %s changed from %s to %s." % (
+                        license['id'], attr_name, repr(existing[attr_name]), repr(value)
+                    )
+                    existing[attr_name] = value
+            else:
+                print "Adding new attribute to %s: %s is now %s." % (
+                    license['id'], attr_name, repr(value)
+                )
+                existing[attr_name] = value
+ 
         pass #print 'Skipping license: %s"' % (license['id'])
     else:
-        print 'Added new license: %s "%s"' % (license['id'], license['url'])
+        print 'Adding new license: %s "%s"' % (license['id'], license['url'])
         all_licenses[license['id']] = license
 
 try:
@@ -93,6 +112,6 @@ except Exception, inst:
     print "Error: %s" % msg
     sys.exit(1)
 
-licenses_db.write(dumps(all_licenses, indent=2))
+licenses_db.write(dumps(all_data, indent=2))
 
 print "There are now %d licenses in the records." % len(all_licenses)
