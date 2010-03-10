@@ -25,16 +25,17 @@ class LicensesService1(object):
 ## For Licenses SoS v2.0.
 class LicensesService2(object):
 
-    default_url = 'http://licenses.opendefinition.org/2.0/all'
+    default_group_url = 'http://licenses.opendefinition.org/2.0/all'
+
+    def __init__(self, group_url=''):
+        self.group_url = group_url or self.default_group_url
 
     def get_licenses(self):
-        from pylons import config
         import urllib2
         import simplejson
-        url = config.get('licenses_service_url', self.default_url)
-        print "Loading licenses from licenses service: %s" % url
+        print "Loading licenses from licenses service: %s" % self.group_url
         try:
-            response = urllib2.urlopen(url)
+            response = urllib2.urlopen(self.group_url)
             response_body = response.read()
         except Exception, inst:
             msg = "Couldn't connect to licenses service: %s" % inst
