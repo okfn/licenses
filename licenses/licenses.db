@@ -911,6 +911,102 @@
       "is_osi_compliant": false, 
       "date_created": "2010-03-09T11:41:18.107805", 
       "id": "gfdl"
+    }, 
+    "ukclickusepsi": {
+      "status": "active", 
+      "maintainer": "", 
+      "family": "", 
+      "title": "UK Click Use PSI", 
+      "url": "", 
+      "tags": [], 
+      "is_okd_compliant": true, 
+      "is_osi_compliant": false, 
+      "date_created": "2010-03-10T14:17:51.000000", 
+      "id": "ukclickusepsi"
+    }, 
+    "ukcrown-withrights": {
+      "status": "active", 
+      "maintainer": "", 
+      "family": "", 
+      "title": "UK Crown Copyright with data.gov.uk rights", 
+      "url": "", 
+      "tags": [], 
+      "is_okd_compliant": true, 
+      "is_osi_compliant": false, 
+      "date_created": "2010-03-10T14:17:51.000000", 
+      "id": "ukcrown-withrights"
+    }, 
+    "hesa-withrights": {
+      "status": "active", 
+      "maintainer": "", 
+      "family": "", 
+      "title": "Higher Education Statistics Agency Copyright with data.gov.uk rights", 
+      "url": "", 
+      "tags": [], 
+      "is_okd_compliant": true, 
+      "is_osi_compliant": false, 
+      "date_created": "2010-03-10T14:17:51.000000", 
+      "id": "hesa-withrights"
+    }, 
+    "cc-nc": {
+      "status": "active", 
+      "maintainer": "", 
+      "family": "", 
+      "title": "Creative Commons Non-Commercial (Any)", 
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/", 
+      "tags": [], 
+      "is_okd_compliant": false, 
+      "is_osi_compliant": false, 
+      "date_created": "2010-03-10T14:17:51.000000", 
+      "id": "cc-nc"
+    }, 
+    "ukcrown": {
+      "status": "active", 
+      "maintainer": "", 
+      "family": "", 
+      "title": "UK Crown Copyright", 
+      "url": "", 
+      "tags": [], 
+      "is_okd_compliant": false, 
+      "is_osi_compliant": false, 
+      "date_created": "2010-03-10T14:17:51.000000", 
+      "id": "ukcrown"
+    }, 
+    "other-closed": {
+      "status": "active", 
+      "maintainer": "", 
+      "family": "", 
+      "title": "Other (Proprietory, Not Open)", 
+      "url": "", 
+      "tags": [], 
+      "is_okd_compliant": false, 
+      "is_osi_compliant": false, 
+      "date_created": "2010-03-10T14:17:51.000000", 
+      "id": "other-closed"
+    }, 
+    "other-open": {
+      "status": "active", 
+      "maintainer": "", 
+      "family": "", 
+      "title": "Other (Open)", 
+      "url": "", 
+      "tags": [], 
+      "is_okd_compliant": false, 
+      "is_osi_compliant": false, 
+      "date_created": "2010-03-10T14:17:51.000000", 
+      "id": "other-open"
+    }, 
+    "other-nc": {
+      "status": "active", 
+      "maintainer": "", 
+      "family": "", 
+      "title": "Other (Non-Commercial)", 
+      "url": "", 
+      "tags": [], 
+      "is_okd_compliant": false, 
+      "is_osi_compliant": false, 
+      "date_created": "2010-03-10T14:17:51.000000", 
+      "id": "other-nc"
     }
   }, 
   "groups": {}
