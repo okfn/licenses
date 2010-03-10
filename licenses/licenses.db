@@ -739,7 +739,7 @@
       "title": "MirOS Licence", 
       "url": "http://www.opensource.org/licenses/miros.html", 
       "tags": [], 
-      "is_okd_compliant": false, 
+      "is_okd_compliant": true, 
       "is_osi_compliant": true, 
       "date_created": "2010-03-09T11:41:19.323884", 
       "id": "miros"
@@ -991,7 +991,7 @@
       "title": "Other (Open)", 
       "url": "", 
       "tags": [], 
-      "is_okd_compliant": false, 
+      "is_okd_compliant": true, 
       "is_osi_compliant": false, 
       "date_created": "2010-03-10T14:17:51.000000", 
       "id": "other-open"
