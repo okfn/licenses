@@ -7,7 +7,6 @@ class LicensesService1(object):
         import urllib2
         import simplejson
         url = config.get('licenses_service_url', self.default_url)
-        print "Loading licenses from licenses service: %s" % url
         try:
             response = urllib2.urlopen(url)
             response_body = response.read()
@@ -33,7 +32,6 @@ class LicensesService2(object):
     def get_licenses(self):
         import urllib2
         import simplejson
-        print "Loading licenses from licenses service: %s" % self.group_url
         try:
             response = urllib2.urlopen(self.group_url)
             response_body = response.read()
