@@ -185,11 +185,18 @@ class Deploy2Command(object):
             print "  http://%s/%s/%s" % (self.server_name, self.service_version, group_name)
         print ""
 
-
 if __name__ == "__main__":
-    usage = "licenses-deploy PATH SERVER_NAME"
+    usage = """Deployment of a license service onto a local Apache server
+    
+Creates files containing the license information inside the supplied <path>
+and provices example Apache configuration to serve these. Specify the
+<hostname> (a fully qualified domain name) that this host is identified
+as by the client machines.
+
+Usage:
+    %s <path> <hostname>"""
     if len(sys.argv) != 3:
-        print "Usage: %s" % self.usage
+        print usage % sys.argv[0]
         sys.exit(1)
     path = sys.argv[1]
     server_name = sys.argv[2]
