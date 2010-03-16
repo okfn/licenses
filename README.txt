@@ -42,12 +42,12 @@ This package can be used in three ways (develop, distribute, and deploy).
     Install or update the Python package, then create a new service:
 
         $ easy_install licenses
-        $ licenses-deploy DEST FQDN
+        $ licenses-deploy-level2 DEST FQDN
 
     Include the generated Apache configuration file in your Apache server,
     issue service level agreements which reference the Licenses Specification
     of Service v2.0, configure your service execution management to monitor
     those service levels, and configure your help desk to allow issues to be
-    raised and passed on service execution management or package development
-    as appropriate.
+    raised and passed on either to service execution management or to package
+    development, according to the nature of the raised issue.
 

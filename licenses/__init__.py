@@ -121,6 +121,21 @@ class Licenses(object):
     def get_licenses(self):
         return self.get_data()['licenses']
 
+    def get_group_licenses(self, group_name):
+        licenses = self.get_licenses()
+        groups = self.get_groups()
+        if group_name in groups:
+            group_licenses = []
+            for license_id in groups[group_name]:
+                group_licenses.append(licenses[license_id])
+            return group_licenses
+        else:
+            msg = "Group '%s' is not defined." % group_name
+            raise Exception, msg
+
+    def get_groups(self):
+        return self.get_data()['groups']
+
     def get_data(self):
         if not hasattr(self, '_data'):
             self._data = self.load_data()
@@ -141,12 +156,4 @@ class Licenses(object):
         if not os.path.exists(path):
             print "Couldn't find licenses data file: %s" % path
         return simplejson.loads(open(path).read())
-
-    def get_group(self, group_name):
-        if group_name == 'all':
-            return self.keys()
-        else:
-            msg = "Group name '%s' is not supported." % group_name
-            raise Exception, msg
-
 
