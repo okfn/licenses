@@ -9,7 +9,15 @@ class Deploy1Command(object):
     http://knowledgeforge.net/okfn/tasks/wiki/LicensesServiceVersionOne
     """
 
-    usage = "licenses-deploy PATH SERVER_NAME"
+    usage = """Deployment of a license service onto a local Apache server
+    
+Creates files containing the license information inside the supplied <path>
+and provices example Apache configuration to serve these. Specify the
+<hostname> (a fully qualified domain name) that this host is identified
+as by the client machines.
+
+Usage:
+    %s <path> <hostname>"""
 
     service_version = '1.0'
 

@@ -37,12 +37,12 @@ This package can be used in three ways (develop, distribute, and deploy).
         $ python setup.py egg_info -RDb "" sdist register upload
 
 
-3.  Package data service provision.
+3.  Package Apache deployment as a data service.
 
-    Install or update the Python package, then create a new service:
+    Install or update the Python package, then create the service files:
 
         $ easy_install licenses
-        $ licenses-deploy-level2 DEST FQDN
+        $ licenses-deploy-level2 <path> <hostname>
 
     Include the generated Apache configuration file in your Apache server,
     issue service level agreements which reference the Licenses Specification
