@@ -110,13 +110,18 @@ class Licenses(object):
         return iter(self.get_licenses().keys())
 
     def __getitem__(self, key):
-        return self.get_licenses()[key]
+        license = self.get_licenses()[key]
+        license['id'] = key
+        return license
 
     def keys(self):
         return self.get_licenses().keys()
 
     def values(self):
-        return self.get_licenses().values()
+        values = []
+        for key in self.keys():
+            values.append(self[key])
+        return values
 
     def get_licenses(self):
         return self.get_data()['licenses']
@@ -124,17 +129,39 @@ class Licenses(object):
     def get_group_licenses(self, group_name):
         licenses = self.get_licenses()
         groups = self.get_groups()
-        if group_name in groups:
+        if group_name == 'all_alphabetical':
+            group_licenses = licenses.values()
+            def license_cmp(x, y):
+                return cmp(x['title'].lower(), y['title'].lower())
+            group_licenses.sort(cmp=license_cmp)
+        elif group_name in groups:
             group_licenses = []
             for license_id in groups[group_name]:
                 group_licenses.append(licenses[license_id])
-            return group_licenses
+            if group_name == 'ckan_original':
+                for license in group_licenses:
+                    if license['is_osi_compliant']:
+                        prefix = "OSI Approved::"
+                    elif license['is_okd_compliant']:
+                        prefix = "OKD Compliant::"
+                    elif license['title'] == 'License Not Specified':
+                        prefix = "Other::"
+                    else:
+                        prefix = "Non-OKD Compliant::"
+                    license['title'] = prefix + license['title']
         else:
             msg = "Group '%s' is not defined." % group_name
             raise Exception, msg
+        return group_licenses
 
     def get_groups(self):
         return self.get_data()['groups']
+
+    def get_map(self, map_name):
+        return self.get_maps()[map_name]
+
+    def get_maps(self):
+        return self.get_data()['maps']
 
     def get_data(self):
         if not hasattr(self, '_data'):
