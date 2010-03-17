@@ -10,7 +10,7 @@ setup(
     long_description='''
 Todo: More about purpose of package.
 Todo: More about installing package (easy_install licenses).
-Todo: More about linking data at build-time (import licenses; print LicensesList().all_formatted).
+Todo: More about linking data at build-time (import licenses; print License().get_group_licenses('all_alphabetical')).
 Todo: More about deploying package as a service (licenses-deploy DEST FQDN).
 Todo: More about linking data at run-time (easy_install licenseservice; import ...).
     ''',
@@ -19,8 +19,7 @@ Todo: More about linking data at run-time (easy_install licenseservice; import .
     author_email='info@okfn.org',
     url='http://www.knowledgeforge.net/okfn/licenses/',
     packages=['licenses'],
-    #py_modules=['licenses'],
-    scripts=['licenses-deploy'],
+    scripts=['licenses-deploy-level1', 'licenses-deploy-level2'],
     include_package_data = True,
     package_data = {
         '': ['licenses.db'],
