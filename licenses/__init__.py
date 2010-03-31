@@ -1,3 +1,5 @@
+# For Licenses SoS v1.0.
+
 class LicenseList(object):
     okd_compliant = [
         u'Open Data Commons Public Domain Dedication and License (PDDL)',
@@ -99,4 +101,87 @@ class LicenseList(object):
 
     all_formatted = other_formatted + okd_compliant_formatted + \
         non_okd_compliant_formatted + osi_approved_formatted
+
+
+# For Licenses SoS v2.0.
+
+class Licenses(object):
+    
+    def __iter__(self):
+        return iter(self.get_licenses().keys())
+
+    def __getitem__(self, key):
+        license = self.get_licenses()[key]
+        license['id'] = key
+        return license
+
+    def keys(self):
+        return self.get_licenses().keys()
+
+    def values(self):
+        values = []
+        for key in self.keys():
+            values.append(self[key])
+        return values
+
+    def get_licenses(self):
+        return self.get_data()['licenses']
+
+    def get_group_licenses(self, group_name):
+        licenses = self.get_licenses()
+        groups = self.get_groups()
+        if group_name == 'all_alphabetical':
+            group_licenses = licenses.values()
+            def license_cmp(x, y):
+                return cmp(x['title'].lower(), y['title'].lower())
+            group_licenses.sort(cmp=license_cmp)
+        elif group_name in groups:
+            group_licenses = []
+            for license_id in groups[group_name]:
+                group_licenses.append(licenses[license_id])
+            if group_name == 'ckan_original':
+                for license in group_licenses:
+                    if license['is_osi_compliant']:
+                        prefix = "OSI Approved::"
+                    elif license['is_okd_compliant']:
+                        prefix = "OKD Compliant::"
+                    elif license['title'] == 'License Not Specified':
+                        prefix = "Other::"
+                    else:
+                        prefix = "Non-OKD Compliant::"
+                    license['title'] = prefix + license['title']
+        else:
+            msg = "Group '%s' is not defined." % group_name
+            raise Exception, msg
+        return group_licenses
+
+    def get_groups(self):
+        return self.get_data()['groups']
+
+    def get_map(self, map_name):
+        return self.get_maps()[map_name]
+
+    def get_maps(self):
+        return self.get_data()['maps']
+
+    def get_data(self):
+        if not hasattr(self, '_data'):
+            self._data = self.load_data()
+        return self._data
+
+    def load_data(self):
+        import pkg_resources
+        import simplejson
+        import os
+        try:
+            path = pkg_resources.resource_filename(
+                pkg_resources.Requirement.parse('licenses'),
+                'licenses/licenses.db'
+            )
+        except Exception, inst:
+            msg = "Couldn't make path for 'licenses.db' resource."
+            raise Exception, msg
+        if not os.path.exists(path):
+            print "Couldn't find licenses data file: %s" % path
+        return simplejson.loads(open(path).read())
 
