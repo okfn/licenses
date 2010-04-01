@@ -138,7 +138,8 @@ class Licenses(object):
         elif group_name in groups:
             group_licenses = []
             for license_id in groups[group_name]:
-                group_licenses.append(licenses[license_id])
+                license = licenses[license_id]
+                group_licenses.append(license.copy())
             if group_name == 'ckan_original':
                 for license in group_licenses:
                     if license['is_osi_compliant']:
