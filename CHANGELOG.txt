@@ -1,0 +1,20 @@
+HEAD
+====
+
+v0.5 2010-05-11
+===============
+
+* Addition of Licenses SoS v2.0 capabilities
+
+
+v0.4 2010-03-08
+===============
+
+* This module is redesigned to be a web service
+* Addition of Licenses SoS v1.0 capabilities (Specification of Service)
+
+
+v0.3 2010-03-06 and older
+=========================
+
+* Module is designed to be imported to provide its list of licenses

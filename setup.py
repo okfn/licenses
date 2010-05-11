@@ -1,12 +1,12 @@
 from setuptools import setup
-__version__ = 0.4
+__version__ = 0.5
 
 setup(
     name='licenses',
     version=__version__,
 
     # general metadata
-    description='List of open (http://opensource.org/, http://opendefinition.org/) licenses',
+    description='Web service that lists open (http://opensource.org/, http://opendefinition.org/) licenses',
     long_description='''
 Todo: More about purpose of package.
 Todo: More about installing package (easy_install licenses).
