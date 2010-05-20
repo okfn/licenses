@@ -1,5 +1,5 @@
 from setuptools import setup
-__version__ = 0.6a
+__version__ = '0.6a'
 
 setup(
     name='licenses',
