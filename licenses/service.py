@@ -1,11 +1,17 @@
+__all__ = ["LicensesService1", "LicensesService2"]
+
+try:
+    from json import loads
+except ImportError:
+    from simplejson import loads
+import urllib2
+
 class LicensesService1(object):
 
     default_url = 'http://licenses.opendefinition.org/1.0/all_formatted'
 
     def get_names(self):
         from pylons import config
-        import urllib2
-        import simplejson
         url = config.get('licenses_service_url', self.default_url)
         try:
             response = urllib2.urlopen(url)
@@ -14,7 +20,7 @@ class LicensesService1(object):
             msg = "Couldn't connect to licenses service: %s" % inst
             raise Exception, msg
         try:
-            license_names = simplejson.loads(response_body)
+            license_names = loads(response_body)
         except Exception, inst:
             msg = "Couldn't read response from licenses service: %s" % inst
             raise Exception, inst
@@ -30,8 +36,6 @@ class LicensesService2(object):
         self.group_url = group_url or self.default_group_url
 
     def get_licenses(self):
-        import urllib2
-        import simplejson
         try:
             response = urllib2.urlopen(self.group_url)
             response_body = response.read()
@@ -39,7 +43,7 @@ class LicensesService2(object):
             msg = "Couldn't connect to licenses service: %s" % inst
             raise Exception, msg
         try:
-            licenses = simplejson.loads(response_body)
+            licenses = loads(response_body)
         except Exception, inst:
             msg = "Couldn't read response from licenses service: %s" % inst
             raise Exception, inst
