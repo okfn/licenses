@@ -15,6 +15,7 @@ class LicenseList(object):
         u'UK Crown Copyright with data.gov.uk rights',
         u'Higher Education Statistics Agency Copyright with data.gov.uk rights',
         u'Local Authority Copyright with data.gov.uk rights',
+        u'UK Open Government Licence (OGL)',
     ]
 
     okd_compliant_formatted = [ u'OKD Compliant::' + x for x in okd_compliant ]
