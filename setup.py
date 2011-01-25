@@ -17,10 +17,13 @@ Todo: More about linking data at run-time (easy_install licenseservice; import .
     license='PD',
     author='Open Knowledge Foundation',
     author_email='info@okfn.org',
-    url='http://www.knowledgeforge.net/okfn/licenses/',
+    url='http://bitbucket.org/okfn/licenses',
     packages=['licenses'],
     scripts=['licenses-deploy-level1', 'licenses-deploy-level2'],
     include_package_data = True,
+    install_requires=[
+        'ordf',
+        ],
     package_data = {
         '': ['licenses.db'],
     },
