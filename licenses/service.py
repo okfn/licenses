@@ -17,12 +17,12 @@ class LicensesService1(object):
             response = urllib2.urlopen(url)
             response_body = response.read()
         except Exception, inst:
-            msg = "Couldn't connect to licenses service: %s" % inst
+            msg = "Couldn't connect to licenses service %r: %s" % (url, inst)
             raise Exception, msg
         try:
             license_names = loads(response_body)
         except Exception, inst:
-            msg = "Couldn't read response from licenses service: %s" % inst
+            msg = "Couldn't read response from licenses service %r: %s" % (response_body, inst)
             raise Exception, inst
         return [unicode(l) for l in license_names]
 
@@ -40,12 +40,12 @@ class LicensesService2(object):
             response = urllib2.urlopen(self.group_url)
             response_body = response.read()
         except Exception, inst:
-            msg = "Couldn't connect to licenses service: %s" % inst
+            msg = "Couldn't connect to licenses service %r: %s" % (self.group_url, inst)
             raise Exception, msg
         try:
             licenses = loads(response_body)
         except Exception, inst:
-            msg = "Couldn't read response from licenses service: %s" % inst
+            msg = "Couldn't read response from licenses service %r: %s" % (response_body, inst)
             raise Exception, inst
         return licenses
 
