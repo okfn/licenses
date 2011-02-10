@@ -22,7 +22,6 @@ Todo: More about linking data at run-time (easy_install licenseservice; import .
     scripts=['licenses-deploy-level1', 'licenses-deploy-level2'],
     include_package_data = True,
     install_requires=[
-        'ordf',
         ],
     package_data = {
         '': ['licenses.db'],
