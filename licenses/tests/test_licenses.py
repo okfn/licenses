@@ -1,12 +1,17 @@
-import licenses
+from licenses import Licenses
+
+L = Licenses()
 
 def test_total():
-    ourlist = licenses.LicenseList.all_formatted
-    assert len(ourlist) == 77, len(ourlist)
+    ourlist = L.get_licenses()
+    assert len(ourlist) == 102, len(ourlist)
 
-def test_basic():
-    ourlist = licenses.LicenseList.all_formatted
-    okd = licenses.LicenseList.okd_compliant_formatted
-    assert ourlist[1] == okd[0], ourlist[0]
-    assert 'OKD Compliant::Other (Public Domain)' in okd, okd
+def test_groups():
+    ckan = L.get_group_licenses('ckan_original')
+    assert len(ckan) == 78, len(ckan)
+    assert ckan[0]['title'] == 'Other::License Not Specified', ckan[0]
+    assert ckan[2]['url'] == 'http://www.opendefinition.org/licenses/odc-odbl', ckan[2]
+
+    ukgov = L.get_group_licenses('ukgov')
+    assert len(ukgov) == 2
 
