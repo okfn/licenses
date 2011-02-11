@@ -22,7 +22,6 @@ setup(
     url='http://licenses.opendefinition.org/',
     download_url='http://bitbucket.org/okfn/licenses',
     packages=['licenses'],
-    scripts=['licenses-deploy-level1', 'licenses-deploy-level2'],
     include_package_data = True,
     install_requires=[
         ],
