@@ -1,6 +1,12 @@
 HEAD
 ====
 
+v0.6 2011-02-11
+===============
+
+* Heavy refactoring and simplification
+* Improve and add documentation
+
 v0.5 2010-05-11
 ===============
 

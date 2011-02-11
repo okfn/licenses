@@ -14,12 +14,13 @@ setup(
     version=__version__,
 
     # general metadata
-    description=description.split('.')[0],
+    description=description.split('\n\n')[0],
     long_description=description,
     license='Public Domain',
     author='Open Knowledge Foundation',
     author_email='info@okfn.org',
-    url='http://bitbucket.org/okfn/licenses',
+    url='http://licenses.opendefinition.org/',
+    download_url='http://bitbucket.org/okfn/licenses',
     packages=['licenses'],
     scripts=['licenses-deploy-level1', 'licenses-deploy-level2'],
     include_package_data = True,
