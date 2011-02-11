@@ -1,3 +1,9 @@
+import os
+try:
+    import json
+except ImportError:
+    import simplejson as json
+
 # For Licenses SoS v1.0.
 
 class LicenseList(object):
@@ -173,8 +179,6 @@ class Licenses(object):
 
     def load_data(self):
         import pkg_resources
-        import simplejson
-        import os
         try:
             path = pkg_resources.resource_filename(
                 pkg_resources.Requirement.parse('licenses'),
@@ -185,5 +189,5 @@ class Licenses(object):
             raise Exception, msg
         if not os.path.exists(path):
             print "Couldn't find licenses data file: %s" % path
-        return simplejson.loads(open(path).read())
+        return json.loads(open(path).read())
 

@@ -1,10 +1,7 @@
 __all__ = ["LicensesService1", "LicensesService2"]
 
-try:
-    from json import loads
-except ImportError:
-    from simplejson import loads
 import urllib2
+from licenses import json
 
 class LicensesService1(object):
 
@@ -20,7 +17,7 @@ class LicensesService1(object):
             msg = "Couldn't connect to licenses service %r: %s" % (url, inst)
             raise Exception, msg
         try:
-            license_names = loads(response_body)
+            license_names = json.loads(response_body)
         except Exception, inst:
             msg = "Couldn't read response from licenses service %r: %s" % (response_body, inst)
             raise Exception, inst
@@ -43,7 +40,7 @@ class LicensesService2(object):
             msg = "Couldn't connect to licenses service %r: %s" % (self.group_url, inst)
             raise Exception, msg
         try:
-            licenses = loads(response_body)
+            licenses = json.loads(response_body)
         except Exception, inst:
             msg = "Couldn't read response from licenses service %r: %s" % (response_body, inst)
             raise Exception, inst

@@ -20,7 +20,7 @@ from BeautifulSoup import BeautifulSoup
 from urllib2 import urlopen
 import re
 import sys
-from simplejson import loads, dumps
+from licenses import json
 import pprint
 import datetime
 
@@ -63,7 +63,7 @@ def main():
         sys.exit(1)
 
     try:
-        all_data = loads(licenses_db.read())
+        all_data = json.loads(licenses_db.read())
         groups_register = all_data['groups']
         licenses_register = all_data['licenses']
         all_licenses = licenses_register
@@ -112,7 +112,7 @@ def main():
         print "Error: %s" % msg
         sys.exit(1)
 
-    licenses_db.write(dumps(all_data, indent=2, sort_keys=True))
+    licenses_db.write(json.dumps(all_data, indent=2, sort_keys=True))
 
     print "There are now %d licenses in the records." % len(all_licenses)
 

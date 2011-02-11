@@ -1,6 +1,6 @@
 import sys
 import os
-from simplejson import dumps
+from licenses import json
 import shutil
 
 class DeployCommand(object):
@@ -44,7 +44,7 @@ Deploys license files to <path>
         licenses = Licenses()
         for group_name in self.group_names:
             group_licenses = licenses.get_group_licenses(group_name)
-            group_json = dumps(group_licenses, indent=2)
+            group_json = json.dumps(group_licenses, indent=2)
             file_path = os.path.join(self.path, group_name)
             file = open(file_path, 'w')
             file.write(group_json)
