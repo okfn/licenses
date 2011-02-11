@@ -1,20 +1,10 @@
-#!/usr/bin/env python
 import sys
 import os
 from simplejson import dumps
 
 class Deploy2Command(object):
-
-    """
-    http://knowledgeforge.net/okfn/tasks/wiki/LicensesServiceVersionTwo
-    """
-
-    usage = """Deployment of a license service onto a local Apache server
-    
-Creates files containing the license information inside the supplied <path>
-and provices example Apache configuration to serve these. Specify the
-<hostname> (a fully qualified domain name) that this host is identified
-as by the client machines.
+    usage = """Create a series of flat files from the licenses database that
+    can directly served by a web server.
 
 Usage:
     %s <path> <hostname>"""
