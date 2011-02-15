@@ -30,11 +30,12 @@ This package can be used in three ways (develop, distribute, and deploy).
       {'status': 'active', ...
       >>>
 
+
 3.  Deployment as a service.
 
     Install or update the Python package, then create the service files::
 
-        $ python licenses/deploy.py <path> <hostname>
+        $ python licenses/deploy.py <path>
 
     A whole set of files will be created at <path> which can then be served
     directly by your webserver.

@@ -11,7 +11,7 @@ Usage:
     %s <path>
 
 Deploys license files to <path>
-    """
+    """ % sys.argv[0]
 
     service_version = '2.0'
     group_names = ['all_alphabetical', 'ckan_original', 'ckan_canada', 'ukgov']
