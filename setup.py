@@ -1,5 +1,5 @@
 from setuptools import setup
-__version__ = 0.6
+__version__ = '0.6.1'
 
 try:
     fo = open('README.txt')
