@@ -59,7 +59,10 @@
       <a class="brand" href="#">Open Licenses Service</a>
       <ul class="nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#how-to">Use It</a></li>
+        <li><a href="http://github.com/okfn/licenses">Repo</a></li>
+        <li><a href="http://github.com/okfn/licenses/issues">Issues</a></li>
+        <li><a href="http://okfn.org/members/rgrp">@rufuspollock</a></li>
       </ul>
     </div>
   </div>
@@ -71,42 +74,112 @@
     <h1>Open Licenses Service <small><a href="http://opensource.org/">Open Source</a>, <a href="http://opendefinition.org/">Open Data and Open Content</a> Licenses in JSON and API friendly form</small></h1>
   </div>
 
-  <h3>How do I use it?</h3> 
+  <div class="row">
+    <div class="span6">
+      <h3>Data on more than 100 open licenses</h3>
+      <p>Including all <a
+        href="http://opensource.org/licenses">OSI-approved open source
+        licenses</a> and all <a href="http://opendefinition.org/licenses">Open
+        Definition conformant open data and content licenses</a>. Provided in easy to use, <a href="#format">machine readable JSON</a> -- perfect if you need to drop a license chooser into your app.</p>
+      <p><a href="#all-licenses" class="btn primary">View the licenses available</a></p>
+      <h4>License Groups</h4>
+      <p>In addition various generic groups are provided that are useful when constructing license choice lists, including non-commercial options, generic Public Domain and more. Pre-packaged groups include:</p>
+      <ul>
+        <li><a href="licenses/groups/all.json">All licenses</a></li>
+        <li><a href="licenses/groups/osi.json">OSI compliant</a></li>
+        <li><a href="licenses/groups/od.json">Open Definition compliant</a></li>
+        <li><a href="licenses/groups/ckan.json">Specially selected set</a> developed for <a href="http://ckan.org/">CKAN</a> that is perfect for data and content site license choosers.
+      </ul>
+    </div>
+    <div class="span6">
+      <h3 id="format">Format</h3>
+      <p>JSON hashes with the following keys:</p>
+      <pre>{
+  "id": "odc-by", 
+  "domain_content": false, 
+  "domain_data": true, 
+  "domain_software": false, 
+  "is_okd_compliant": true, 
+  "is_osi_compliant": false, 
+  "status": "active", 
+  "title": "Open Data Commons Attribution License", 
+  "url": "http://opendatacommons.org/licenses/by"
+}</pre>
+    </div>
+  </div>
+  
 
-  <p>List of licenses are available in the following groups (groups are JSON list
-  of license hashes/dictionaries):</p>
+  <h2 id="how-to">How do I use it?</h2>
+  <div class="row">
+    <div class="span6">
+      <h3>Get the data</h3>
+      <p>Download the licenses, either <a href="licenses/groups/all.json">all in one</a>, individually (see below) or in specific groups (see above).</p>
+      <p>For example, here's how to use curl to access an individual license:</p>
+      <p><code>curl http://licenses.opendefinition.org/licenses/odc-by.json</code></p>
 
-  <ul>
-    <li><a href="2.0/all_alphabetical">all_alphabetical</a> &ndash; all the licenses (in alphabetical order)</li>
-    <li><a href="2.0/ckan_original">ckan_original</a> &ndash; CKAN license set.</li>
-    <li><a href="2.0/ckan_canada">ckan_canada</a> &ndash; CKAN Canada set</li>
-    <li><a href="2.0/ukgov">ukgov</a> &ndash; UK Gov license set</li>
-  </ul>
+      <p>And here's how to use curl to access the CKAN license group:</p>
+      <p><code>curl http://licenses.opendefinition.org/licenses/group/ckan.json</code></p>
 
-  <h3>Licenses format</h3>
+      <h3>Git Access</h3>
+      <p>You can also get the material as a git repo:</p>
+      <p><code>git clone http://github.com/okfn/licenses</code></p>
+    </div>
 
-  <p>Licenses are provided as JSON dictionaries, for example:</p>
+    <div class="span6">
+      <h3>Javascript Access (JSONP)</h3>
+      <p>We also provide a simple way to get direct access from javascript in the browser using JSONP, by providing versions of the all of the data in the jsonp subdirectory wrapped in a callback function named <code>license_callback</code>.</p>
+      <p>Thus, the JSONP version of a file named:
+      <p><code>xyz.json</code></p>
+      <p>whether it is a license group or an individual license, will be located at:</p>
+      <p><code>licenses/jsonp/xyz.json</code></p>
+      
+      For example from jQuery:</p>
+      <pre>
+$.ajax({
+  url:'http://licenses.opendefinition.org/groups/jsonp/odc-by.js',
+  dataType: 'jsonp',
+  // you *must* set the callback function to be licenses_callback
+  jsonpCallback: 'license_callback',
+  success: function(data) {
+    alert('License title is ' + data.title);
+  }
+});
+      </pre>
+      <div class="alert">
+        Because our JSONP data is served from a static files, it has a hardcoded callback function and therefore <strong>must</strong> name your callback function for the JSONP request <strong><code>license_callback</code></strong>.
+      </div>
+    </div>
+  </div>
 
-  <pre>{
-    "date_created": "2010-03-09T11:41:18.108194", 
-    "family": "", 
-    "id": "odc-odbl", 
-    "is_okd_compliant": true, 
-    "is_osi_compliant": false, 
-    "maintainer": "", 
-    "status": "active", 
-    "tags": [], 
-    "title": "Open Data Commons Open Database License (ODbL)", 
-    "url": "http://www.opendefinition.org/licenses/odc-odbl"
-  } 
-  </pre>
+  <h2 id="all-licenses">Licenses</h2>
+  <p>A full listing can be found in this directory view on our <a href="https://github.com/okfn/licenses/tree/master/licenses">github repo here</a>.</p>
 
   <footer>
-    The Licenses service is run by the <a href="http://okfn.org">Open
-      Knowledge Foundation</a>. <a href="http://bitbucket.org/okfn/licenses">Source Code</a>.
+    <p>
+      The Licenses service is run by the <a href="http://okfn.org">Open
+        Knowledge Foundation</a>.
+      <a href="http://github.com/okfn/licenses">Source Code and Data</a>.
+    </p>
+    <p>
+      <a href="http://opendefinition.org/ossd/" title="Open Online Software Service">
+        <img src="http://assets.okfn.org/images/ok_buttons/os_80x15_orange_grey.png" alt="" border="" />
+      </a>
+    </p>
   </footer>
   </div><!-- /content -->
-</div><!-- /containter -->
+</div><!-- /container -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+<script type="text/javascript">
+  var all_licenses = null;
+  function license_callback(data) {
+    all_licenses = data;
+  }
+jQuery(document).ready(function($) {
+    console.log(all_licenses);
+});
+</script>
+<script src="licenses/jsonp/all.js"></script>
 </body>
 </html>
 
