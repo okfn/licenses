@@ -1,28 +1,26 @@
 """Script to scrape licenses and update the package records (licenses.db).
 """
+import os
+from BeautifulSoup import BeautifulSoup
+from urllib2 import urlopen
+import re
+import sys
+import json
+import pprint
+import datetime
 
-od = {
+opendefinition = {
     'fqdn': 'http://www.opendefinition.org',
     'list': '/licenses/',
     'rexp': '^/licenses/.+'
 }
-os = {
+opensource = {
     'fqdn': 'http://www.opensource.org',
     'list': '/licenses/alphabetical',
     'rexp': '^/licenses/(?!(category|alphabetical|historical|do-not-use)).+(\\.php|\\.html|\\.txt)?'
 }
 od_licenses_url = "http://www.opendefinition.org/licenses"
 os_licenses_url = "http://www.opensource.org/licenses/alphabetical"
-
-licenses_db_path = './licenses/licenses.db'
-
-from BeautifulSoup import BeautifulSoup
-from urllib2 import urlopen
-import re
-import sys
-from licenses import json
-import pprint
-import datetime
 
 def scrape(site):
     licenses = []
@@ -33,7 +31,7 @@ def scrape(site):
         license_url = a['href']
         if not 'http://' in license_url:
             license_url = site['fqdn'] + license_url
-        license_id = a['href'].strip('/').split('/')[-1]
+        license_id = a['href'].strip('/').split('/')[-1].lower()
         license_id = license_id.split('.html')[0]
         license_id = license_id.split('.php')[0]
         license_id = license_id.split('.txt')[0]
@@ -46,50 +44,29 @@ def scrape(site):
         license['is_okd_compliant'] = 'www.opendefinition' in site['fqdn']
         license['is_osi_compliant'] = 'www.opensource' in site['fqdn']
         license['status'] = 'active'
-        license['date_created'] = datetime.datetime.utcnow().isoformat()
-        license['tags'] = []
         license['family'] = ''
         license['maintainer'] = ''
         licenses.append(license)
     return licenses
 
+def get_licenses():
+    all_ = {}
+    for filename in os.listdir('licenses'):
+        if filename.endswith('.json'):
+            data = json.load(open(os.path.join('licenses', filename)))
+            all_[data['id']] = data
+    return all_ 
 
-def main():
-    try:
-        licenses_db = open(licenses_db_path, 'r')
-    except Exception, inst:
-        msg = "Couldn't open existing licenses records: %s" % inst
-        print "Error: %s" % msg
-        sys.exit(1)
-
-    try:
-        all_data = json.loads(licenses_db.read())
-        groups_register = all_data['groups']
-        licenses_register = all_data['licenses']
-        all_licenses = licenses_register
-        if type(all_licenses) != dict:
-            msg = "Loaded licenses data type not 'dict': %s" % type(all_licenses)
-            raise Exception, msg
-    except Exception, inst:
-        msg = "Couldn't read existing licenses records: %s" % inst
-        print "Error: %s" % msg
-        sys.exit(1)
-
-    licenses_db.close()
-        
-    print "There are %d licenses in the records." % len(all_licenses)
-
-    od_licenses = scrape(od)
-    os_licenses = scrape(os)
-
+def main(out_path='licenses'):
+    all_licenses = get_licenses()
+    od_licenses = scrape(opendefinition)
+    os_licenses = scrape(opensource)
     for license in od_licenses + os_licenses:
         if license['id'] in all_licenses:
             existing = all_licenses[license['id']]
             for attr_name, value in license.items():
                 if attr_name in existing:
-                    if attr_name == 'date_created' and existing[attr_name]:
-                        pass
-                    elif value != existing[attr_name]:
+                    if value != existing[attr_name] and value:
                         print "Updating attribute on %s: %s changed from %s to %s." % (
                             license['id'], attr_name, repr(existing[attr_name]), repr(value)
                         )
@@ -99,20 +76,16 @@ def main():
                         license['id'], attr_name, repr(value)
                     )
                     existing[attr_name] = value
-     
-            pass #print 'Skipping license: %s"' % (license['id'])
         else:
             print 'Adding new license: %s "%s"' % (license['id'], license['url'])
             all_licenses[license['id']] = license
 
-    try:
-        licenses_db = open(licenses_db_path, 'w')
-    except Exception, inst:
-        msg = "Couldn't open existing licenses records for writing: %s" % inst
-        print "Error: %s" % msg
-        sys.exit(1)
-
-    licenses_db.write(json.dumps(all_data, indent=2, sort_keys=True))
+    if not os.path.exists(out_path):
+        os.makedirs(out_path)
+    for id_, data in all_licenses.items():
+        fo = open(os.path.join(out_path, id_ + '.json'), 'w')
+        json.dump(data, fo, indent=2, sort_keys=True)
+        fo.close()
 
     print "There are now %d licenses in the records." % len(all_licenses)
 
