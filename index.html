@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The Licenses Service - an API for Open Licenses - from the Open Knowledge Foundation</title>
+  <meta name="description" content="">
+  <meta name="author" content="Open Knowledge Foundation">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css">
+  <style type="text/css">
+    html, body {
+      background-color: #eee;
+    }
+    body {
+      padding-top: 40px;
+    }
+
+    .content {
+      background-color: #fff;
+      padding: 20px;
+      margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+      -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+         -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+              box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    }
+
+    .page-header {
+      background-color: #f5f5f5;
+      padding: 20px 20px 10px;
+      margin: -20px -20px 20px;
+    }
+
+    footer {
+      background-color: #f5f5f5;
+      padding: 20px 20px 20px;
+      margin: 15px -20px -20px;
+      border-top: solid 1px #eee;
+    }
+
+    .nav-logo img {
+      margin-top: 4px;
+      margin-right: 8px;
+    }
+  </style>
+  <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="nav-logo pull-left" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+        <img src="http://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
+      </a>
+      <a class="brand" href="#">Open Licenses Service</a>
+      <ul class="nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+<div class="content">
+  <div class="page-header">
+    <h1>Open Licenses Service <small><a href="http://opensource.org/">Open Source</a>, <a href="http://opendefinition.org/">Open Data and Open Content</a> Licenses in JSON and API friendly form</small></h1>
+  </div>
+
+  <h3>How do I use it?</h3> 
+
+  <p>List of licenses are available in the following groups (groups are JSON list
+  of license hashes/dictionaries):</p>
+
+  <ul>
+    <li><a href="2.0/all_alphabetical">all_alphabetical</a> &ndash; all the licenses (in alphabetical order)</li>
+    <li><a href="2.0/ckan_original">ckan_original</a> &ndash; CKAN license set.</li>
+    <li><a href="2.0/ckan_canada">ckan_canada</a> &ndash; CKAN Canada set</li>
+    <li><a href="2.0/ukgov">ukgov</a> &ndash; UK Gov license set</li>
+  </ul>
+
+  <h3>Licenses format</h3>
+
+  <p>Licenses are provided as JSON dictionaries, for example:</p>
+
+  <pre>{
+    "date_created": "2010-03-09T11:41:18.108194", 
+    "family": "", 
+    "id": "odc-odbl", 
+    "is_okd_compliant": true, 
+    "is_osi_compliant": false, 
+    "maintainer": "", 
+    "status": "active", 
+    "tags": [], 
+    "title": "Open Data Commons Open Database License (ODbL)", 
+    "url": "http://www.opendefinition.org/licenses/odc-odbl"
+  } 
+  </pre>
+
+  <footer>
+    The Licenses service is run by the <a href="http://okfn.org">Open
+      Knowledge Foundation</a>. <a href="http://bitbucket.org/okfn/licenses">Source Code</a>.
+  </footer>
+  </div><!-- /content -->
+</div><!-- /containter -->
+</body>
+</html>
+
