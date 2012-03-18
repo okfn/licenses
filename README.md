@@ -6,6 +6,16 @@ For more information, including details of web service usage, see
 <http://licenses.opendefinition.org/> or <pre>index.html</pre> in this
 directory.
 
+## License
+
+All material copyright 2012, Open Knowledge Foundation.
+
+All data (and associated content) is placed in the Public Domain using the
+[Public Domain Dedication and
+License](http://opendatacommons.org/licenses/pddl/1-0/). All code is licensed
+under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+
+
 ## Layout
 
 <pre>
