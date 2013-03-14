@@ -41,7 +41,7 @@ license_callback({
   "cc-zero": {
     "domain_content": true, 
     "domain_data": true, 
-    "domain_software": false, 
+    "domain_software": true, 
     "family": "", 
     "id": "cc-zero", 
     "is_okd_compliant": true, 
@@ -222,19 +222,6 @@ license_callback({
     "status": "active", 
     "title": "Talis Community License", 
     "url": "http://www.opendefinition.org/licenses/tcl"
-  }, 
-  "uk-ogl": {
-    "domain_content": true, 
-    "domain_data": false, 
-    "domain_software": false, 
-    "family": "", 
-    "id": "uk-ogl", 
-    "is_okd_compliant": true, 
-    "is_osi_compliant": false, 
-    "maintainer": "", 
-    "status": "active", 
-    "title": "UK Open Government Licence (OGL)", 
-    "url": "http://reference.data.gov.uk/id/open-government-licence"
   }, 
   "ukclickusepsi": {
     "domain_content": true, 
