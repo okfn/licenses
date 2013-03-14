@@ -1,7 +1,7 @@
 license_callback({
   "domain_content": true, 
   "domain_data": true, 
-  "domain_software": false, 
+  "domain_software": true, 
   "family": "", 
   "id": "cc-zero", 
   "is_okd_compliant": true, 
