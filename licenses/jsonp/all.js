@@ -210,7 +210,7 @@ license_callback({
   "cc-zero": {
     "domain_content": true, 
     "domain_data": true, 
-    "domain_software": false, 
+    "domain_software": true, 
     "family": "", 
     "id": "cc-zero", 
     "is_okd_compliant": true, 
@@ -1164,11 +1164,11 @@ license_callback({
   }, 
   "uk-ogl": {
     "domain_content": true, 
-    "domain_data": false, 
+    "domain_data": true, 
     "domain_software": false, 
     "family": "", 
     "id": "uk-ogl", 
-    "is_okd_compliant": true, 
+    "is_okd_compliant": false, 
     "is_osi_compliant": false, 
     "maintainer": "", 
     "status": "active", 
