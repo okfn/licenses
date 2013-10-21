@@ -149,7 +149,7 @@ license_callback([
   {
     "domain_content": true, 
     "domain_data": true, 
-    "domain_software": false, 
+    "domain_software": true, 
     "family": "", 
     "id": "uk-ogl", 
     "is_okd_compliant": false, 
