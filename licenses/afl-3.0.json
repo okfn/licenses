@@ -1,5 +1,5 @@
 {
-  "domain_content": false, 
+  "domain_content": true, 
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
