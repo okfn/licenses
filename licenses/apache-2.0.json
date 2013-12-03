@@ -3,7 +3,7 @@
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "apache2.0", 
+  "id": "Apache-2.0", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "Apache Foundation", 
