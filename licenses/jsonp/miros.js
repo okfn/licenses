@@ -8,6 +8,6 @@ license_callback({
   "is_osi_compliant": true, 
   "maintainer": "", 
   "status": "active", 
-  "title": "MirOS Licence", 
-  "url": "http://opensource.org/licenses/MirOS"
+  "title": "MirOS Licence (MirOS)", 
+  "url": "http://www.opensource.org/licenses/MirOS"
 });

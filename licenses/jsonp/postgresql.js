@@ -8,6 +8,6 @@ license_callback({
   "is_osi_compliant": true, 
   "maintainer": "PostgreSQL Global Development Group", 
   "status": "active", 
-  "title": "The PostgreSQL License", 
-  "url": "http://www.opensource.org/licenses/postgresql"
+  "title": "The PostgreSQL License (PostgreSQL)", 
+  "url": "http://www.opensource.org/licenses/PostgreSQL"
 });

@@ -8,6 +8,6 @@ license_callback({
   "is_osi_compliant": true, 
   "maintainer": "", 
   "status": "active", 
-  "title": "X.Net License", 
-  "url": "http://www.opensource.org/licenses/xnet.php"
+  "title": "X.Net License (Xnet)", 
+  "url": "http://www.opensource.org/licenses/Xnet"
 });

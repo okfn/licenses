@@ -8,6 +8,6 @@ license_callback({
   "is_osi_compliant": true, 
   "maintainer": "", 
   "status": "active", 
-  "title": "EU DataGrid Software License", 
+  "title": "EU DataGrid Software License (EUDatagrid)", 
   "url": "http://www.opensource.org/licenses/EUDatagrid"
 });

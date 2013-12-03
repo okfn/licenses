@@ -8,6 +8,6 @@ license_callback({
   "is_osi_compliant": true, 
   "maintainer": "", 
   "status": "active", 
-  "title": "Fair License", 
+  "title": "Fair License (Fair)", 
   "url": "http://www.opensource.org/licenses/Fair"
 });

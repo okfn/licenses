@@ -8,6 +8,6 @@ license_callback({
   "is_osi_compliant": true, 
   "maintainer": "", 
   "status": "active", 
-  "title": "Nokia Open Source License", 
-  "url": "http://www.opensource.org/licenses/nokia.php"
+  "title": "Nokia Open Source License (Nokia)", 
+  "url": "http://www.opensource.org/licenses/Nokia"
 });

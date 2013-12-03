@@ -8,6 +8,6 @@ license_callback({
   "is_osi_compliant": true, 
   "maintainer": "World Wide Web Consortium (W3C)", 
   "status": "active", 
-  "title": "W3C License", 
-  "url": "http://www.opensource.org/licenses/W3C.php"
+  "title": "W3C License (W3C)", 
+  "url": "http://www.opensource.org/licenses/W3C"
 });

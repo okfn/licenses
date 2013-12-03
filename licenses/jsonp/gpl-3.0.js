@@ -8,6 +8,6 @@ license_callback({
   "is_osi_compliant": true, 
   "maintainer": "Free Software Foundation", 
   "status": "active", 
-  "title": "GNU General Public License version 3.0 (GPLv3)", 
-  "url": "http://www.opensource.org/licenses/gpl-3.0.html"
+  "title": "GNU General Public License version 3.0 (GPL-3.0)", 
+  "url": "http://www.opensource.org/licenses/GPL-3.0"
 });

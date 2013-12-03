@@ -9,7 +9,7 @@
     "is_osi_compliant": true, 
     "maintainer": "Lawrence Rosen", 
     "status": "active", 
-    "title": "Academic Free License 3.0 (AFL 3.0)", 
+    "title": "Academic Free License 3.0 (AFL-3.0)", 
     "url": "http://www.opensource.org/licenses/AFL-3.0"
   }, 
   "against-drm": {
@@ -36,7 +36,7 @@
     "maintainer": "Free Software Foundation", 
     "status": "active", 
     "title": "Affero GNU Public License", 
-    "url": "http://www.opensource.org/licenses/agpl-v3.html"
+    "url": "http://www.opensource.org/licenses/AGPL-3.0"
   }, 
   "apache": {
     "domain_content": false, 
@@ -87,7 +87,7 @@
     "is_osi_compliant": true, 
     "maintainer": "", 
     "status": "active", 
-    "title": "Apple Public Source License", 
+    "title": "Apple Public Source License (APSL-2.0)", 
     "url": "http://www.opensource.org/licenses/APSL-2.0"
   }, 
   "artistic-license-2.0": {
@@ -114,7 +114,20 @@
     "maintainer": "", 
     "status": "active", 
     "title": "Attribution Assurance Licenses", 
-    "url": "http://www.opensource.org/licenses/attribution.php"
+    "url": "http://www.opensource.org/licenses/AAL"
+  }, 
+  "bsd-2-clause": {
+    "domain_content": false, 
+    "domain_data": false, 
+    "domain_software": true, 
+    "family": "", 
+    "id": "bsd-2-clause", 
+    "is_okd_compliant": false, 
+    "is_osi_compliant": true, 
+    "maintainer": "", 
+    "status": "active", 
+    "title": "BSD 2-Clause \"Simplified\" or \"FreeBSD\" License (BSD-2-Clause)", 
+    "url": "http://www.opensource.org/licenses/BSD-2-Clause"
   }, 
   "bsd-license": {
     "domain_content": false, 
@@ -127,7 +140,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "New and Simplified BSD licenses", 
-    "url": "http://www.opensource.org/licenses/BSD-2-clause"
+    "url": "http://www.opensource.org/licenses/BSD-3-clause"
   }, 
   "bsl1.0": {
     "domain_content": false, 
@@ -140,7 +153,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "Boost Software License (BSL1.0)", 
-    "url": "http://www.opensource.org/licenses/bsl1.0.html"
+    "url": "http://www.opensource.org/licenses/BSL-1.0"
   }, 
   "ca-tosl1.1": {
     "domain_content": false, 
@@ -153,7 +166,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "Computer Associates Trusted Open Source License 1.1", 
-    "url": "http://www.opensource.org/licenses/ca-tosl1.1.php"
+    "url": "http://www.opensource.org/licenses/CATOSL-1.1"
   }, 
   "canada-crown": {
     "domain_content": false, 
@@ -232,6 +245,32 @@
     "status": "active", 
     "title": "Common Development and Distribution License", 
     "url": "http://www.opensource.org/licenses/CDDL-1.0"
+  }, 
+  "cecill-2.1": {
+    "domain_content": false, 
+    "domain_data": false, 
+    "domain_software": true, 
+    "family": "", 
+    "id": "cecill-2.1", 
+    "is_okd_compliant": false, 
+    "is_osi_compliant": true, 
+    "maintainer": "", 
+    "status": "active", 
+    "title": "CeCILL License 2.1 (CECILL-2.1)", 
+    "url": "http://www.opensource.org/licenses/CECILL-2.1"
+  }, 
+  "cnri-python": {
+    "domain_content": false, 
+    "domain_data": false, 
+    "domain_software": true, 
+    "family": "", 
+    "id": "cnri-python", 
+    "is_okd_compliant": false, 
+    "is_osi_compliant": true, 
+    "maintainer": "", 
+    "status": "active", 
+    "title": "CNRI Python license (CNRI-Python)", 
+    "url": "http://www.opensource.org/licenses/CNRI-Python"
   }, 
   "cpal_1.0": {
     "domain_content": false, 
@@ -334,7 +373,7 @@
     "is_osi_compliant": true, 
     "maintainer": "", 
     "status": "active", 
-    "title": "Entessa Public License", 
+    "title": "Entessa Public License (Entessa)", 
     "url": "http://www.opensource.org/licenses/Entessa"
   }, 
   "eudatagrid": {
@@ -347,7 +386,7 @@
     "is_osi_compliant": true, 
     "maintainer": "", 
     "status": "active", 
-    "title": "EU DataGrid Software License", 
+    "title": "EU DataGrid Software License (EUDatagrid)", 
     "url": "http://www.opensource.org/licenses/EUDatagrid"
   }, 
   "fair": {
@@ -360,7 +399,7 @@
     "is_osi_compliant": true, 
     "maintainer": "", 
     "status": "active", 
-    "title": "Fair License", 
+    "title": "Fair License (Fair)", 
     "url": "http://www.opensource.org/licenses/Fair"
   }, 
   "fal": {
@@ -438,8 +477,8 @@
     "is_osi_compliant": true, 
     "maintainer": "Free Software Foundation", 
     "status": "active", 
-    "title": "GNU General Public License (GPL)", 
-    "url": "http://www.opensource.org/licenses/gpl-2.0.php"
+    "title": "GNU General Public License version 2.0 (GPL-2.0)", 
+    "url": "http://www.opensource.org/licenses/GPL-2.0"
   }, 
   "gpl-3.0": {
     "domain_content": false, 
@@ -451,8 +490,8 @@
     "is_osi_compliant": true, 
     "maintainer": "Free Software Foundation", 
     "status": "active", 
-    "title": "GNU General Public License version 3.0 (GPLv3)", 
-    "url": "http://www.opensource.org/licenses/gpl-3.0.html"
+    "title": "GNU General Public License version 3.0 (GPL-3.0)", 
+    "url": "http://www.opensource.org/licenses/GPL-3.0"
   }, 
   "hesa-withrights": {
     "domain_content": true, 
@@ -466,6 +505,19 @@
     "status": "active", 
     "title": "Higher Education Statistics Agency Copyright with data.gov.uk rights", 
     "url": ""
+  }, 
+  "hpnd": {
+    "domain_content": false, 
+    "domain_data": false, 
+    "domain_software": true, 
+    "family": "", 
+    "id": "hpnd", 
+    "is_okd_compliant": false, 
+    "is_osi_compliant": true, 
+    "maintainer": "", 
+    "status": "active", 
+    "title": "Historical Permission Notice and Disclaimer (HPND)", 
+    "url": "http://www.opensource.org/licenses/HPND"
   }, 
   "ibmpl": {
     "domain_content": false, 
@@ -542,8 +594,8 @@
     "is_osi_compliant": true, 
     "maintainer": "Free Software Foundation", 
     "status": "active", 
-    "title": "GNU Library or \"Lesser\" General Public License (LGPL)", 
-    "url": "http://www.opensource.org/licenses/lgpl-2.1.php"
+    "title": "GNU Library or \"Lesser\" General Public License version 2.1 (LGPL-2.1)", 
+    "url": "http://www.opensource.org/licenses/LGPL-2.1"
   }, 
   "lgpl-3.0": {
     "domain_content": false, 
@@ -555,8 +607,8 @@
     "is_osi_compliant": true, 
     "maintainer": "Free Software Foundation", 
     "status": "active", 
-    "title": "GNU Library or \"Lesser\" General Public License version 3.0 (LGPLv3)", 
-    "url": "http://www.opensource.org/licenses/lgpl-3.0.html"
+    "title": "GNU Library or \"Lesser\" General Public License version 3.0 (LGPL-3.0)", 
+    "url": "http://www.opensource.org/licenses/LGPL-3.0"
   }, 
   "localauth-withrights": {
     "domain_content": true, 
@@ -570,6 +622,19 @@
     "status": "active", 
     "title": "Local Authority Copyright with data.gov.uk rights", 
     "url": ""
+  }, 
+  "lppl-1.3c": {
+    "domain_content": false, 
+    "domain_data": false, 
+    "domain_software": true, 
+    "family": "", 
+    "id": "lppl-1.3c", 
+    "is_okd_compliant": false, 
+    "is_osi_compliant": true, 
+    "maintainer": "", 
+    "status": "active", 
+    "title": "LaTeX Project Public License 1.3c (LPPL-1.3c)", 
+    "url": "http://www.opensource.org/licenses/LPPL-1.3c"
   }, 
   "lucent-plan9": {
     "domain_content": false, 
@@ -620,8 +685,8 @@
     "is_osi_compliant": true, 
     "maintainer": "", 
     "status": "active", 
-    "title": "MirOS Licence", 
-    "url": "http://opensource.org/licenses/MirOS"
+    "title": "MirOS Licence (MirOS)", 
+    "url": "http://www.opensource.org/licenses/MirOS"
   }, 
   "mit-license": {
     "domain_content": false, 
@@ -634,7 +699,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "MIT license", 
-    "url": "http://www.opensource.org/licenses/mit-license.php"
+    "url": "http://www.opensource.org/licenses/MIT"
   }, 
   "mitre": {
     "domain_content": false, 
@@ -659,8 +724,8 @@
     "is_osi_compliant": true, 
     "maintainer": "", 
     "status": "active", 
-    "title": "Motosoto License", 
-    "url": "http://www.opensource.org/licenses/motosoto.php"
+    "title": "Motosoto License (Motosoto)", 
+    "url": "http://www.opensource.org/licenses/Motosoto"
   }, 
   "mozilla": {
     "domain_content": false, 
@@ -711,8 +776,8 @@
     "is_osi_compliant": true, 
     "maintainer": "Microsoft Corporation", 
     "status": "active", 
-    "title": "Microsoft Public License (Ms-PL)", 
-    "url": "http://www.opensource.org/licenses/ms-pl.html"
+    "title": "Microsoft Public License (MS-PL)", 
+    "url": "http://www.opensource.org/licenses/MS-PL"
   }, 
   "ms-rl": {
     "domain_content": false, 
@@ -724,8 +789,8 @@
     "is_osi_compliant": true, 
     "maintainer": "Microsoft Corporation", 
     "status": "active", 
-    "title": "Microsoft Reciprocal License (Ms-RL)", 
-    "url": "http://www.opensource.org/licenses/ms-rl.html"
+    "title": "Microsoft Reciprocal License (MS-RL)", 
+    "url": "http://www.opensource.org/licenses/MS-RL"
   }, 
   "multics": {
     "domain_content": false, 
@@ -737,8 +802,8 @@
     "is_osi_compliant": true, 
     "maintainer": "", 
     "status": "active", 
-    "title": "Multics License", 
-    "url": "http://www.opensource.org/licenses/multics.txt"
+    "title": "Multics License (Multics)", 
+    "url": "http://www.opensource.org/licenses/Multics"
   }, 
   "nasa1.3": {
     "domain_content": false, 
@@ -751,7 +816,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "NASA Open Source Agreement 1.3", 
-    "url": "http://www.opensource.org/licenses/nasa1.3.php"
+    "url": "http://www.opensource.org/licenses/NASA-1.3"
   }, 
   "naumen": {
     "domain_content": false, 
@@ -763,8 +828,8 @@
     "is_osi_compliant": true, 
     "maintainer": "", 
     "status": "active", 
-    "title": "Naumen Public License", 
-    "url": "http://www.opensource.org/licenses/naumen.php"
+    "title": "Naumen Public License (Naumen)", 
+    "url": "http://www.opensource.org/licenses/Naumen"
   }, 
   "nethack": {
     "domain_content": false, 
@@ -777,7 +842,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "Nethack General Public License", 
-    "url": "http://www.opensource.org/licenses/nethack.php"
+    "url": "http://www.opensource.org/licenses/NGPL"
   }, 
   "nokia": {
     "domain_content": false, 
@@ -789,8 +854,8 @@
     "is_osi_compliant": true, 
     "maintainer": "", 
     "status": "active", 
-    "title": "Nokia Open Source License", 
-    "url": "http://www.opensource.org/licenses/nokia.php"
+    "title": "Nokia Open Source License (Nokia)", 
+    "url": "http://www.opensource.org/licenses/Nokia"
   }, 
   "nosl3.0": {
     "domain_content": true, 
@@ -803,7 +868,7 @@
     "maintainer": "Lawrence Rosen", 
     "status": "active", 
     "title": "Non-Profit Open Software License 3.0 (Non-Profit OSL 3.0)", 
-    "url": "http://www.opensource.org/licenses/NOSL3.0.html"
+    "url": "http://opensource.org/licenses/NPOSL-3.0"
   }, 
   "notspecified": {
     "domain_content": false, 
@@ -830,7 +895,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "NTP License", 
-    "url": "http://www.opensource.org/licenses/ntp-license.php"
+    "url": "http://www.opensource.org/licenses/NTP"
   }, 
   "oclc2": {
     "domain_content": false, 
@@ -843,7 +908,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "OCLC Research Public License 2.0", 
-    "url": "http://www.opensource.org/licenses/oclc2.php"
+    "url": "http://www.opensource.org/licenses/OCLC-2.0"
   }, 
   "odc-by": {
     "domain_content": false, 
@@ -895,7 +960,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "Open Font License 1.1 (OFL 1.1)", 
-    "url": "http://www.opensource.org/licenses/openfont.html"
+    "url": "http://www.opensource.org/licenses/OFL-1.1"
   }, 
   "opengroup": {
     "domain_content": false, 
@@ -908,7 +973,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "Open Group Test Suite License", 
-    "url": "http://www.opensource.org/licenses/opengroup.php"
+    "url": "http://www.opensource.org/licenses/OGTSL"
   }, 
   "osl-3.0": {
     "domain_content": true, 
@@ -920,8 +985,8 @@
     "is_osi_compliant": true, 
     "maintainer": "Lawrence Rosen", 
     "status": "active", 
-    "title": "Open Software License 3.0 (OSL 3.0)", 
-    "url": "http://www.opensource.org/licenses/osl-3.0.php"
+    "title": "Open Software License 3.0 (OSL-3.0)", 
+    "url": "http://www.opensource.org/licenses/OSL-3.0"
   }, 
   "other-at": {
     "domain_content": true, 
@@ -1004,7 +1069,7 @@
     "maintainer": "PHP Group", 
     "status": "active", 
     "title": "PHP License", 
-    "url": "http://www.opensource.org/licenses/php.php"
+    "url": "http://www.opensource.org/licenses/PHP-3.0"
   }, 
   "postgresql": {
     "domain_content": false, 
@@ -1016,8 +1081,8 @@
     "is_osi_compliant": true, 
     "maintainer": "PostgreSQL Global Development Group", 
     "status": "active", 
-    "title": "The PostgreSQL License", 
-    "url": "http://www.opensource.org/licenses/postgresql"
+    "title": "The PostgreSQL License (PostgreSQL)", 
+    "url": "http://www.opensource.org/licenses/PostgreSQL"
   }, 
   "pythonpl": {
     "domain_content": false, 
@@ -1030,7 +1095,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "Python license", 
-    "url": "http://www.opensource.org/licenses/pythonpl.php"
+    "url": "http://opensource.org/licenses/Python-2.0"
   }, 
   "pythonsoftfoundation": {
     "domain_content": false, 
@@ -1043,7 +1108,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "Python Software Foundation License", 
-    "url": "http://www.opensource.org/licenses/PythonSoftFoundation.php"
+    "url": "http://www.opensource.org/licenses/PythonSoftFoundation"
   }, 
   "qtpl": {
     "domain_content": false, 
@@ -1056,7 +1121,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "Qt Public License (QPL)", 
-    "url": "http://www.opensource.org/licenses/qtpl.php"
+    "url": "http://www.opensource.org/licenses/QPL-1.0"
   }, 
   "real": {
     "domain_content": false, 
@@ -1069,7 +1134,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "RealNetworks Public Source License V1.0", 
-    "url": "http://www.opensource.org/licenses/real.php"
+    "url": "http://www.opensource.org/licenses/RPSL-1.0"
   }, 
   "ricohpl": {
     "domain_content": false, 
@@ -1082,7 +1147,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "Ricoh Source Code Public License", 
-    "url": "http://www.opensource.org/licenses/ricohpl.php"
+    "url": "http://www.opensource.org/licenses/RSCPL"
   }, 
   "rpl1.5": {
     "domain_content": false, 
@@ -1107,8 +1172,8 @@
     "is_osi_compliant": true, 
     "maintainer": "", 
     "status": "active", 
-    "title": "Simple Public License 2.0", 
-    "url": "http://www.opensource.org/licenses/simpl-2.0.html"
+    "title": "Simple Public License 2.0 (SimPL-2.0)", 
+    "url": "http://www.opensource.org/licenses/SimPL-2.0"
   }, 
   "sleepycat": {
     "domain_content": false, 
@@ -1120,8 +1185,8 @@
     "is_osi_compliant": true, 
     "maintainer": "Oracle Corporation", 
     "status": "active", 
-    "title": "Sleepycat License", 
-    "url": "http://www.opensource.org/licenses/sleepycat.php"
+    "title": "Sleepycat License (Sleepycat)", 
+    "url": "http://www.opensource.org/licenses/Sleepycat"
   }, 
   "sun-issl": {
     "domain_content": false, 
@@ -1147,7 +1212,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "Sun Public License", 
-    "url": "http://www.opensource.org/licenses/sunpublic.php"
+    "url": "http://www.opensource.org/licenses/SPL-1.0"
   }, 
   "sybase": {
     "domain_content": false, 
@@ -1160,7 +1225,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "Sybase Open Watcom Public License 1.0", 
-    "url": "http://www.opensource.org/licenses/sybase.php"
+    "url": "http://www.opensource.org/licenses/Watcom-1.0"
   }, 
   "tcl": {
     "domain_content": true, 
@@ -1253,19 +1318,6 @@
     "title": "University of Illinois/NCSA Open Source License", 
     "url": "http://www.opensource.org/licenses/UoI-NCSA.php"
   }, 
-  "ver2_eiffel": {
-    "domain_content": false, 
-    "domain_data": false, 
-    "domain_software": true, 
-    "family": "", 
-    "id": "ver2_eiffel", 
-    "is_okd_compliant": false, 
-    "is_osi_compliant": true, 
-    "maintainer": "", 
-    "status": "active", 
-    "title": "Eiffel Forum License V2.0", 
-    "url": "http://www.opensource.org/licenses/ver2_eiffel.php"
-  }, 
   "vovidapl": {
     "domain_content": false, 
     "domain_data": false, 
@@ -1277,7 +1329,7 @@
     "maintainer": "", 
     "status": "active", 
     "title": "Vovida Software License v. 1.0", 
-    "url": "http://www.opensource.org/licenses/vovidapl.php"
+    "url": "http://www.opensource.org/licenses/VSL-1.0"
   }, 
   "w3c": {
     "domain_content": false, 
@@ -1289,8 +1341,8 @@
     "is_osi_compliant": true, 
     "maintainer": "World Wide Web Consortium (W3C)", 
     "status": "active", 
-    "title": "W3C License", 
-    "url": "http://www.opensource.org/licenses/W3C.php"
+    "title": "W3C License (W3C)", 
+    "url": "http://www.opensource.org/licenses/W3C"
   }, 
   "wxwindows": {
     "domain_content": false, 
@@ -1302,8 +1354,8 @@
     "is_osi_compliant": true, 
     "maintainer": "wxWidgets Team", 
     "status": "active", 
-    "title": "wxWindows Library License", 
-    "url": "http://www.opensource.org/licenses/wxwindows.php"
+    "title": "wxWindows Library License (WXwindows)", 
+    "url": "http://www.opensource.org/licenses/WXwindows"
   }, 
   "xnet": {
     "domain_content": false, 
@@ -1315,8 +1367,8 @@
     "is_osi_compliant": true, 
     "maintainer": "", 
     "status": "active", 
-    "title": "X.Net License", 
-    "url": "http://www.opensource.org/licenses/xnet.php"
+    "title": "X.Net License (Xnet)", 
+    "url": "http://www.opensource.org/licenses/Xnet"
   }, 
   "zlib-license": {
     "domain_content": false, 
@@ -1342,6 +1394,6 @@
     "maintainer": "Zope Foundation", 
     "status": "active", 
     "title": "Zope Public License", 
-    "url": "http://www.opensource.org/licenses/zpl.php"
+    "url": "http://opensource.org/licenses/zpl-2.0"
   }
 }

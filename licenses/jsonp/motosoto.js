@@ -8,6 +8,6 @@ license_callback({
   "is_osi_compliant": true, 
   "maintainer": "", 
   "status": "active", 
-  "title": "Motosoto License", 
-  "url": "http://www.opensource.org/licenses/motosoto.php"
+  "title": "Motosoto License (Motosoto)", 
+  "url": "http://www.opensource.org/licenses/Motosoto"
 });

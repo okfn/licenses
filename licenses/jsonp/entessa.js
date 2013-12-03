@@ -8,6 +8,6 @@ license_callback({
   "is_osi_compliant": true, 
   "maintainer": "", 
   "status": "active", 
-  "title": "Entessa Public License", 
+  "title": "Entessa Public License (Entessa)", 
   "url": "http://www.opensource.org/licenses/Entessa"
 });
