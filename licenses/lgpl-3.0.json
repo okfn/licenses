@@ -8,6 +8,6 @@
   "is_osi_compliant": true, 
   "maintainer": "Free Software Foundation", 
   "status": "active", 
-  "title": "GNU Library or \"Lesser\" General Public License version 3.0 (LGPLv3)", 
-  "url": "http://www.opensource.org/licenses/lgpl-3.0.html"
+  "title": "GNU Library or \"Lesser\" General Public License version 3.0 (LGPL-3.0)", 
+  "url": "http://www.opensource.org/licenses/LGPL-3.0"
 }

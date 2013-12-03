@@ -8,6 +8,6 @@
   "is_osi_compliant": true, 
   "maintainer": "Microsoft Corporation", 
   "status": "active", 
-  "title": "Microsoft Public License (Ms-PL)", 
-  "url": "http://www.opensource.org/licenses/ms-pl.html"
+  "title": "Microsoft Public License (MS-PL)", 
+  "url": "http://www.opensource.org/licenses/MS-PL"
 }

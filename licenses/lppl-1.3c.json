@@ -1,4 +1,7 @@
 {
+  "domain_content": false, 
+  "domain_data": false, 
+  "domain_software": true, 
   "family": "", 
   "id": "lppl-1.3c", 
   "is_okd_compliant": false, 

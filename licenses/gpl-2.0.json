@@ -8,6 +8,6 @@
   "is_osi_compliant": true, 
   "maintainer": "Free Software Foundation", 
   "status": "active", 
-  "title": "GNU General Public License (GPL)", 
-  "url": "http://www.opensource.org/licenses/gpl-2.0.php"
+  "title": "GNU General Public License version 2.0 (GPL-2.0)", 
+  "url": "http://www.opensource.org/licenses/GPL-2.0"
 }
