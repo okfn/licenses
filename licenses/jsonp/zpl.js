@@ -6,7 +6,7 @@ license_callback({
   "id": "zpl", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
-  "maintainer": "", 
+  "maintainer": "Zope Foundation", 
   "status": "active", 
   "title": "Zope Public License", 
   "url": "http://www.opensource.org/licenses/zpl.php"

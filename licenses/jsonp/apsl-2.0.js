@@ -9,5 +9,5 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Apple Public Source License", 
-  "url": "http://www.opensource.org/licenses/apsl-2.0.php"
+  "url": "http://www.opensource.org/licenses/APSL-2.0"
 });

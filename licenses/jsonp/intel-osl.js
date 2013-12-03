@@ -6,8 +6,8 @@ license_callback({
   "id": "intel-osl", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
-  "maintainer": "", 
+  "maintainer": "Intel Corporation", 
   "status": "active", 
   "title": "Intel Open Source License", 
-  "url": ""
+  "url": "http://opensource.org/licenses/Intel"
 });

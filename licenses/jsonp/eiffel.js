@@ -9,5 +9,5 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Eiffel Forum License", 
-  "url": ""
+  "url": "http://opensource.org/licenses/EFL-2.0"
 });

@@ -9,5 +9,5 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "IPA Font License", 
-  "url": "http://www.opensource.org/licenses/ipafont.html"
+  "url": "http://opensource.org/licenses/IPA"
 });

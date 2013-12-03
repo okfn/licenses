@@ -9,5 +9,5 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Educational Community License, Version 2.0", 
-  "url": "http://www.opensource.org/licenses/ecl2.php"
+  "url": "http://www.opensource.org/licenses/ECL-2.0"
 });

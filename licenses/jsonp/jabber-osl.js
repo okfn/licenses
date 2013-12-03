@@ -9,5 +9,5 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Jabber Open Source License", 
-  "url": ""
+  "url": "http://opensource.org/licenses/jabberpl"
 });

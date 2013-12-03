@@ -9,5 +9,5 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Adaptive Public License", 
-  "url": "http://www.opensource.org/licenses/apl1.0.php"
+  "url": "http://www.opensource.org/licenses/APL-1.0"
 });

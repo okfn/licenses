@@ -6,7 +6,7 @@ license_callback({
   "id": "agpl-v3", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
-  "maintainer": "", 
+  "maintainer": "Free Software Foundation", 
   "status": "active", 
   "title": "Affero GNU Public License", 
   "url": "http://www.opensource.org/licenses/agpl-v3.html"

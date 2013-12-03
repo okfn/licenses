@@ -6,8 +6,8 @@ license_callback({
   "id": "ibmpl", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
-  "maintainer": "", 
+  "maintainer": "IBM Corporation", 
   "status": "active", 
   "title": "IBM Public License", 
-  "url": "http://www.opensource.org/licenses/ibmpl.php"
+  "url": "http://opensource.org/licenses/IPL-1.0"
 });

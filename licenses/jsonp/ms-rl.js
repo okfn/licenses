@@ -6,7 +6,7 @@ license_callback({
   "id": "ms-rl", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
-  "maintainer": "", 
+  "maintainer": "Microsoft Corporation", 
   "status": "active", 
   "title": "Microsoft Reciprocal License (Ms-RL)", 
   "url": "http://www.opensource.org/licenses/ms-rl.html"
