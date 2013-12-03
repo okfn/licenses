@@ -168,6 +168,19 @@ license_callback({
     "title": "Common Development and Distribution License 1.0 (CDDL-1.0)", 
     "url": "http://www.opensource.org/licenses/CDDL-1.0"
   }, 
+  "CECILL-2.1": {
+    "domain_content": false, 
+    "domain_data": false, 
+    "domain_software": true, 
+    "family": "", 
+    "id": "CECILL-2.1", 
+    "is_okd_compliant": false, 
+    "is_osi_compliant": true, 
+    "maintainer": "", 
+    "status": "active", 
+    "title": "CeCILL License 2.1 (CECILL-2.1)", 
+    "url": "http://www.opensource.org/licenses/CECILL-2.1"
+  }, 
   "CNRI-Python": {
     "domain_content": false, 
     "domain_data": false, 
@@ -206,19 +219,6 @@ license_callback({
     "status": "active", 
     "title": "CUA Office Public License Version 1.0 (CUA-OPL-1.0)", 
     "url": "http://www.opensource.org/licenses/CUA-OPL-1.0"
-  }, 
-  "CeCILL-2.1": {
-    "domain_content": false, 
-    "domain_data": false, 
-    "domain_software": true, 
-    "family": "", 
-    "id": "CeCILL-2.1", 
-    "is_okd_compliant": false, 
-    "is_osi_compliant": true, 
-    "maintainer": "", 
-    "status": "active", 
-    "title": "CeCILL License 2.1 (CECILL-2.1)", 
-    "url": "http://www.opensource.org/licenses/CECILL-2.1"
   }, 
   "ECL-2.0": {
     "domain_content": false, 
@@ -675,6 +675,19 @@ license_callback({
     "title": "Naumen Public License (Naumen)", 
     "url": "http://www.opensource.org/licenses/Naumen"
   }, 
+  "Nokia": {
+    "domain_content": false, 
+    "domain_data": false, 
+    "domain_software": true, 
+    "family": "", 
+    "id": "Nokia", 
+    "is_okd_compliant": false, 
+    "is_osi_compliant": true, 
+    "maintainer": "", 
+    "status": "active", 
+    "title": "Nokia Open Source License (Nokia)", 
+    "url": "http://www.opensource.org/licenses/Nokia"
+  }, 
   "OCLC-2.0": {
     "domain_content": false, 
     "domain_data": false, 
@@ -870,6 +883,19 @@ license_callback({
     "title": "Vovida Software License v. 1.0 (VSL-1.0)", 
     "url": "http://www.opensource.org/licenses/VSL-1.0"
   }, 
+  "W3C": {
+    "domain_content": false, 
+    "domain_data": false, 
+    "domain_software": true, 
+    "family": "", 
+    "id": "W3C", 
+    "is_okd_compliant": false, 
+    "is_osi_compliant": true, 
+    "maintainer": "World Wide Web Consortium (W3C)", 
+    "status": "active", 
+    "title": "W3C License (W3C)", 
+    "url": "http://www.opensource.org/licenses/W3C"
+  }, 
   "WXwindows": {
     "domain_content": false, 
     "domain_data": false, 
@@ -961,19 +987,6 @@ license_callback({
     "title": "MITRE Collaborative Virtual Workspace License (CVW License)", 
     "url": "http://opensource.org/licenses/CVW"
   }, 
-  "nokia": {
-    "domain_content": false, 
-    "domain_data": false, 
-    "domain_software": true, 
-    "family": "", 
-    "id": "nokia", 
-    "is_okd_compliant": false, 
-    "is_osi_compliant": true, 
-    "maintainer": "", 
-    "status": "active", 
-    "title": "Nokia Open Source License (Nokia)", 
-    "url": "http://www.opensource.org/licenses/Nokia"
-  }, 
   "pythonsoftfoundation": {
     "domain_content": false, 
     "domain_data": false, 
@@ -986,18 +999,5 @@ license_callback({
     "status": "active", 
     "title": "Python Software Foundation License", 
     "url": "http://www.opensource.org/licenses/PythonSoftFoundation"
-  }, 
-  "w3c": {
-    "domain_content": false, 
-    "domain_data": false, 
-    "domain_software": true, 
-    "family": "", 
-    "id": "w3c", 
-    "is_okd_compliant": false, 
-    "is_osi_compliant": true, 
-    "maintainer": "World Wide Web Consortium (W3C)", 
-    "status": "active", 
-    "title": "W3C License (W3C)", 
-    "url": "http://www.opensource.org/licenses/W3C"
   }
 });

@@ -3,7 +3,7 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "w3c", 
+  "id": "W3C", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "World Wide Web Consortium (W3C)", 
