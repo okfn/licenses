@@ -3,7 +3,7 @@
 """
 import os
 from BeautifulSoup import BeautifulSoup
-from urllib2 import urlopen
+from urllib import urlopen
 import re
 import json
 
@@ -15,7 +15,7 @@ opendefinition = {
 opensource = {
     'fqdn': 'http://www.opensource.org',
     'list': '/licenses/alphabetical',
-    'rexp': '^/licenses/(?!(category|alphabetical|historical|do-not-use)).+(\\.php|\\.html|\\.txt)?'
+    'rexp': '^/licenses/(?!(category|alphabetical|do-not-use)).+(\\.php|\\.html|\\.txt)?'
 }
 od_licenses_url = "http://www.opendefinition.org/licenses"
 os_licenses_url = "http://www.opensource.org/licenses/alphabetical"
@@ -29,7 +29,7 @@ def scrape(site):
         license_url = a['href']
         if not 'http://' in license_url:
             license_url = site['fqdn'] + license_url
-        license_id = a['href'].strip('/').split('/')[-1].lower()
+        license_id = a['href'].strip('/').split('/')[-1]
         license_id = license_id.split('.html')[0]
         license_id = license_id.split('.php')[0]
         license_id = license_id.split('.txt')[0]
@@ -75,13 +75,13 @@ def main(out_path='licenses'):
                     )
                     existing[attr_name] = value
         else:
-            print 'Adding new lic: %s "%s"' % (lic['id'], lic['url'])
+            print 'Adding new license: %s "%s"' % (lic['id'], lic['url'])
             all_licenses[lic['id']] = lic
 
     if not os.path.exists(out_path):
         os.makedirs(out_path)
     for id_, data in all_licenses.items():
-        fo = open(os.path.join(out_path, id_ + '.json'), 'w')
+        fo = open(os.path.join(out_path, id_.lower() + '.json'), 'w')
         json.dump(data, fo, indent=2, sort_keys=True)
         fo.close()
 
