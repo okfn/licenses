@@ -9,5 +9,5 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Entessa Public License", 
-  "url": "http://www.opensource.org/licenses/entessa.php"
+  "url": "http://www.opensource.org/licenses/Entessa"
 });

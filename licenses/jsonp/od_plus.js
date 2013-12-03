@@ -20,7 +20,7 @@ license_callback({
     "id": "cc-by", 
     "is_okd_compliant": true, 
     "is_osi_compliant": false, 
-    "maintainer": "", 
+    "maintainer": "Creative Commons", 
     "status": "active", 
     "title": "Creative Commons Attribution", 
     "url": "http://www.opendefinition.org/licenses/cc-by"
@@ -33,7 +33,7 @@ license_callback({
     "id": "cc-by-sa", 
     "is_okd_compliant": true, 
     "is_osi_compliant": false, 
-    "maintainer": "", 
+    "maintainer": "Creative Commons", 
     "status": "active", 
     "title": "Creative Commons Attribution Share-Alike", 
     "url": "http://www.opendefinition.org/licenses/cc-by-sa"
@@ -46,7 +46,7 @@ license_callback({
     "id": "cc-nc", 
     "is_okd_compliant": false, 
     "is_osi_compliant": false, 
-    "maintainer": "", 
+    "maintainer": "Creative Commons", 
     "status": "active", 
     "title": "Creative Commons Non-Commercial (Any)", 
     "url": "http://creativecommons.org/licenses/by-nc/2.0/"
@@ -54,12 +54,12 @@ license_callback({
   "cc-zero": {
     "domain_content": true, 
     "domain_data": true, 
-    "domain_software": false, 
+    "domain_software": true, 
     "family": "", 
     "id": "cc-zero", 
     "is_okd_compliant": true, 
     "is_osi_compliant": false, 
-    "maintainer": "", 
+    "maintainer": "Creative Commons", 
     "status": "active", 
     "title": "Creative Commons CCZero", 
     "url": "http://www.opendefinition.org/licenses/cc-zero"
@@ -140,7 +140,7 @@ license_callback({
     "maintainer": "", 
     "status": "active", 
     "title": "MirOS Licence", 
-    "url": "http://www.opensource.org/licenses/miros.html"
+    "url": "http://opensource.org/licenses/MirOS"
   }, 
   "notspecified": {
     "domain_content": false, 
@@ -277,19 +277,6 @@ license_callback({
     "status": "active", 
     "title": "Talis Community License", 
     "url": "http://www.opendefinition.org/licenses/tcl"
-  }, 
-  "uk-ogl": {
-    "domain_content": true, 
-    "domain_data": false, 
-    "domain_software": false, 
-    "family": "", 
-    "id": "uk-ogl", 
-    "is_okd_compliant": true, 
-    "is_osi_compliant": false, 
-    "maintainer": "", 
-    "status": "active", 
-    "title": "UK Open Government Licence (OGL)", 
-    "url": "http://reference.data.gov.uk/id/open-government-licence"
   }, 
   "ukclickusepsi": {
     "domain_content": true, 

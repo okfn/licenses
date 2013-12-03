@@ -6,7 +6,7 @@ license_callback({
   "id": "wxwindows", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
-  "maintainer": "", 
+  "maintainer": "wxWidgets Team", 
   "status": "active", 
   "title": "wxWindows Library License", 
   "url": "http://www.opensource.org/licenses/wxwindows.php"

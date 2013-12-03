@@ -9,5 +9,5 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Sun Industry Standards Source License (SISSL)", 
-  "url": ""
+  "url": "http://opensource.org/licenses/SISSL"
 });

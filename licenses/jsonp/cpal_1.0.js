@@ -9,5 +9,5 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Common Public Attribution License 1.0 (CPAL)", 
-  "url": "http://www.opensource.org/licenses/cpal_1.0"
+  "url": "http://www.opensource.org/licenses/CPAL-1.0"
 });

@@ -6,7 +6,7 @@ license_callback({
   "id": "php", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
-  "maintainer": "", 
+  "maintainer": "PHP Group", 
   "status": "active", 
   "title": "PHP License", 
   "url": "http://www.opensource.org/licenses/php.php"

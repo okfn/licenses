@@ -9,5 +9,5 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "CUA Office Public License Version 1.0", 
-  "url": "http://www.opensource.org/licenses/cuaoffice.php"
+  "url": "http://opensource.org/licenses/CUA-OPL-1.0"
 });
