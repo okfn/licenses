@@ -3,7 +3,7 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "cecill-2.1", 
+  "id": "CeCILL-2.1", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "", 

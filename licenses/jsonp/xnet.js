@@ -3,7 +3,7 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "xnet", 
+  "id": "Xnet", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "", 

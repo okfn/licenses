@@ -3,7 +3,7 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "ms-pl", 
+  "id": "MS-PL", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "Microsoft Corporation", 

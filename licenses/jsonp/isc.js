@@ -3,11 +3,11 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "isc-license", 
+  "id": "ISC", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "", 
   "status": "active", 
-  "title": "ISC License", 
-  "url": "http://opensource.org/licenses/ISC"
+  "title": "ISC License (ISC)", 
+  "url": "http://www.opensource.org/licenses/ISC"
 });

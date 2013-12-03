@@ -3,11 +3,11 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "bsd-license", 
+  "id": "BSD-3-Clause", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "", 
   "status": "active", 
-  "title": "New and Simplified BSD licenses", 
-  "url": "http://www.opensource.org/licenses/BSD-3-clause"
+  "title": "BSD 3-Clause \"New\" or \"Revised\" License (BSD-3-Clause)", 
+  "url": "http://www.opensource.org/licenses/BSD-3-Clause"
 });

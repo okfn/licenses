@@ -3,11 +3,11 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "zpl", 
+  "id": "ZPL-2.0", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "Zope Foundation", 
   "status": "active", 
-  "title": "Zope Public License", 
-  "url": "http://opensource.org/licenses/zpl-2.0"
+  "title": "Zope Public License 2.0 (ZPL-2.0)", 
+  "url": "http://www.opensource.org/licenses/ZPL-2.0"
 });

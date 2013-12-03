@@ -3,7 +3,7 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "miros", 
+  "id": "MirOS", 
   "is_okd_compliant": true, 
   "is_osi_compliant": true, 
   "maintainer": "", 

@@ -10,5 +10,4 @@ license_callback({
   "status": "active", 
   "title": "UK Open Government Licence (OGL)", 
   "url": "http://reference.data.gov.uk/id/open-government-licence"
-}
-);
+});

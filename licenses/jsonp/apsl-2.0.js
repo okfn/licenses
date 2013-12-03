@@ -3,7 +3,7 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "apsl-2.0", 
+  "id": "APSL-2.0", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "", 

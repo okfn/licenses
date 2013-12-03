@@ -3,7 +3,7 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "mozilla1.1", 
+  "id": "MPL-1.1", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "Mozilla Foundation", 

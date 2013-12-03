@@ -3,7 +3,7 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "lppl-1.3c", 
+  "id": "LPPL-1.3c", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "", 

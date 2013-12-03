@@ -3,11 +3,11 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "real", 
+  "id": "RPSL-1.0", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "", 
   "status": "active", 
-  "title": "RealNetworks Public Source License V1.0", 
+  "title": "RealNetworks Public Source License V1.0 (RPSL-1.0)", 
   "url": "http://www.opensource.org/licenses/RPSL-1.0"
 });

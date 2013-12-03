@@ -3,11 +3,11 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "bsl1.0", 
+  "id": "BSL-1.0", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "", 
   "status": "active", 
-  "title": "Boost Software License (BSL1.0)", 
+  "title": "Boost Software License (BSL-1.0)", 
   "url": "http://www.opensource.org/licenses/BSL-1.0"
 });

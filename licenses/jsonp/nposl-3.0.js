@@ -3,11 +3,11 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "nosl3.0", 
+  "id": "NPOSL-3.0", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "Lawrence Rosen", 
   "status": "active", 
-  "title": "Non-Profit Open Software License 3.0 (Non-Profit OSL 3.0)", 
-  "url": "http://opensource.org/licenses/NPOSL-3.0"
+  "title": "Non-Profit Open Software License 3.0 (NPOSL-3.0)", 
+  "url": "http://www.opensource.org/licenses/NPOSL-3.0"
 });

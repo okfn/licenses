@@ -3,7 +3,7 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "bsd-2-clause", 
+  "id": "BSD-2-Clause", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "", 

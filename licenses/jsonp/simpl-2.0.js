@@ -3,7 +3,7 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "simpl-2.0", 
+  "id": "SimPL-2.0", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "", 

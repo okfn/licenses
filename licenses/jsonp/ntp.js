@@ -3,11 +3,11 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "ntp-license", 
+  "id": "NTP", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "", 
   "status": "active", 
-  "title": "NTP License", 
+  "title": "NTP License (NTP)", 
   "url": "http://www.opensource.org/licenses/NTP"
 });

@@ -1,4 +1,17 @@
 license_callback({
+  "MirOS": {
+    "domain_content": true, 
+    "domain_data": false, 
+    "domain_software": true, 
+    "family": "", 
+    "id": "MirOS", 
+    "is_okd_compliant": true, 
+    "is_osi_compliant": true, 
+    "maintainer": "", 
+    "status": "active", 
+    "title": "MirOS Licence (MirOS)", 
+    "url": "http://www.opensource.org/licenses/MirOS"
+  }, 
   "against-drm": {
     "domain_content": true, 
     "domain_data": false, 
@@ -128,19 +141,6 @@ license_callback({
     "status": "active", 
     "title": "Local Authority Copyright with data.gov.uk rights", 
     "url": ""
-  }, 
-  "miros": {
-    "domain_content": true, 
-    "domain_data": false, 
-    "domain_software": true, 
-    "family": "", 
-    "id": "miros", 
-    "is_okd_compliant": true, 
-    "is_osi_compliant": true, 
-    "maintainer": "", 
-    "status": "active", 
-    "title": "MirOS Licence (MirOS)", 
-    "url": "http://www.opensource.org/licenses/MirOS"
   }, 
   "notspecified": {
     "domain_content": false, 
