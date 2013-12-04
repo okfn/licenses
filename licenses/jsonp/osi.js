@@ -73,9 +73,9 @@ license_callback({
     "is_okd_compliant": false, 
     "is_osi_compliant": true, 
     "maintainer": "Apache Foundation", 
-    "status": "active", 
-    "title": "Apache Software License", 
-    "url": "http://opensource.org/licenses/Apache-1.1"
+    "status": "retired", 
+    "title": "Apache Software License, version 1.1 (Apache-1.1)", 
+    "url": "http://www.opensource.org/licenses/Apache-1.1"
   }, 
   "Apache-2.0": {
     "domain_content": false, 
@@ -411,9 +411,9 @@ license_callback({
     "is_okd_compliant": false, 
     "is_osi_compliant": true, 
     "maintainer": "Intel Corporation", 
-    "status": "active", 
-    "title": "Intel Open Source License", 
-    "url": "http://opensource.org/licenses/Intel"
+    "status": "retired", 
+    "title": "Intel Open Source License (Intel)", 
+    "url": "http://www.opensource.org/licenses/Intel"
   }, 
   "LGPL-2.1": {
     "domain_content": false, 
@@ -450,9 +450,9 @@ license_callback({
     "is_okd_compliant": false, 
     "is_osi_compliant": true, 
     "maintainer": "", 
-    "status": "active", 
-    "title": "Lucent Public License (Plan9)", 
-    "url": "http://opensource.org/licenses/LPL-1.0"
+    "status": "retired", 
+    "title": "Lucent Public License (\"Plan9\"), version 1.0 (LPL-1.0)", 
+    "url": "http://www.opensource.org/licenses/LPL-1.0"
   }, 
   "LPL-1.02": {
     "domain_content": false, 
@@ -502,9 +502,9 @@ license_callback({
     "is_okd_compliant": false, 
     "is_osi_compliant": true, 
     "maintainer": "Mozilla Foundation", 
-    "status": "active", 
-    "title": "Mozilla Public License 1.0 (MPL)", 
-    "url": "http://opensource.org/licenses/MPL-1.0"
+    "status": "retired", 
+    "title": "Mozilla Public License, version 1.0 (MPL-1.0)", 
+    "url": "http://www.opensource.org/licenses/MPL-1.0"
   }, 
   "MPL-1.1": {
     "domain_content": false, 
@@ -515,8 +515,8 @@ license_callback({
     "is_okd_compliant": false, 
     "is_osi_compliant": true, 
     "maintainer": "Mozilla Foundation", 
-    "status": "active", 
-    "title": "Mozilla Public License 1.1 (MPL)", 
+    "status": "retired", 
+    "title": "Mozilla Public License, version 1.1 (MPL-1.1)", 
     "url": "http://www.opensource.org/licenses/MPL-1.1"
   }, 
   "MPL-2.0": {
@@ -970,9 +970,9 @@ license_callback({
     "is_okd_compliant": false, 
     "is_osi_compliant": true, 
     "maintainer": "", 
-    "status": "active", 
+    "status": "retired", 
     "title": "Jabber Open Source License", 
-    "url": "http://opensource.org/licenses/jabberpl"
+    "url": "http://www.opensource.org/licenses/jabberpl"
   }, 
   "mitre": {
     "domain_content": false, 

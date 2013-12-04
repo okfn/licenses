@@ -7,7 +7,7 @@ license_callback({
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "", 
-  "status": "active", 
-  "title": "Lucent Public License (Plan9)", 
-  "url": "http://opensource.org/licenses/LPL-1.0"
+  "status": "retired", 
+  "title": "Lucent Public License (\"Plan9\"), version 1.0 (LPL-1.0)", 
+  "url": "http://www.opensource.org/licenses/LPL-1.0"
 });

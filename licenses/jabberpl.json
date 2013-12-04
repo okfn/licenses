@@ -7,7 +7,7 @@
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "", 
-  "status": "active", 
+  "status": "retired", 
   "title": "Jabber Open Source License", 
-  "url": "http://opensource.org/licenses/jabberpl"
+  "url": "http://www.opensource.org/licenses/jabberpl"
 }
