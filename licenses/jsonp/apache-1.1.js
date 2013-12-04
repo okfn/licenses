@@ -7,7 +7,7 @@ license_callback({
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "Apache Foundation", 
-  "status": "active", 
-  "title": "Apache Software License", 
-  "url": "http://opensource.org/licenses/Apache-1.1"
+  "status": "retired", 
+  "title": "Apache Software License, version 1.1 (Apache-1.1)", 
+  "url": "http://www.opensource.org/licenses/Apache-1.1"
 });

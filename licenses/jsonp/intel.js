@@ -7,7 +7,7 @@ license_callback({
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "Intel Corporation", 
-  "status": "active", 
-  "title": "Intel Open Source License", 
-  "url": "http://opensource.org/licenses/Intel"
+  "status": "retired", 
+  "title": "Intel Open Source License (Intel)", 
+  "url": "http://www.opensource.org/licenses/Intel"
 });
