@@ -3,11 +3,11 @@
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "ms-pl", 
+  "id": "MS-PL", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "Microsoft Corporation", 
   "status": "active", 
-  "title": "Microsoft Public License (Ms-PL)", 
-  "url": "http://www.opensource.org/licenses/ms-pl.html"
+  "title": "Microsoft Public License (MS-PL)", 
+  "url": "http://www.opensource.org/licenses/MS-PL"
 }

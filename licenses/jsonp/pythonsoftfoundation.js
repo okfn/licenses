@@ -9,5 +9,5 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Python Software Foundation License", 
-  "url": "http://www.opensource.org/licenses/PythonSoftFoundation.php"
+  "url": "http://www.opensource.org/licenses/PythonSoftFoundation"
 });
