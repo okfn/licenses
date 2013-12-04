@@ -17,8 +17,11 @@ opensource = {
     'list': '/licenses/alphabetical',
     'rexp': '^/licenses/(?!(category|alphabetical|do-not-use)).+(\\.php|\\.html|\\.txt)?'
 }
-od_licenses_url = "http://www.opendefinition.org/licenses"
-os_licenses_url = "http://www.opensource.org/licenses/alphabetical"
+opensource_old = {
+    'fqdn': 'http://www.opensource.org',
+    'list': '/licenses/do-not-use',
+    'rexp': '^/licenses/.+'
+}
 
 def scrape(site):
     licenses = []
@@ -34,14 +37,23 @@ def scrape(site):
         license_id = license_id.split('.php')[0]
         license_id = license_id.split('.txt')[0]
         license_title = a.contents[0]
+        
+        """Fill in the license details"""
         lic = {
             'id': license_id,
             'title': license_title,
             'url': license_url,
+            'domain_content': False,
+            'domain_data': False,
         }
         lic['is_okd_compliant'] = 'www.opendefinition' in site['fqdn']
-        lic['is_osi_compliant'] = 'www.opensource' in site['fqdn']
-        lic['status'] = 'active'
+        if 'www.opensource' in site['fqdn']:
+            lic['is_osi_compliant'] = True
+            lic['domain_software'] = True
+        if 'do-not-use' in site['list']:
+            lic['status'] = 'retired'
+        else:
+            lic['status'] = 'active'
         lic['family'] = ''
         lic['maintainer'] = ''
         licenses.append(lic)
@@ -53,13 +65,14 @@ def get_licenses():
         if filename.endswith('.json'):
             data = json.load(open(os.path.join('licenses', filename)))
             all_[data['id']] = data
-    return all_ 
+    return all_
 
 def main(out_path='licenses'):
     all_licenses = get_licenses()
     od_licenses = scrape(opendefinition)
     os_licenses = scrape(opensource)
-    for lic in od_licenses + os_licenses:
+    os_retired_licenses = scrape(opensource_old)
+    for lic in od_licenses + os_licenses + os_retired_licenses:
         if lic['id'] in all_licenses:
             existing = all_licenses[lic['id']]
             for attr_name, value in lic.items():
@@ -75,8 +88,10 @@ def main(out_path='licenses'):
                     )
                     existing[attr_name] = value
         else:
-            print 'Adding new license: %s "%s"' % (lic['id'], lic['url'])
-            all_licenses[lic['id']] = lic
+            """Don't add retired if not already"""
+            if lic['status'] == 'active':
+                print 'Adding new license: %s "%s"' % (lic['id'], lic['url'])
+                all_licenses[lic['id']] = lic
 
     if not os.path.exists(out_path):
         os.makedirs(out_path)
