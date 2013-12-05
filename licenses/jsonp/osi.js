@@ -831,6 +831,19 @@ license_callback({
     "title": "Ricoh Source Code Public License (RSCPL)", 
     "url": "http://www.opensource.org/licenses/RSCPL"
   }, 
+  "SISSL": {
+    "domain_content": false, 
+    "domain_data": false, 
+    "domain_software": true, 
+    "family": "", 
+    "id": "SISSL", 
+    "is_okd_compliant": false, 
+    "is_osi_compliant": true, 
+    "maintainer": "", 
+    "status": "active", 
+    "title": "Sun Industry Standards Source License (SISSL)", 
+    "url": "http://opensource.org/licenses/SISSL"
+  }, 
   "SPL-1.0": {
     "domain_content": false, 
     "domain_data": false, 
