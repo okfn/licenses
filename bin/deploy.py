@@ -44,7 +44,7 @@ class DeployCommand(object):
         "other-open", 
         "other-pd", 
         "other-at", 
-        "uk-ogl", 
+        "OGL-UK", 
         "cc-nc", 
         "other-nc", 
         "other-closed"

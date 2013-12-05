@@ -714,6 +714,47 @@ license_callback({
     "title": "Open Font License 1.1 (OFL-1.1)", 
     "url": "http://www.opensource.org/licenses/OFL-1.1"
   }, 
+  "OGL-CA-2.0": {
+    "domain_content": true, 
+    "domain_data": true, 
+    "domain_software": false, 
+    "family": "", 
+    "id": "OGL-CA-2.0", 
+    "is_generic": false, 
+    "is_okd_compliant": true, 
+    "is_osi_compliant": false, 
+    "maintainer": "Government of Canada", 
+    "status": "active", 
+    "title": "Open Government License 2.0 (Canada)", 
+    "url": "http://data.gc.ca/eng/open-government-licence-canada"
+  }, 
+  "OGL-UK": {
+    "domain_content": true, 
+    "domain_data": true, 
+    "domain_software": true, 
+    "family": "", 
+    "id": "OGL-UK", 
+    "is_okd_compliant": false, 
+    "is_osi_compliant": false, 
+    "maintainer": "", 
+    "status": "superseded", 
+    "title": "UK Open Government Licence 1.0 (OGL)", 
+    "url": "http://reference.data.gov.uk/id/open-government-licence"
+  }, 
+  "OGL-UK-2.0": {
+    "domain_content": true, 
+    "domain_data": true, 
+    "domain_software": false, 
+    "family": "", 
+    "id": "OGL-UK-2.0", 
+    "is_generic": false, 
+    "is_okd_compliant": true, 
+    "is_osi_compliant": false, 
+    "maintainer": "UK Government", 
+    "status": "active", 
+    "title": "Open Government License 2.0 (United Kingdom)", 
+    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+  }, 
   "OGTSL": {
     "domain_content": false, 
     "domain_data": false, 
@@ -987,19 +1028,6 @@ license_callback({
     "title": "Against DRM", 
     "url": "http://www.opendefinition.org/licenses/against-drm"
   }, 
-  "canada-crown": {
-    "domain_content": false, 
-    "domain_data": false, 
-    "domain_software": false, 
-    "family": "", 
-    "id": "canada-crown", 
-    "is_okd_compliant": false, 
-    "is_osi_compliant": false, 
-    "maintainer": "", 
-    "status": "active", 
-    "title": "Canadian Crown Copyright", 
-    "url": ""
-  }, 
   "cc-by": {
     "domain_content": true, 
     "domain_data": false, 
@@ -1054,16 +1082,16 @@ license_callback({
   }, 
   "dli-model-use": {
     "domain_content": false, 
-    "domain_data": false, 
+    "domain_data": true, 
     "domain_software": false, 
     "family": "", 
     "id": "dli-model-use", 
     "is_okd_compliant": false, 
     "is_osi_compliant": false, 
     "maintainer": "", 
-    "status": "active", 
+    "status": "retired", 
     "title": "Statistics Canada: Data Liberation Initiative (DLI) - Model Data Use Licence", 
-    "url": ""
+    "url": "http://data.library.ubc.ca/datalib/geographic/DMTI/license.html"
   }, 
   "dsl": {
     "domain_content": true, 
@@ -1090,32 +1118,6 @@ license_callback({
     "status": "active", 
     "title": "Free Art License", 
     "url": "http://www.opendefinition.org/licenses/fal"
-  }, 
-  "geo-no-fee-unrestricted": {
-    "domain_content": false, 
-    "domain_data": false, 
-    "domain_software": false, 
-    "family": "", 
-    "id": "geo-no-fee-unrestricted", 
-    "is_okd_compliant": false, 
-    "is_osi_compliant": false, 
-    "maintainer": "", 
-    "status": "active", 
-    "title": "No Fee Unrestricted Use License Agreement For Government Geographic Data (Canada)", 
-    "url": "http://www4.agr.gc.ca/AAFC-AAC/display-afficher.do?id=1226945498401&lang=eng"
-  }, 
-  "geogratis": {
-    "domain_content": false, 
-    "domain_data": false, 
-    "domain_software": false, 
-    "family": "", 
-    "id": "geogratis", 
-    "is_okd_compliant": false, 
-    "is_osi_compliant": false, 
-    "maintainer": "", 
-    "status": "active", 
-    "title": "Geogratis Licence Agreement", 
-    "url": "http://geogratis.cgdi.gc.ca/geogratis/en/licence.jsp"
   }, 
   "gfdl": {
     "domain_content": true, 
@@ -1343,19 +1345,6 @@ license_callback({
     "status": "active", 
     "title": "Talis Community License", 
     "url": "http://www.opendefinition.org/licenses/tcl"
-  }, 
-  "uk-ogl": {
-    "domain_content": true, 
-    "domain_data": true, 
-    "domain_software": true, 
-    "family": "", 
-    "id": "uk-ogl", 
-    "is_okd_compliant": false, 
-    "is_osi_compliant": false, 
-    "maintainer": "", 
-    "status": "active", 
-    "title": "UK Open Government Licence (OGL)", 
-    "url": "http://reference.data.gov.uk/id/open-government-licence"
   }, 
   "ukclickusepsi": {
     "domain_content": true, 
