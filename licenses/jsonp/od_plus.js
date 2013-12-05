@@ -12,6 +12,34 @@ license_callback({
     "title": "MirOS Licence (MirOS)", 
     "url": "http://www.opensource.org/licenses/MirOS"
   }, 
+  "OGL-CA-2.0": {
+    "domain_content": true, 
+    "domain_data": true, 
+    "domain_software": false, 
+    "family": "", 
+    "id": "OGL-CA-2.0", 
+    "is_generic": false, 
+    "is_okd_compliant": true, 
+    "is_osi_compliant": false, 
+    "maintainer": "Government of Canada", 
+    "status": "active", 
+    "title": "Open Government License 2.0 (Canada)", 
+    "url": "http://data.gc.ca/eng/open-government-licence-canada"
+  }, 
+  "OGL-UK-2.0": {
+    "domain_content": true, 
+    "domain_data": true, 
+    "domain_software": false, 
+    "family": "", 
+    "id": "OGL-UK-2.0", 
+    "is_generic": false, 
+    "is_okd_compliant": true, 
+    "is_osi_compliant": false, 
+    "maintainer": "UK Government", 
+    "status": "active", 
+    "title": "Open Government License 2.0 (United Kingdom)", 
+    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+  }, 
   "against-drm": {
     "domain_content": true, 
     "domain_data": false, 
