@@ -3,11 +3,11 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "ms-rl", 
+  "id": "MS-RL", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
-  "maintainer": "", 
+  "maintainer": "Microsoft Corporation", 
   "status": "active", 
-  "title": "Microsoft Reciprocal License (Ms-RL)", 
-  "url": "http://www.opensource.org/licenses/ms-rl.html"
+  "title": "Microsoft Reciprocal License (MS-RL)", 
+  "url": "http://www.opensource.org/licenses/MS-RL"
 });

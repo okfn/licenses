@@ -55,12 +55,12 @@
   {
     "domain_content": true, 
     "domain_data": true, 
-    "domain_software": false, 
+    "domain_software": true, 
     "family": "", 
     "id": "cc-zero", 
     "is_okd_compliant": true, 
     "is_osi_compliant": false, 
-    "maintainer": "", 
+    "maintainer": "Creative Commons", 
     "status": "active", 
     "title": "Creative Commons CCZero", 
     "url": "http://www.opendefinition.org/licenses/cc-zero"
@@ -73,7 +73,7 @@
     "id": "cc-by", 
     "is_okd_compliant": true, 
     "is_osi_compliant": false, 
-    "maintainer": "", 
+    "maintainer": "Creative Commons", 
     "status": "active", 
     "title": "Creative Commons Attribution", 
     "url": "http://www.opendefinition.org/licenses/cc-by"
@@ -86,7 +86,7 @@
     "id": "cc-by-sa", 
     "is_okd_compliant": true, 
     "is_osi_compliant": false, 
-    "maintainer": "", 
+    "maintainer": "Creative Commons", 
     "status": "active", 
     "title": "Creative Commons Attribution Share-Alike", 
     "url": "http://www.opendefinition.org/licenses/cc-by-sa"
@@ -148,15 +148,15 @@
   }, 
   {
     "domain_content": true, 
-    "domain_data": false, 
-    "domain_software": false, 
+    "domain_data": true, 
+    "domain_software": true, 
     "family": "", 
-    "id": "uk-ogl", 
-    "is_okd_compliant": true, 
+    "id": "OGL-UK", 
+    "is_okd_compliant": false, 
     "is_osi_compliant": false, 
     "maintainer": "", 
-    "status": "active", 
-    "title": "UK Open Government Licence (OGL)", 
+    "status": "superseded", 
+    "title": "UK Open Government Licence 1.0 (OGL)", 
     "url": "http://reference.data.gov.uk/id/open-government-licence"
   }, 
   {
@@ -167,7 +167,7 @@
     "id": "cc-nc", 
     "is_okd_compliant": false, 
     "is_osi_compliant": false, 
-    "maintainer": "", 
+    "maintainer": "Creative Commons", 
     "status": "active", 
     "title": "Creative Commons Non-Commercial (Any)", 
     "url": "http://creativecommons.org/licenses/by-nc/2.0/"

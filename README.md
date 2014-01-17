@@ -8,8 +8,6 @@ directory.
 
 ## License
 
-All material copyright 2012, Open Knowledge Foundation.
-
 All data (and associated content) is placed in the Public Domain using the
 [Public Domain Dedication and
 License](http://opendatacommons.org/licenses/pddl/1-0/). All code is licensed
@@ -21,7 +19,6 @@ under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 <pre>
 README.md
 index.html # home page
-datapackage.json # data package info
 licenses/{id}.json # json versions of licenses
 licenses/jsonp/{id}.js # jsonp
 licenses/groups/ # special groups of licenses
@@ -40,7 +37,7 @@ To build files for deployment do:
 For deployment simply upload the current directory files to a relevant online
 location.
 
-We currently, use github pages (but previously used s3).
+We currently use github pages (we previously used s3).
 
 ## Changelog
 

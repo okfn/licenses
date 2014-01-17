@@ -3,11 +3,11 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "multics", 
+  "id": "Multics", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
   "maintainer": "", 
   "status": "active", 
-  "title": "Multics License", 
-  "url": "http://www.opensource.org/licenses/multics.txt"
+  "title": "Multics License (Multics)", 
+  "url": "http://www.opensource.org/licenses/Multics"
 });

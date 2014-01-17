@@ -3,11 +3,11 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "postgresql", 
+  "id": "PostgreSQL", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
-  "maintainer": "", 
+  "maintainer": "PostgreSQL Global Development Group", 
   "status": "active", 
-  "title": "The PostgreSQL License", 
-  "url": "http://www.opensource.org/licenses/postgresql"
+  "title": "The PostgreSQL License (PostgreSQL)", 
+  "url": "http://www.opensource.org/licenses/PostgreSQL"
 });
