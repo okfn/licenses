@@ -1,2 +1,4 @@
 sandbox
 .*.swp
+.project
+.pydevproject

@@ -3,11 +3,11 @@ license_callback({
   "domain_data": false, 
   "domain_software": true, 
   "family": "", 
-  "id": "sleepycat", 
+  "id": "Sleepycat", 
   "is_okd_compliant": false, 
   "is_osi_compliant": true, 
-  "maintainer": "", 
+  "maintainer": "Oracle Corporation", 
   "status": "active", 
-  "title": "Sleepycat License", 
-  "url": "http://www.opensource.org/licenses/sleepycat.php"
+  "title": "Sleepycat License (Sleepycat)", 
+  "url": "http://www.opensource.org/licenses/Sleepycat"
 });

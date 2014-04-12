@@ -6,7 +6,7 @@ license_callback({
   "id": "cc-by", 
   "is_okd_compliant": true, 
   "is_osi_compliant": false, 
-  "maintainer": "", 
+  "maintainer": "Creative Commons", 
   "status": "active", 
   "title": "Creative Commons Attribution", 
   "url": "http://www.opendefinition.org/licenses/cc-by"

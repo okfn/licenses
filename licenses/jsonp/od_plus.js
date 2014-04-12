@@ -1,4 +1,45 @@
 license_callback({
+  "MirOS": {
+    "domain_content": true, 
+    "domain_data": false, 
+    "domain_software": true, 
+    "family": "", 
+    "id": "MirOS", 
+    "is_okd_compliant": true, 
+    "is_osi_compliant": true, 
+    "maintainer": "", 
+    "status": "active", 
+    "title": "MirOS Licence (MirOS)", 
+    "url": "http://www.opensource.org/licenses/MirOS"
+  }, 
+  "OGL-CA-2.0": {
+    "domain_content": true, 
+    "domain_data": true, 
+    "domain_software": false, 
+    "family": "", 
+    "id": "OGL-CA-2.0", 
+    "is_generic": false, 
+    "is_okd_compliant": true, 
+    "is_osi_compliant": false, 
+    "maintainer": "Government of Canada", 
+    "status": "active", 
+    "title": "Open Government License 2.0 (Canada)", 
+    "url": "http://data.gc.ca/eng/open-government-licence-canada"
+  }, 
+  "OGL-UK-2.0": {
+    "domain_content": true, 
+    "domain_data": true, 
+    "domain_software": false, 
+    "family": "", 
+    "id": "OGL-UK-2.0", 
+    "is_generic": false, 
+    "is_okd_compliant": true, 
+    "is_osi_compliant": false, 
+    "maintainer": "UK Government", 
+    "status": "active", 
+    "title": "Open Government License 2.0 (United Kingdom)", 
+    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+  }, 
   "against-drm": {
     "domain_content": true, 
     "domain_data": false, 
@@ -20,7 +61,7 @@ license_callback({
     "id": "cc-by", 
     "is_okd_compliant": true, 
     "is_osi_compliant": false, 
-    "maintainer": "", 
+    "maintainer": "Creative Commons", 
     "status": "active", 
     "title": "Creative Commons Attribution", 
     "url": "http://www.opendefinition.org/licenses/cc-by"
@@ -33,7 +74,7 @@ license_callback({
     "id": "cc-by-sa", 
     "is_okd_compliant": true, 
     "is_osi_compliant": false, 
-    "maintainer": "", 
+    "maintainer": "Creative Commons", 
     "status": "active", 
     "title": "Creative Commons Attribution Share-Alike", 
     "url": "http://www.opendefinition.org/licenses/cc-by-sa"
@@ -46,7 +87,7 @@ license_callback({
     "id": "cc-nc", 
     "is_okd_compliant": false, 
     "is_osi_compliant": false, 
-    "maintainer": "", 
+    "maintainer": "Creative Commons", 
     "status": "active", 
     "title": "Creative Commons Non-Commercial (Any)", 
     "url": "http://creativecommons.org/licenses/by-nc/2.0/"
@@ -54,12 +95,12 @@ license_callback({
   "cc-zero": {
     "domain_content": true, 
     "domain_data": true, 
-    "domain_software": false, 
+    "domain_software": true, 
     "family": "", 
     "id": "cc-zero", 
     "is_okd_compliant": true, 
     "is_osi_compliant": false, 
-    "maintainer": "", 
+    "maintainer": "Creative Commons", 
     "status": "active", 
     "title": "Creative Commons CCZero", 
     "url": "http://www.opendefinition.org/licenses/cc-zero"
@@ -128,19 +169,6 @@ license_callback({
     "status": "active", 
     "title": "Local Authority Copyright with data.gov.uk rights", 
     "url": ""
-  }, 
-  "miros": {
-    "domain_content": true, 
-    "domain_data": false, 
-    "domain_software": true, 
-    "family": "", 
-    "id": "miros", 
-    "is_okd_compliant": true, 
-    "is_osi_compliant": true, 
-    "maintainer": "", 
-    "status": "active", 
-    "title": "MirOS Licence", 
-    "url": "http://www.opensource.org/licenses/miros.html"
   }, 
   "notspecified": {
     "domain_content": false, 
@@ -277,19 +305,6 @@ license_callback({
     "status": "active", 
     "title": "Talis Community License", 
     "url": "http://www.opendefinition.org/licenses/tcl"
-  }, 
-  "uk-ogl": {
-    "domain_content": true, 
-    "domain_data": false, 
-    "domain_software": false, 
-    "family": "", 
-    "id": "uk-ogl", 
-    "is_okd_compliant": true, 
-    "is_osi_compliant": false, 
-    "maintainer": "", 
-    "status": "active", 
-    "title": "UK Open Government Licence (OGL)", 
-    "url": "http://reference.data.gov.uk/id/open-government-licence"
   }, 
   "ukclickusepsi": {
     "domain_content": true, 
