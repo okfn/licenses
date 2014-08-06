@@ -4,10 +4,11 @@ license_callback({
   "domain_software": false, 
   "family": "", 
   "id": "ukpsi", 
-  "is_okd_compliant": true, 
+  "is_okd_compliant": false, 
   "is_osi_compliant": false, 
   "maintainer": "", 
   "status": "active", 
   "title": "UK PSI Public Sector Information", 
   "url": "http://www.opendefinition.org/licenses/ukpsi"
-});
+}
+);

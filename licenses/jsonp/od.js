@@ -142,7 +142,7 @@ license_callback({
     "maintainer": "", 
     "status": "active", 
     "title": "Higher Education Statistics Agency Copyright with data.gov.uk rights", 
-    "url": ""
+    "url": "http://www.hesa.ac.uk/index.php?option=com_content&task=view&id=2619&Itemid=209"
   }, 
   "localauth-withrights": {
     "domain_content": true, 
@@ -277,17 +277,17 @@ license_callback({
     "title": "UK Crown Copyright with data.gov.uk rights", 
     "url": ""
   }, 
-  "ukpsi": {
-    "domain_content": true, 
+  "unlicense": {
+    "domain_content": false, 
     "domain_data": false, 
-    "domain_software": false, 
+    "domain_software": true, 
     "family": "", 
-    "id": "ukpsi", 
+    "id": "unlicense", 
     "is_okd_compliant": true, 
     "is_osi_compliant": false, 
     "maintainer": "", 
     "status": "active", 
-    "title": "UK PSI Public Sector Information", 
-    "url": "http://www.opendefinition.org/licenses/ukpsi"
+    "title": "The Unlicense", 
+    "url": "http://unlicense.org/"
   }
 });
