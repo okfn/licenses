@@ -27,25 +27,25 @@ class DeployCommand(object):
         "other-open", 
         "other-pd", 
         "other-at", 
-        "cc-nc", 
+        "CC-BY-NC-4.0", 
         "other-nc", 
         "other-closed"
         ]
 
     ckan = [
         "notspecified", 
-        "odc-pddl", 
-        "odc-odbl", 
-        "odc-by",
-        "cc-zero", 
-        "cc-by", 
-        "cc-by-sa", 
-        "gfdl", 
+        "ODC-PDDL-1.0", 
+        "ODbL-1.0", 
+        "ODC-BY-1.0",
+        "CC0-1.0", 
+        "CC-BY-4.0", 
+        "CC-BY-SA-4.0", 
+        "GFDL-1.3-no-cover-texts-no-invariant-sections", 
         "other-open", 
         "other-pd", 
         "other-at", 
-        "OGL-UK", 
-        "cc-nc", 
+        "OGL-UK-2.0", 
+        "CC-BY-NC-4.0", 
         "other-nc", 
         "other-closed"
         ]
@@ -56,7 +56,7 @@ class DeployCommand(object):
         licenses = self.get_licenses()
         od = dict([
             (id_,data) for id_,data in licenses.items() if
-            data['is_okd_compliant']
+            data['od_conformance'] == "approved"
         ])
         od_plus = dict(od)
         for id_ in self.od_plus:
@@ -65,7 +65,7 @@ class DeployCommand(object):
         ckan = [ licenses[id_] for id_ in self.ckan ]
         osi = dict([
             (id_,data) for id_,data in licenses.items() if
-            data['is_osi_compliant']
+            data['osd_conformance'] == "approved"
         ])
         for name, dict_ in [
                 ('all', licenses),
