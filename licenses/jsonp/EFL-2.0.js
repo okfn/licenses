@@ -1,0 +1,14 @@
+license_callback({
+  "domain_content": false, 
+  "domain_data": false, 
+  "domain_software": true, 
+  "family": "", 
+  "id": "EFL-2.0", 
+  "od_conformance": "not reviewed", 
+  "osd_conformance": "approved", 
+  "maintainer": "", 
+  "status": "active", 
+  "title": "Eiffel Forum License 2.0", 
+  "url": "http://www.opensource.org/licenses/EFL-2.0"
+}
+);
