@@ -1,6 +1,6 @@
 license_callback({
   "domain_content": true, 
-  "domain_data": false, 
+  "domain_data": true, 
   "domain_software": false, 
   "family": "", 
   "id": "CC-BY-4.0", 
