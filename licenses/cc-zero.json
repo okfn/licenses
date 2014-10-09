@@ -1,0 +1,9 @@
+{
+  "id": "cc-zero", 
+  "deprecated_by": [
+    {
+      "id": "CC0-1.0",
+      "url": "http://licenses.opendefinition.org/licenses/CC0-1.0"
+    }
+  ]
+}
