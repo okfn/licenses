@@ -1,11 +1,11 @@
 jQuery(document).ready(function($) {
   var template = $($('.template-license').html());
   var $list = $('.license-list');
-  var $isOpenData = $('<a href="http://opendefinition.org/okd/" title="Open Data" class="open-icon"><img src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" alt="Open Data" border="" /></a>');
-  var $isOpenContent = $('<a href="http://opendefinition.org/okd/" title="Open Data" class="open-icon"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_red_green.png" alt="Open Data" border="" /></a>');
+  var $isOpenData = $('<a href="http://opendefinition.org/od/" title="Open Data" class="open-icon"><img src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" alt="Open Data" border="" /></a>');
+  var $isOpenContent = $('<a href="http://opendefinition.org/od/" title="Open Data" class="open-icon"><img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_red_green.png" alt="Open Data" border="" /></a>');
   $.each(all_licenses, function(id, data) {
     var tmp = template.clone();
-    var jsonUrl = 'licenses/' + id.toLowerCase() + '.json';
+    var jsonUrl = 'licenses/' + id + '.json';
     $.each(data, function(key, value) {
       tmp.find('.tmpl-' + key).html(value);
     });
