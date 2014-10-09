@@ -1,0 +1,14 @@
+{
+  "domain_content": true, 
+  "domain_data": true, 
+  "domain_software": false, 
+  "family": "", 
+  "id": "OGL-Canada-2.0", 
+  "is_generic": false, 
+  "od_conformance": "approved", 
+  "osd_conformance": "not reviewed", 
+  "maintainer": "Government of Canada", 
+  "status": "active", 
+  "title": "Open Government License 2.0 (Canada)", 
+  "url": "http://data.gc.ca/eng/open-government-licence-canada"
+}

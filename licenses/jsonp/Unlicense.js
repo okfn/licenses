@@ -1,0 +1,14 @@
+license_callback({
+  "domain_content": false, 
+  "domain_data": false, 
+  "domain_software": true, 
+  "family": "", 
+  "id": "Unlicense", 
+  "od_conformance": "not reviewed", 
+  "osd_conformance": "not reviewed", 
+  "maintainer": "", 
+  "status": "active", 
+  "title": "Unlicense", 
+  "url": "http://unlicense.org/"
+}
+);

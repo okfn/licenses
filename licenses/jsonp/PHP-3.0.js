@@ -1,0 +1,14 @@
+license_callback({
+  "domain_content": false, 
+  "domain_data": false, 
+  "domain_software": true, 
+  "family": "", 
+  "id": "PHP-3.0", 
+  "od_conformance": "not reviewed", 
+  "osd_conformance": "approved", 
+  "maintainer": "PHP Group", 
+  "status": "active", 
+  "title": "PHP License 3.0", 
+  "url": "http://www.opensource.org/licenses/PHP-3.0"
+}
+);

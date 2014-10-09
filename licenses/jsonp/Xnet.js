@@ -1,0 +1,14 @@
+license_callback({
+  "domain_content": false, 
+  "domain_data": false, 
+  "domain_software": true, 
+  "family": "", 
+  "id": "Xnet", 
+  "od_conformance": "not reviewed", 
+  "osd_conformance": "approved", 
+  "maintainer": "", 
+  "status": "active", 
+  "title": "X.Net License", 
+  "url": "http://www.opensource.org/licenses/Xnet"
+}
+);

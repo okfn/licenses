@@ -4,10 +4,11 @@ license_callback({
   "domain_software": false, 
   "family": "", 
   "id": "ukcrown", 
-  "is_okd_compliant": false, 
-  "is_osi_compliant": false, 
+  "od_conformance": "rejected", 
+  "osd_conformance": "not reviewed", 
   "maintainer": "", 
   "status": "active", 
   "title": "UK Crown Copyright", 
   "url": ""
-});
+}
+);

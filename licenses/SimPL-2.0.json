@@ -1,0 +1,13 @@
+{
+  "domain_content": false, 
+  "domain_data": false, 
+  "domain_software": true, 
+  "family": "", 
+  "id": "SimPL-2.0", 
+  "od_conformance": "not reviewed", 
+  "osd_conformance": "approved", 
+  "maintainer": "", 
+  "status": "active", 
+  "title": "Simple Public License 2.0", 
+  "url": "http://www.opensource.org/licenses/SimPL-2.0"
+}
