@@ -167,8 +167,22 @@ license_callback({
     "od_conformance": "approved", 
     "osd_conformance": "not reviewed", 
     "status": "active", 
-    "title": "Open Government License 2.0 (United Kingdom)", 
+    "title": "Open Government Licence 2.0 (United Kingdom)", 
     "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+  }, 
+  "OGL-UK-3.0": {
+    "domain_content": true, 
+    "domain_data": true, 
+    "domain_software": true, 
+    "family": "", 
+    "id": "OGL-UK-3.0", 
+    "is_generic": false, 
+    "maintainer": "UK Government", 
+    "od_conformance": "approved", 
+    "osd_conformance": "not reviewed", 
+    "status": "active", 
+    "title": "Open Government Licence 3.0 (United Kingdom)", 
+    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
   }, 
   "Talis": {
     "domain_content": true, 

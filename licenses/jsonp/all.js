@@ -908,8 +908,22 @@ license_callback({
     "od_conformance": "approved", 
     "osd_conformance": "not reviewed", 
     "status": "active", 
-    "title": "Open Government License 2.0 (United Kingdom)", 
+    "title": "Open Government Licence 2.0 (United Kingdom)", 
     "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+  }, 
+  "OGL-UK-3.0": {
+    "domain_content": true, 
+    "domain_data": true, 
+    "domain_software": true, 
+    "family": "", 
+    "id": "OGL-UK-3.0", 
+    "is_generic": false, 
+    "maintainer": "UK Government", 
+    "od_conformance": "approved", 
+    "osd_conformance": "not reviewed", 
+    "status": "active", 
+    "title": "Open Government Licence 3.0 (United Kingdom)", 
+    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
   }, 
   "OGTSL": {
     "domain_content": false, 
@@ -1209,6 +1223,19 @@ license_callback({
     "status": "retired", 
     "title": "Statistics Canada: Data Liberation Initiative (DLI) - Model Data Use Licence", 
     "url": "http://data.library.ubc.ca/datalib/geographic/DMTI/license.html"
+  }, 
+  "geogratis": {
+    "domain_content": false, 
+    "domain_data": true, 
+    "domain_software": false, 
+    "family": "", 
+    "id": "geogratis", 
+    "maintainer": "", 
+    "od_conformance": "", 
+    "osd_conformance": "not reviewed", 
+    "status": "active", 
+    "title": "Geogratis", 
+    "url": "http://geogratis.gc.ca/geogratis/licenceGG"
   }, 
   "hesa-withrights": {
     "domain_content": true, 
