@@ -1,0 +1,78 @@
+{
+  "title": "Licenses",
+  "name": "licenses",
+  "description": "a list of open (http://opensource.org/, http://opendefinition.org/) licenses and web service.",
+  "sources": [
+     {
+      "name":"Open Definition Licenses Service",
+      "web": "http://licenses.opendefinition.org"
+     }
+   ],
+  "licenses": [
+    {
+      "url": "http://www.opendefinition.org/licenses/odc-pddl",
+      "title": "Open Data Commons Public Domain Dedication and Licence 1.0",
+      "id": "ODC-PDDL-1.0"
+    }
+  ],
+  "resources": [
+    {
+      "name": "licenses.csv",
+      "path": "licenses.csv",
+      "mediatype": "text/csv",
+      "bytes": 15051,
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "domain_content",
+            "type": "string"
+          },
+          {
+            "name": "domain_data",
+            "type": "string"
+          },
+          {
+            "name": "domain_software",
+            "type": "string"
+          },
+          {
+            "name": "family",
+            "type": "number"
+          },
+          {
+            "name": "is_generic",
+            "type": "number"
+          },
+          {
+            "name": "maintainer",
+            "type": "number"
+          },
+          {
+            "name": "od_conformance",
+            "type": "string"
+          },
+          {
+            "name": "osd_conformance",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "url",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
