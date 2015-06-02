@@ -1,4 +1,4 @@
-id,domain_content,domain_data,domain_software,family,is_generic,maintainer,conforming to the Open Definition ,conforming to the Open Source Definition,status,title,url
+id,open content,open data,open software,family,is_generic,maintainer,conforming to the Open Definition ,conforming to the Open Source Definition,status,title,url
 AAL,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Attribution Assurance Licenses,http://www.opensource.org/licenses/AAL
 AFL-3.0,TRUE,FALSE,TRUE,,,Lawrence Rosen,not reviewed,approved,active,Academic Free License 3.0,http://www.opensource.org/licenses/AFL-3.0
 AGPL-3.0,FALSE,FALSE,TRUE,,,Free Software Foundation,not reviewed,approved,active,GNU Affero General Public License v3,http://www.opensource.org/licenses/AGPL-3.0
