@@ -28,15 +28,15 @@
             "type": "string"
           },
           {
-            "name": "domain_content",
+            "name": "open_content",
             "type": "string"
           },
           {
-            "name": "domain_data",
+            "name": "open_data",
             "type": "string"
           },
           {
-            "name": "domain_software",
+            "name": "open_software",
             "type": "string"
           },
           {
@@ -52,11 +52,11 @@
             "type": "number"
           },
           {
-            "name": "od_conformance",
+            "name": "open definition_conformance",
             "type": "string"
           },
           {
-            "name": "osd_conformance",
+            "name": "open source definition_conformance",
             "type": "string"
           },
           {
