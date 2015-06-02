@@ -28,16 +28,20 @@
             "type": "string"
           },
           {
-            "name": "open_content",
-            "type": "string"
+            "name": "domain_content",
+            "type": "string",
+            "description": "Open Content License"
           },
           {
-            "name": "open_data",
-            "type": "string"
+            "name": "domain_data",
+            "type": "string",
+            "description": "Open Data License"
           },
           {
-            "name": "open_software",
-            "type": "string"
+            "name": "domain_software",
+            "type": "string",
+            "description":"Open Software License"
+
           },
           {
             "name": "family",
@@ -52,12 +56,16 @@
             "type": "number"
           },
           {
-            "name": "open definition_conformance",
-            "type": "string"
+            "name": "od_conformance",
+            "type": "string",
+            "description": "Conforming to the Open Definition"
+
           },
           {
-            "name": "open source definition_conformance",
-            "type": "string"
+            "name": "osd_conformance",
+            "type": "string",
+            "description": "Conforming to Open Source Definition",
+
           },
           {
             "name": "status",
