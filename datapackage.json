@@ -64,7 +64,7 @@
           {
             "name": "osd_conformance",
             "type": "string",
-            "description": "Conforming to Open Source Definition",
+            "description": "Conforming to Open Source Definition"
 
           },
           {
