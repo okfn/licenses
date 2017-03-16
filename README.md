@@ -25,7 +25,7 @@ licenses/groups/ # special groups of licenses
 bin/ # scripts
 </pre>
 
-Note: grups and jsonp versions are generated as part of the build and deploy
+Note: groups and jsonp versions are generated as part of the build and deploy
 process for the service.
 
 ## Build and Deployment
