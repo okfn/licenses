@@ -2,9 +2,11 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/). The
- [project releases](https://github.com/okfn/licenses/releases) will adhere to [semantic versioning](http://semver.org/spec/v2.0.0.html) going forward from release 0.7.
+ [project releases](https://github.com/okfn/licenses/releases) will adhere to [semantic versioning](http://semver.org/spec/v2.0.0.html)
 
-To see what's planned, see our [milestones](https://github.com/okfn/licenses/milestones).
+This approach was adopted after release 0.7.  
+
+To see what's planned, see our [milestones](https://github.com/okfn/licenses/milestones) or unreleased changes.
 
 [Unreleased]: https://github.com/okfn/licenses/compare/0.7...HEAD
 ## [Unreleased]
