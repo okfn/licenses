@@ -10,7 +10,7 @@ Firstly, thanks for being here. All types of contributions are valued and gratef
 
 ## Contribute Financial Support
 
-We are grateful to all [our funders](https://okfn.org/about/funders/). Would you like to [make a donation][donate]?
+We are grateful to all [our funders][funders]. Would you like to [make a donation][donate]?
 
 ## Contribute Ideas and Feature Requests
 
@@ -35,8 +35,8 @@ We may add or change labels on your issue to help us manage the issue backlog.
 
 Documentation helps people use and contribute to the work we do. You may like to:
 
-- improve the [README.md][readme]
-- add or improve documentation in this repository
+- improve the [Readme.md][readme]
+- add or improve other documentation in this repository
 - write a Guide, Blog post or even Tweet
 
 ## Contribute Code
@@ -50,7 +50,7 @@ Follow the [readme instructions][readme] to get your development environment run
 
 Ensure that all automated tests pass before starting work on your contribution.
 
-## Code Review Process
+### Code Review Process
 
 All contributions to the codebase will be reviewed. To increase your chances of your code being accepted please be aware of the following:
 
@@ -59,11 +59,11 @@ All contributions to the codebase will be reviewed. To increase your chances of 
 - We may use GitHub integrations to check your contribution.
 - Once your Pull Request (PR) is published and passes the above checks a repository administrator will review your contribution. Where appropriate, comments will be provided and amendments suggested before your PR is merged into Master.
 
-[readme]: ./README.md
+
 [code_of_conduct]: CODE_OF_CONDUCT.md
-
-[contact_us]: [https://okfn.org/contact/]
-[donate]: [https://okfn.org/donate/]
-
-[issues]: [https://github.com/okfn/licenses/issues]
-[contributors]: [https://github.com/okfn/licenses/graphs/contributors]
+[contact_us]: https://okfn.org/contact/
+[contributors]: https://github.com/okfn/licenses/graphs/contributors
+[donate]: https://okfn.org/donate/
+[funders]: https://okfn.org/about/funders/
+[issues]: https://github.com/okfn/licenses/issues
+[readme]: ./README.md

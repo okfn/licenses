@@ -17,7 +17,7 @@ To see what's planned, see our [milestones](https://github.com/okfn/licenses/mil
 [0.6.1]: https://github.com/okfn/licenses/compare/0.6...0.6.1
 ## [0.6.1] - 2011-02-23
 ### Changed
-- Minor tweak to CC by-sa license name
+- Minor tweak to CC BY-SA license name
 
 [0.6]: https://github.com/okfn/licenses/compare/0.5...0.6
 ## [0.6] - 2011-02-11
@@ -26,6 +26,7 @@ To see what's planned, see our [milestones](https://github.com/okfn/licenses/mil
 - Improve and add documentation
 
 ## 0.5 - 2010-05-12
+No GitHub compare between 0.4 and 0.5 available as 0.4 was not tagged as a release in GitHub.
 ### Added
 - Addition of Licenses SoS v2.0 capabilities
 
@@ -39,5 +40,6 @@ Release not implemented in GitHub.
 
 ## 0.3 - 2010-03-06 and older
 Release 0.3 not implemented in GitHub.
+
 ### Added
 - Module is designed to be imported to provide its list of licenses
