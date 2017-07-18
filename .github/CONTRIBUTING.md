@@ -66,4 +66,4 @@ All contributions to the codebase will be reviewed. To increase your chances of 
 [donate]: https://okfn.org/donate/
 [funders]: https://okfn.org/about/funders/
 [issues]: https://github.com/okfn/licenses/issues
-[readme]: ./README.md
+[readme]: ../README.md
