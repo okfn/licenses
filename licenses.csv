@@ -109,5 +109,5 @@ ukcrown,FALSE,FALSE,FALSE,,,,rejected,not reviewed,active,UK Crown Copyright,
 ukcrown-withrights,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,UK Crown Copyright with data.gov.uk rights,
 ukpsi,TRUE,FALSE,FALSE,,,,rejected,not reviewed,active,UK PSI Public Sector Information,http://www.opendefinition.org/licenses/ukpsi
 OGL-TW-1.0,FALSE,TRUE,FALSE,,FALSE,Republic of China (Taiwan),approved,not reviewed,active,Open Government Data License Taiwan 1.0,https://data.gov.tw/license
-OGL-DE-BY-2.0,FALSE,TRUE,FALSE,FALSE,German Government,approved,not reviewed,active,Data Licence Germany-attribution-version 2.0,https://www.govdata.de/dl-de/by-2-0
-OGL-DE-ZERO-2.0,FALSE,TRUE,FALSE,FALSE,German Government,approved,not reviewed,active,Data Licence Germany-Zero-Version 2.0,https://www.govdata.de/dl-de/zero-2-0
+OGL-DE-BY-2.0,FALSE,TRUE,FALSE,,FALSE,German Government,approved,not reviewed,active,Data Licence Germany-attribution-version 2.0,https://www.govdata.de/dl-de/by-2-0
+OGL-DE-ZERO-2.0,FALSE,TRUE,FALSE,,FALSE,German Government,approved,not reviewed,active,Data Licence Germany-Zero-Version 2.0,https://www.govdata.de/dl-de/zero-2-0
