@@ -1,8 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/). The
- [project releases](https://github.com/okfn/licenses/releases) will adhere to [semantic versioning](http://semver.org/spec/v2.0.0.html)
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/). The [project releases](https://github.com/okfn/licenses/releases) will adhere to [semantic versioning](http://semver.org/spec/v2.0.0.html)
 
 This approach was adopted after release 0.7.  
 
