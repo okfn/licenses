@@ -93,7 +93,7 @@ Xnet,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,X.Net License,http://www.o
 ZPL-2.0,FALSE,FALSE,TRUE,,,Zope Foundation,not reviewed,approved,active,Zope Public License 2.0,http://www.opensource.org/licenses/ZPL-2.0
 Zlib,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,zlib/libpng license,http://www.opensource.org/licenses/Zlib
 dli-model-use,FALSE,TRUE,FALSE,,,,not reviewed,not reviewed,retired,Statistics Canada: Data Liberation Initiative (DLI) - Model Data Use Licence,http://data.library.ubc.ca/datalib/geographic/DMTI/license.html
-geogratis,FALSE,TRUE,FALSE,,,,,not reviewed,active,Geogratis,http://geogratis.gc.ca/geogratis/licenceGG
+geogratis,FALSE,TRUE,FALSE,,,,not reviewed,not reviewed,retired,Geogratis,http://geogratis.gc.ca/geogratis/licenceGG
 hesa-withrights,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,Higher Education Statistics Agency Copyright with data.gov.uk rights,http://www.hesa.ac.uk/index.php?option=com_content&task=view&id=2619&Itemid=209
 localauth-withrights,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,Local Authority Copyright with data.gov.uk rights,
 met-office-cp,FALSE,FALSE,FALSE,,,,not reviewed,not reviewed,active,Met Office UK Climate Projections Licence Agreement,http://www.metoffice.gov.uk/climatechange/science/monitoring/ukcp09/UKCIP08_license_agreement_130709.pdf
