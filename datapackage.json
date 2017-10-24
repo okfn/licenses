@@ -23,8 +23,8 @@
           "name": "id",
           "type": "string",
           "constraints": {
-            "required": "true",
-            "unique": "true"
+            "required": true,
+            "unique": true
           }
         },
         {
@@ -32,7 +32,7 @@
           "type": "boolean",
           "description": "Open Content License",
           "constraints": {
-            "required": "true"
+            "required": true
           }
         },
         {
@@ -40,7 +40,7 @@
           "type": "boolean",
           "description": "Open Data License",
           "constraints": {
-            "required": "true"
+            "required": true
           }
         },
         {
@@ -48,7 +48,7 @@
           "type": "boolean",
           "description": "Open Software License",
           "constraints": {
-            "required": "true"
+            "required": true
           }
         },
         {
@@ -90,8 +90,8 @@
           "name": "title",
           "type": "string",
           "constraints": {
-            "required": "true",
-            "unique": "true"
+            "required": true,
+            "unique": true
           }
         },
         {
@@ -99,7 +99,7 @@
           "type": "string",
           "format": "uri",
           "constraints": {
-            "unique": "true"
+            "unique": true
           }
         }
       ]
