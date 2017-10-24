@@ -111,3 +111,6 @@ ukpsi,TRUE,FALSE,FALSE,,,,rejected,not reviewed,active,UK PSI Public Sector Info
 OGL-TW-1.0,FALSE,TRUE,FALSE,,FALSE,Republic of China (Taiwan),approved,not reviewed,active,Open Government Data License Taiwan 1.0,https://data.gov.tw/license
 OGL-DE-BY-2.0,FALSE,TRUE,FALSE,,FALSE,German Government,approved,not reviewed,active,Data Licence Germany-attribution-version 2.0,https://www.govdata.de/dl-de/by-2-0
 OGL-DE-ZERO-2.0,FALSE,TRUE,FALSE,,FALSE,German Government,approved,not reviewed,active,Data Licence Germany-Zero-Version 2.0,https://www.govdata.de/dl-de/zero-2-0
+CC-BY-ND-4.0,TRUE,TRUE,FALSE,,,Creative Commons,rejected,not reviewed,active,Creative Commons Attribution No-Derivatives 4.0,https://creativecommons.org/licenses/by-nd/4.0/
+CC-BY-NC-ND-4.0,TRUE,TRUE,FALSE,,,Creative Commons,rejected,not reviewed,active,Creative Commons Attribution NonCommercial No-Derivatives 4.0,https://creativecommons.org/licenses/by-nc-nd/4.0/
+CC-BY-NC-SA-4.0,TRUE,TRUE,FALSE,,,Creative Commons,rejected,not reviewed,active,Creative Commons Attribution NonCommercial Share-Alike 4.0,https://creativecommons.org/licenses/by-nc-sa/4.0/
