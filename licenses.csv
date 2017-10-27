@@ -67,7 +67,7 @@ ODC-PDDL-1.0,FALSE,TRUE,FALSE,,,Open Data Commons,approved,not reviewed,active,O
 ODbL-1.0,FALSE,TRUE,FALSE,,,Open Data Commons,approved,not reviewed,active,Open Data Commons Open Database License 1.0,http://www.opendefinition.org/licenses/odc-odbl
 OFL-1.1,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Open Font License 1.1,http://www.opensource.org/licenses/OFL-1.1
 OGL-Canada-2.0,TRUE,TRUE,FALSE,,FALSE,Government of Canada,approved,not reviewed,active,Open Government License 2.0 (Canada),http://data.gc.ca/eng/open-government-licence-canada
-OGL-UK-1.0,TRUE,TRUE,TRUE,,,,not reviewed,not reviewed,superseded,Open Government Licence 1.0 (United Kingdom),http://reference.data.gov.uk/id/open-government-licence
+OGL-UK-1.0,TRUE,TRUE,TRUE,,,,not reviewed,not reviewed,superceded,Open Government Licence 1.0 (United Kingdom),http://reference.data.gov.uk/id/open-government-licence
 OGL-UK-2.0,TRUE,TRUE,TRUE,,FALSE,UK Government,approved,not reviewed,superseded,Open Government Licence 2.0 (United Kingdom),https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/
 OGL-UK-3.0,TRUE,TRUE,TRUE,,FALSE,UK Government,approved,not reviewed,active,Open Government Licence 3.0 (United Kingdom),https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 OGTSL,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Open Group Test Suite License,http://www.opensource.org/licenses/OGTSL
