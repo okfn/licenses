@@ -63,12 +63,12 @@ Naumen,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Naumen Public License,ht
 Nokia,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Nokia Open Source License,http://www.opensource.org/licenses/Nokia
 OCLC-2.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,OCLC Research Public License 2.0,http://www.opensource.org/licenses/OCLC-2.0
 ODC-BY-1.0,FALSE,TRUE,FALSE,,,Open Data Commons,approved,not reviewed,active,Open Data Commons Attribution License 1.0,http://www.opendefinition.org/licenses/odc-by
-ODC-PDDL-1.0,FALSE,TRUE,FALSE,,,,approved,not reviewed,active,Open Data Commons Public Domain Dedication and Licence 1.0,http://www.opendefinition.org/licenses/odc-pddl
-ODbL-1.0,FALSE,TRUE,FALSE,,,,approved,not reviewed,active,Open Data Commons Open Database License 1.0,http://www.opendefinition.org/licenses/odc-odbl
+ODC-PDDL-1.0,FALSE,TRUE,FALSE,,,Open Data Commons,approved,not reviewed,active,Open Data Commons Public Domain Dedication and Licence 1.0,http://www.opendefinition.org/licenses/odc-pddl
+ODbL-1.0,FALSE,TRUE,FALSE,,,Open Data Commons,approved,not reviewed,active,Open Data Commons Open Database License 1.0,http://www.opendefinition.org/licenses/odc-odbl
 OFL-1.1,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Open Font License 1.1,http://www.opensource.org/licenses/OFL-1.1
 OGL-Canada-2.0,TRUE,TRUE,FALSE,,FALSE,Government of Canada,approved,not reviewed,active,Open Government License 2.0 (Canada),http://data.gc.ca/eng/open-government-licence-canada
-OGL-UK-1.0,TRUE,TRUE,TRUE,,,,not reviewed,not reviewed,superseded,Open Government Licence 1.0 (United Kingdom),http://reference.data.gov.uk/id/open-government-licence
-OGL-UK-2.0,TRUE,TRUE,TRUE,,FALSE,UK Government,approved,not reviewed,active,Open Government Licence 2.0 (United Kingdom),https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/
+OGL-UK-1.0,TRUE,TRUE,TRUE,,,,not reviewed,not reviewed,superceded,Open Government Licence 1.0 (United Kingdom),http://reference.data.gov.uk/id/open-government-licence
+OGL-UK-2.0,TRUE,TRUE,TRUE,,FALSE,UK Government,approved,not reviewed,superceded,Open Government Licence 2.0 (United Kingdom),https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/
 OGL-UK-3.0,TRUE,TRUE,TRUE,,FALSE,UK Government,approved,not reviewed,active,Open Government Licence 3.0 (United Kingdom),https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 OGTSL,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Open Group Test Suite License,http://www.opensource.org/licenses/OGTSL
 OSL-3.0,TRUE,FALSE,TRUE,,,Lawrence Rosen,not reviewed,approved,active,Open Software License 3.0,http://www.opensource.org/licenses/OSL-3.0
@@ -93,7 +93,7 @@ Xnet,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,X.Net License,http://www.o
 ZPL-2.0,FALSE,FALSE,TRUE,,,Zope Foundation,not reviewed,approved,active,Zope Public License 2.0,http://www.opensource.org/licenses/ZPL-2.0
 Zlib,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,zlib/libpng license,http://www.opensource.org/licenses/Zlib
 dli-model-use,FALSE,TRUE,FALSE,,,,not reviewed,not reviewed,retired,Statistics Canada: Data Liberation Initiative (DLI) - Model Data Use Licence,http://data.library.ubc.ca/datalib/geographic/DMTI/license.html
-geogratis,FALSE,TRUE,FALSE,,,,,not reviewed,active,Geogratis,http://geogratis.gc.ca/geogratis/licenceGG
+geogratis,FALSE,TRUE,FALSE,,,,not reviewed,not reviewed,retired,Geogratis,http://geogratis.gc.ca/geogratis/licenceGG
 hesa-withrights,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,Higher Education Statistics Agency Copyright with data.gov.uk rights,http://www.hesa.ac.uk/index.php?option=com_content&task=view&id=2619&Itemid=209
 localauth-withrights,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,Local Authority Copyright with data.gov.uk rights,
 met-office-cp,FALSE,FALSE,FALSE,,,,not reviewed,not reviewed,active,Met Office UK Climate Projections Licence Agreement,http://www.metoffice.gov.uk/climatechange/science/monitoring/ukcp09/UKCIP08_license_agreement_130709.pdf
@@ -108,3 +108,10 @@ ukclickusepsi,TRUE,FALSE,FALSE,,,,rejected,not reviewed,active,UK Click Use PSI,
 ukcrown,FALSE,FALSE,FALSE,,,,rejected,not reviewed,active,UK Crown Copyright,
 ukcrown-withrights,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,UK Crown Copyright with data.gov.uk rights,
 ukpsi,TRUE,FALSE,FALSE,,,,rejected,not reviewed,active,UK PSI Public Sector Information,http://www.opendefinition.org/licenses/ukpsi
+OGL-TW-1.0,FALSE,TRUE,FALSE,,FALSE,Republic of China (Taiwan),approved,not reviewed,active,Open Government Data License Taiwan 1.0,https://data.gov.tw/license
+OGL-DE-BY-2.0,FALSE,TRUE,FALSE,,FALSE,German Government,approved,not reviewed,active,Data Licence Germany-attribution-version 2.0,https://www.govdata.de/dl-de/by-2-0
+OGL-DE-ZERO-2.0,FALSE,TRUE,FALSE,,FALSE,German Government,approved,not reviewed,active,Data Licence Germany-Zero-Version 2.0,https://www.govdata.de/dl-de/zero-2-0
+CC-BY-ND-4.0,TRUE,TRUE,FALSE,,,Creative Commons,rejected,not reviewed,active,Creative Commons Attribution No-Derivatives 4.0,https://creativecommons.org/licenses/by-nd/4.0/
+CC-BY-NC-ND-4.0,TRUE,TRUE,FALSE,,,Creative Commons,rejected,not reviewed,active,Creative Commons Attribution NonCommercial No-Derivatives 4.0,https://creativecommons.org/licenses/by-nc-nd/4.0/
+CC-BY-NC-SA-4.0,TRUE,TRUE,FALSE,,,Creative Commons,rejected,not reviewed,active,Creative Commons Attribution NonCommercial Share-Alike 4.0,https://creativecommons.org/licenses/by-nc-sa/4.0/
+LO-FR-2.0,FALSE,TRUE,FALSE,,FALSE,Etalab,not reviewed,not reviewed,active,Open License 2.0,https://www.etalab.gouv.fr/licence-ouverte-open-licence

@@ -1,83 +1,108 @@
 {
-  "title": "Licenses",
   "name": "licenses",
+  "title": "Licenses",
   "description": "a list of open (http://opensource.org/, http://opendefinition.org/) licenses.",
-  "sources": [
-     {
-      "name":"Open Definition Licenses Service",
-      "web": "http://licenses.opendefinition.org"
-     }
-   ],
-  "licenses": [
-    {
-      "url": "http://www.opendefinition.org/licenses/odc-pddl",
-      "title": "Open Data Commons Public Domain Dedication and Licence 1.0",
-      "id": "ODC-PDDL-1.0"
-    }
-  ],
-  "resources": [
-    {
-      "name": "licenses.csv",
-      "path": "licenses.csv",
-      "mediatype": "text/csv",
-      "bytes": 15051,
-      "schema": {
-        "fields": [
-          {
-            "name": "id",
-            "type": "string"
-          },
-          {
-            "name": "domain_content",
-            "type": "string",
-            "description": "Open Content License"
-          },
-          {
-            "name": "domain_data",
-            "type": "string",
-            "description": "Open Data License"
-          },
-          {
-            "name": "domain_software",
-            "type": "string",
-            "description": "Open Software License"
-          },
-          {
-            "name": "family",
-            "type": "number"
-          },
-          {
-            "name": "is_generic",
-            "type": "number"
-          },
-          {
-            "name": "maintainer",
-            "type": "number"
-          },
-          {
-            "name": "od_conformance",
-            "type": "string",
-            "description": "Conforming to the Open Definition"
-          },
-          {
-            "name": "osd_conformance",
-            "type": "string",
-            "description": "Conforming to Open Source Definition"
-          },
-          {
-            "name": "status",
-            "type": "string"
-          },
-          {
-            "name": "title",
-            "type": "string"
-          },
-          {
-            "name": "url",
-            "type": "string"
+  "profile": "tabular-data-package",
+  "sources": [{
+    "title": "Open Definition Licenses Service",
+    "path": "http://licenses.opendefinition.org"
+  }],
+  "licenses": [{
+    "name": "ODC-PDDL-1.0",
+    "path": "http://www.opendefinition.org/licenses/odc-pddl",
+    "title": "Open Data Commons Public Domain Dedication and Licence 1.0"
+  }],
+  "resources": [{
+    "name": "licenses.csv",
+    "path": "licenses.csv",
+    "profile": "tabular-data-resource",
+    "format": "csv",
+    "mediatype": "text/csv",
+    "schema": {
+      "fields": [{
+          "name": "id",
+          "type": "string",
+          "constraints": {
+            "required": true,
+            "unique": true
           }
-        ]
-      }
+        },
+        {
+          "name": "domain_content",
+          "type": "boolean",
+          "description": "Open Content License",
+          "constraints": {
+            "required": true
+          }
+        },
+        {
+          "name": "domain_data",
+          "type": "boolean",
+          "description": "Open Data License",
+          "constraints": {
+            "required": true
+          }
+        },
+        {
+          "name": "domain_software",
+          "type": "boolean",
+          "description": "Open Software License",
+          "constraints": {
+            "required": true
+          }
+        },
+        {
+          "name": "family",
+          "type": "string"
+        },
+        {
+          "name": "is_generic",
+          "type": "boolean"
+        },
+        {
+          "name": "maintainer",
+          "type": "string"
+        },
+        {
+          "name": "od_conformance",
+          "type": "string",
+          "description": "Conforming to the Open Definition",
+          "constraints": {
+            "enum": ["approved", "not reviewed", "rejected"]
+          }
+        },
+        {
+          "name": "osd_conformance",
+          "type": "string",
+          "description": "Conforming to Open Source Definition",
+          "constraints": {
+            "enum": ["approved", "not reviewed", "rejected"]
+          }
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "constraints": {
+            "enum": ["active", "retired", "superceded"]
+          }
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "constraints": {
+            "required": true,
+            "unique": true
+          }
+        },
+        {
+          "name": "url",
+          "type": "string",
+          "format": "uri",
+          "constraints": {
+            "unique": true
+          }
+        }
+      ]
     }
-  ]
+  }]
 }
