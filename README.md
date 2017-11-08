@@ -2,8 +2,7 @@
 [![goodtables.io](https://goodtables.io/badge/github/okfn/licenses.svg)](https://goodtables.io/github/okfn/licenses)
 
 
-Machine readable list of open (http://opensource.org/,
-http://opendefinition.org/) licenses and web service - see
+Machine readable list of licenses and web service - see
 <http://licenses.opendefinition.org/>.
 
 For more information, including details of web service usage, see
