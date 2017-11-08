@@ -1,7 +1,7 @@
 {
   "name": "licenses",
   "title": "Licenses",
-  "description": "a list of open (http://opensource.org/, http://opendefinition.org/) licenses.",
+  "description": "a list of licenses.",
   "profile": "tabular-data-package",
   "sources": [{
     "title": "Open Definition Licenses Service",
