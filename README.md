@@ -1,4 +1,6 @@
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/okfn/chat)
+[![goodtables.io](https://goodtables.io/badge/github/okfn/licenses.svg)](https://goodtables.io/github/okfn/licenses)
+
 
 Machine readable list of open (http://opensource.org/,
 http://opendefinition.org/) licenses and web service - see
@@ -15,7 +17,7 @@ All data (and associated content) is placed in the Public Domain using the
 License](http://opendatacommons.org/licenses/pddl/1-0/). All code is licensed
 under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
-## contributions
+## Contributions
 Your contributions are very welcome. [Learn how you can help](./CONTRIBUTING.md)
 
 ## Layout
