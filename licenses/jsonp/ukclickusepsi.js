@@ -7,7 +7,7 @@ license_callback({
   "od_conformance": "rejected", 
   "osd_conformance": "not reviewed", 
   "maintainer": "", 
-  "status": "active", 
+  "status": "retired", 
   "title": "UK Click Use PSI", 
   "url": ""
 }

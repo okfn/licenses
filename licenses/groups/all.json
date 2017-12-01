@@ -558,6 +558,20 @@
     "title": "GNU Lesser General Public License 3.0", 
     "url": "http://www.opensource.org/licenses/LGPL-3.0"
   }, 
+  "LO-FR-2.0": {
+    "domain_content": false, 
+    "domain_data": true, 
+    "domain_software": false, 
+    "family": "", 
+    "id": "LO-FR-2.0", 
+    "is_generic": "false", 
+    "maintainer": "Etalab", 
+    "od_conformance": "not reviewed", 
+    "osd_conformance": "not reviewed", 
+    "status": "active", 
+    "title": "Open License 2.0", 
+    "url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+  }, 
   "LPL-1.0": {
     "domain_content": false, 
     "domain_data": false, 
@@ -1382,7 +1396,7 @@
     "maintainer": "", 
     "od_conformance": "rejected", 
     "osd_conformance": "not reviewed", 
-    "status": "active", 
+    "status": "retired", 
     "title": "UK Click Use PSI", 
     "url": ""
   }, 
@@ -1408,7 +1422,7 @@
     "maintainer": "", 
     "od_conformance": "approved", 
     "osd_conformance": "not reviewed", 
-    "status": "active", 
+    "status": "retired", 
     "title": "UK Crown Copyright with data.gov.uk rights", 
     "url": ""
   }, 

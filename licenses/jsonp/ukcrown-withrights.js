@@ -7,7 +7,7 @@ license_callback({
   "od_conformance": "approved", 
   "osd_conformance": "not reviewed", 
   "maintainer": "", 
-  "status": "active", 
+  "status": "retired", 
   "title": "UK Crown Copyright with data.gov.uk rights", 
   "url": ""
 }
