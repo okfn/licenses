@@ -34,7 +34,7 @@ class DeployCommand(object):
 
     ckan = [
         "notspecified", 
-        "ODC-PDDL-1.0", 
+        "PDDL-1.0", 
         "ODbL-1.0", 
         "ODC-BY-1.0",
         "CC0-1.0", 

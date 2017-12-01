@@ -129,19 +129,6 @@ license_callback({
     "title": "Open Data Commons Attribution License 1.0", 
     "url": "http://www.opendefinition.org/licenses/odc-by"
   }, 
-  "ODC-PDDL-1.0": {
-    "domain_content": false, 
-    "domain_data": true, 
-    "domain_software": false, 
-    "family": "", 
-    "id": "ODC-PDDL-1.0", 
-    "maintainer": "", 
-    "od_conformance": "approved", 
-    "osd_conformance": "not reviewed", 
-    "status": "active", 
-    "title": "Open Data Commons Public Domain Dedication and Licence 1.0", 
-    "url": "http://www.opendefinition.org/licenses/odc-pddl"
-  }, 
   "ODbL-1.0": {
     "domain_content": false, 
     "domain_data": true, 
@@ -196,6 +183,20 @@ license_callback({
     "status": "active", 
     "title": "Open Government Licence 3.0 (United Kingdom)", 
     "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+  }, 
+  "PDDL-1.0": {
+    "domain_content": false, 
+    "domain_data": true, 
+    "domain_software": false, 
+    "family": "", 
+    "id": "PDDL-1.0", 
+    "legacy_id": "ODC-PDDL-1.0", 
+    "maintainer": "", 
+    "od_conformance": "approved", 
+    "osd_conformance": "not reviewed", 
+    "status": "active", 
+    "title": "Open Data Commons Public Domain Dedication and Licence 1.0", 
+    "url": "http://www.opendefinition.org/licenses/odc-pddl"
   }, 
   "Talis": {
     "domain_content": true, 
