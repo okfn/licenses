@@ -564,7 +564,7 @@ license_callback({
     "domain_software": false, 
     "family": "", 
     "id": "LO-FR-2.0", 
-    "is_generic": "false", 
+    "is_generic": false, 
     "maintainer": "Etalab", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "not reviewed", 
