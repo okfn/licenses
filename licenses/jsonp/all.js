@@ -31,6 +31,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "AGPL-3.0", 
+    "legacy_ids": [
+      "agpl-v3"
+    ], 
     "maintainer": "Free Software Foundation", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -44,6 +47,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "APL-1.0", 
+    "legacy_ids": [
+      "apl1.0"
+    ], 
     "maintainer": "", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -96,6 +102,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "Apache-2.0", 
+    "legacy_ids": [
+      "apache2.0"
+    ], 
     "maintainer": "Apache Foundation", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -109,6 +118,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "Artistic-2.0", 
+    "legacy_ids": [
+      "artistic-license-2.0"
+    ], 
     "maintainer": "Perl Foundation", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -148,6 +160,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "BSL-1.0", 
+    "legacy_ids": [
+      "bsl1.0"
+    ], 
     "maintainer": "", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -174,6 +189,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "CATOSL-1.1", 
+    "legacy_ids": [
+      "ca-tosl1.1"
+    ], 
     "maintainer": "", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -239,6 +257,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "CDDL-1.0", 
+    "legacy_ids": [
+      "cddl1"
+    ], 
     "maintainer": "", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -278,6 +299,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "CPAL-1.0", 
+    "legacy_ids": [
+      "cpal_1.0"
+    ], 
     "maintainer": "", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -317,6 +341,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "ECL-2.0", 
+    "legacy_ids": [
+      "ecl2"
+    ], 
     "maintainer": "", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -343,6 +370,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "EPL-1.0", 
+    "legacy_ids": [
+      "eclipse-1.0"
+    ], 
     "maintainer": "Eclipse Foundation", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -499,6 +529,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "IPL-1.0", 
+    "legacy_ids": [
+      "ibmpl"
+    ], 
     "maintainer": "IBM Corporation", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -512,6 +545,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "ISC", 
+    "legacy_ids": [
+      "isc-license"
+    ], 
     "maintainer": "", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -525,6 +561,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "Intel", 
+    "legacy_ids": [
+      "intel-osl"
+    ], 
     "maintainer": "Intel Corporation", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -617,6 +656,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "MIT", 
+    "legacy_ids": [
+      "mit-license"
+    ], 
     "maintainer": "", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -643,6 +685,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "MPL-1.1", 
+    "legacy_ids": [
+      "mozilla1.1"
+    ], 
     "maintainer": "Mozilla Foundation", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -656,6 +701,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "MPL-2.0", 
+    "legacy_ids": [
+      "mozilla2.0"
+    ], 
     "maintainer": "Mozilla Foundation", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -734,6 +782,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "NASA-1.3", 
+    "legacy_ids": [
+      "nasa1.3"
+    ], 
     "maintainer": "", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -747,6 +798,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "NCSA", 
+    "legacy_ids": [
+      "uoi-ncsa"
+    ], 
     "maintainer": "", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -773,6 +827,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "NPOSL-3.0", 
+    "legacy_ids": [
+      "nosl3.0"
+    ], 
     "maintainer": "Lawrence Rosen", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -825,6 +882,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "OCLC-2.0", 
+    "legacy_ids": [
+      "oclc2"
+    ], 
     "maintainer": "", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -891,6 +951,9 @@ license_callback({
     "family": "", 
     "id": "OGL-Canada-2.0", 
     "is_generic": false, 
+    "legacy_ids": [
+      "OGL-CA-2.0"
+    ], 
     "maintainer": "Government of Canada", 
     "od_conformance": "approved", 
     "osd_conformance": "not reviewed", 
@@ -1062,6 +1125,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "SISSL", 
+    "legacy_ids": [
+      "sun-issl"
+    ], 
     "maintainer": "", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
@@ -1218,6 +1284,9 @@ license_callback({
     "domain_software": true, 
     "family": "", 
     "id": "Zlib", 
+    "legacy_ids": [
+      "zlib-license"
+    ], 
     "maintainer": "", 
     "od_conformance": "not reviewed", 
     "osd_conformance": "approved", 
