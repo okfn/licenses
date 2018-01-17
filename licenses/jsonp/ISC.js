@@ -1,14 +1,15 @@
 license_callback({
-  "domain_content": false, 
-  "domain_data": false, 
-  "domain_software": true, 
-  "family": "", 
-  "id": "ISC", 
-  "od_conformance": "not reviewed", 
-  "osd_conformance": "approved", 
-  "maintainer": "", 
-  "status": "active", 
-  "title": "ISC License", 
+  "domain_content": false,
+  "domain_data": false,
+  "domain_software": true,
+  "family": "",
+  "id": "ISC",
+  "legacy_ids": ["isc-license"],
+  "od_conformance": "not reviewed",
+  "osd_conformance": "approved",
+  "maintainer": "",
+  "status": "active",
+  "title": "ISC License",
   "url": "http://www.opensource.org/licenses/ISC"
 }
 );

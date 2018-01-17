@@ -149,6 +149,9 @@ license_callback({
     "family": "", 
     "id": "OGL-Canada-2.0", 
     "is_generic": false, 
+    "legacy_ids": [
+      "OGL-CA-2.0"
+    ], 
     "maintainer": "Government of Canada", 
     "od_conformance": "approved", 
     "osd_conformance": "not reviewed", 
