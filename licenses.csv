@@ -15,6 +15,9 @@ BitTorrent-1.1,FALSE,FALSE,TRUE,,,,not reviewed,not reviewed,active,BitTorrent O
 CATOSL-1.1,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Computer Associates Trusted Open Source License 1.1 (CATOSL-1.1),http://www.opensource.org/licenses/CATOSL-1.1
 CC-BY-4.0,TRUE,TRUE,FALSE,,,Creative Commons,approved,not reviewed,active,Creative Commons Attribution 4.0,https://creativecommons.org/licenses/by/4.0/
 CC-BY-NC-4.0,TRUE,TRUE,FALSE,Creative Commons,,Creative Commons,rejected,not reviewed,active,Creative Commons Attribution-NonCommercial 4.0,https://creativecommons.org/licenses/by-nc/4.0/
+CC-BY-NC-ND-4.0,TRUE,TRUE,FALSE,,,Creative Commons,rejected,not reviewed,active,Creative Commons Attribution NonCommercial No-Derivatives 4.0,https://creativecommons.org/licenses/by-nc-nd/4.0/
+CC-BY-NC-SA-4.0,TRUE,TRUE,FALSE,,,Creative Commons,rejected,not reviewed,active,Creative Commons Attribution NonCommercial Share-Alike 4.0,https://creativecommons.org/licenses/by-nc-sa/4.0/
+CC-BY-ND-4.0,TRUE,TRUE,FALSE,,,Creative Commons,rejected,not reviewed,active,Creative Commons Attribution No-Derivatives 4.0,https://creativecommons.org/licenses/by-nd/4.0/
 CC-BY-SA-4.0,TRUE,TRUE,FALSE,,,Creative Commons,approved,not reviewed,active,Creative Commons Attribution Share-Alike 4.0,https://creativecommons.org/licenses/by-sa/4.0/
 CC0-1.0,TRUE,TRUE,TRUE,,,Creative Commons,approved,not reviewed,active,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/
 CDDL-1.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Common Development and Distribution License 1.0,http://www.opensource.org/licenses/CDDL-1.0
@@ -42,6 +45,7 @@ ISC,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,ISC License,http://www.open
 Intel,FALSE,FALSE,TRUE,,,Intel Corporation,not reviewed,approved,retired,Intel Open Source License,http://www.opensource.org/licenses/Intel
 LGPL-2.1,FALSE,FALSE,TRUE,,,Free Software Foundation,not reviewed,approved,active,GNU Lesser General Public License 2.1,http://www.opensource.org/licenses/LGPL-2.1
 LGPL-3.0,FALSE,FALSE,TRUE,,,Free Software Foundation,not reviewed,approved,active,GNU Lesser General Public License 3.0,http://www.opensource.org/licenses/LGPL-3.0
+LO-FR-2.0,FALSE,TRUE,FALSE,,FALSE,Etalab,not reviewed,not reviewed,active,Open License 2.0,https://www.etalab.gouv.fr/licence-ouverte-open-licence
 LPL-1.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,retired,"Lucent Public License (""Plan9"") 1.0",http://www.opensource.org/licenses/LPL-1.0
 LPL-1.02,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Lucent Public License 1.02,http://www.opensource.org/licenses/LPL-1.02
 LPPL-1.3c,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,LaTeX Project Public License 1.3c,http://www.opensource.org/licenses/LPPL-1.3c
@@ -63,15 +67,18 @@ Naumen,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Naumen Public License,ht
 Nokia,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Nokia Open Source License,http://www.opensource.org/licenses/Nokia
 OCLC-2.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,OCLC Research Public License 2.0,http://www.opensource.org/licenses/OCLC-2.0
 ODC-BY-1.0,FALSE,TRUE,FALSE,,,Open Data Commons,approved,not reviewed,active,Open Data Commons Attribution License 1.0,http://www.opendefinition.org/licenses/odc-by
-ODC-PDDL-1.0,FALSE,TRUE,FALSE,,,Open Data Commons,approved,not reviewed,active,Open Data Commons Public Domain Dedication and Licence 1.0,http://www.opendefinition.org/licenses/odc-pddl
 ODbL-1.0,FALSE,TRUE,FALSE,,,Open Data Commons,approved,not reviewed,active,Open Data Commons Open Database License 1.0,http://www.opendefinition.org/licenses/odc-odbl
 OFL-1.1,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Open Font License 1.1,http://www.opensource.org/licenses/OFL-1.1
 OGL-Canada-2.0,TRUE,TRUE,FALSE,,FALSE,Government of Canada,approved,not reviewed,active,Open Government License 2.0 (Canada),http://data.gc.ca/eng/open-government-licence-canada
+OGL-DE-BY-2.0,FALSE,TRUE,FALSE,,FALSE,German Government,approved,not reviewed,active,Data Licence Germany-attribution-version 2.0,https://www.govdata.de/dl-de/by-2-0
+OGL-DE-ZERO-2.0,FALSE,TRUE,FALSE,,FALSE,German Government,approved,not reviewed,active,Data Licence Germany-Zero-Version 2.0,https://www.govdata.de/dl-de/zero-2-0
+OGL-TW-1.0,FALSE,TRUE,FALSE,,FALSE,Republic of China (Taiwan),approved,not reviewed,active,Open Government Data License Taiwan 1.0,https://data.gov.tw/license
 OGL-UK-1.0,TRUE,TRUE,TRUE,,,,not reviewed,not reviewed,superceded,Open Government Licence 1.0 (United Kingdom),http://reference.data.gov.uk/id/open-government-licence
 OGL-UK-2.0,TRUE,TRUE,TRUE,,FALSE,UK Government,approved,not reviewed,superceded,Open Government Licence 2.0 (United Kingdom),https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/
 OGL-UK-3.0,TRUE,TRUE,TRUE,,FALSE,UK Government,approved,not reviewed,active,Open Government Licence 3.0 (United Kingdom),https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 OGTSL,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Open Group Test Suite License,http://www.opensource.org/licenses/OGTSL
 OSL-3.0,TRUE,FALSE,TRUE,,,Lawrence Rosen,not reviewed,approved,active,Open Software License 3.0,http://www.opensource.org/licenses/OSL-3.0
+PDDL-1.0,FALSE,TRUE,FALSE,,,Open Data Commons,approved,not reviewed,active,Open Data Commons Public Domain Dedication and Licence 1.0,http://www.opendefinition.org/licenses/odc-pddl
 PHP-3.0,FALSE,FALSE,TRUE,,,PHP Group,not reviewed,approved,active,PHP License 3.0,http://www.opensource.org/licenses/PHP-3.0
 PostgreSQL,FALSE,FALSE,TRUE,,,PostgreSQL Global Development Group,not reviewed,approved,active,PostgreSQL License,http://www.opensource.org/licenses/PostgreSQL
 Python-2.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Python License 2.0,http://www.opensource.org/licenses/Python-2.0
@@ -108,10 +115,3 @@ ukclickusepsi,TRUE,FALSE,FALSE,,,,rejected,not reviewed,active,UK Click Use PSI,
 ukcrown,FALSE,FALSE,FALSE,,,,rejected,not reviewed,active,UK Crown Copyright,
 ukcrown-withrights,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,UK Crown Copyright with data.gov.uk rights,
 ukpsi,TRUE,FALSE,FALSE,,,,rejected,not reviewed,active,UK PSI Public Sector Information,http://www.opendefinition.org/licenses/ukpsi
-OGL-TW-1.0,FALSE,TRUE,FALSE,,FALSE,Republic of China (Taiwan),approved,not reviewed,active,Open Government Data License Taiwan 1.0,https://data.gov.tw/license
-OGL-DE-BY-2.0,FALSE,TRUE,FALSE,,FALSE,German Government,approved,not reviewed,active,Data Licence Germany-attribution-version 2.0,https://www.govdata.de/dl-de/by-2-0
-OGL-DE-ZERO-2.0,FALSE,TRUE,FALSE,,FALSE,German Government,approved,not reviewed,active,Data Licence Germany-Zero-Version 2.0,https://www.govdata.de/dl-de/zero-2-0
-CC-BY-ND-4.0,TRUE,TRUE,FALSE,,,Creative Commons,rejected,not reviewed,active,Creative Commons Attribution No-Derivatives 4.0,https://creativecommons.org/licenses/by-nd/4.0/
-CC-BY-NC-ND-4.0,TRUE,TRUE,FALSE,,,Creative Commons,rejected,not reviewed,active,Creative Commons Attribution NonCommercial No-Derivatives 4.0,https://creativecommons.org/licenses/by-nc-nd/4.0/
-CC-BY-NC-SA-4.0,TRUE,TRUE,FALSE,,,Creative Commons,rejected,not reviewed,active,Creative Commons Attribution NonCommercial Share-Alike 4.0,https://creativecommons.org/licenses/by-nc-sa/4.0/
-LO-FR-2.0,FALSE,TRUE,FALSE,,FALSE,Etalab,not reviewed,not reviewed,active,Open License 2.0,https://www.etalab.gouv.fr/licence-ouverte-open-licence

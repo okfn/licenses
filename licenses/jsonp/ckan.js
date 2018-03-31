@@ -18,7 +18,10 @@ license_callback([
     "domain_data": true, 
     "domain_software": false, 
     "family": "", 
-    "id": "ODC-PDDL-1.0", 
+    "id": "PDDL-1.0", 
+    "legacy_ids": [
+      "ODC-PDDL-1.0"
+    ], 
     "maintainer": "", 
     "od_conformance": "approved", 
     "osd_conformance": "not reviewed", 
