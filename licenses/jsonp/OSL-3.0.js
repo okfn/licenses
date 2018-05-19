@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "Lawrence Rosen", 
   "status": "active", 
   "title": "Open Software License 3.0", 
-  "url": "http://www.opensource.org/licenses/OSL-3.0"
+  "url": "https://opensource.org/licenses/OSL-3.0"
 }
 );

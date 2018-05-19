@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "Free Software Foundation", 
   "status": "active", 
   "title": "GNU Lesser General Public License 3.0", 
-  "url": "http://www.opensource.org/licenses/LGPL-3.0"
+  "url": "https://opensource.org/licenses/LGPL-3.0"
 }
 );

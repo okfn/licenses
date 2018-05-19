@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "Mozilla Foundation", 
   "status": "retired", 
   "title": "Mozilla Public License 1.0", 
-  "url": "http://www.opensource.org/licenses/MPL-1.0"
+  "url": "https://opensource.org/licenses/MPL-1.0"
 }
 );

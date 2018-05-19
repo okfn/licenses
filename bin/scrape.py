@@ -13,12 +13,12 @@ opendefinition = {
     'rexp': '^/licenses/.+'
 }
 opensource = {
-    'fqdn': 'http://www.opensource.org',
+    'fqdn': 'https://opensource.org',
     'list': '/licenses/alphabetical',
     'rexp': '^/licenses/(?!(category|alphabetical|do-not-use)).+(\\.php|\\.html|\\.txt)?'
 }
 opensource_old = {
-    'fqdn': 'http://www.opensource.org',
+    'fqdn': 'https://opensource.org',
     'list': '/licenses/do-not-use',
     'rexp': '^/licenses/.+'
 }

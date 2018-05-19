@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "RealNetworks Public Source License 1.0", 
-  "url": "http://www.opensource.org/licenses/RPSL-1.0"
+  "url": "https://opensource.org/licenses/RPSL-1.0"
 }
 );

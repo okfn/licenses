@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "World Wide Web Consortium", 
   "status": "active", 
   "title": "W3C License", 
-  "url": "http://www.opensource.org/licenses/W3C"
+  "url": "https://opensource.org/licenses/W3C"
 }
 );

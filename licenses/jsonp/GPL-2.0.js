@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "Free Software Foundation", 
   "status": "active", 
   "title": "GNU General Public License 2.0", 
-  "url": "http://www.opensource.org/licenses/GPL-2.0"
+  "url": "https://opensource.org/licenses/GPL-2.0"
 }
 );

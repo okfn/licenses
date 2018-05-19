@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Motosoto License", 
-  "url": "http://www.opensource.org/licenses/Motosoto"
+  "url": "https://opensource.org/licenses/Motosoto"
 }
 );

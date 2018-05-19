@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "X.Net License", 
-  "url": "http://www.opensource.org/licenses/Xnet"
+  "url": "https://opensource.org/licenses/Xnet"
 }
 );

@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "",
   "status": "active",
   "title": "Boost Software License 1.0",
-  "url": "http://www.opensource.org/licenses/BSL-1.0"
+  "url": "https://opensource.org/licenses/BSL-1.0"
 }
 );

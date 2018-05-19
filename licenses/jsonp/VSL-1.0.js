@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Vovida Software License 1.0", 
-  "url": "http://www.opensource.org/licenses/VSL-1.0"
+  "url": "https://opensource.org/licenses/VSL-1.0"
 }
 );

@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "",
   "status": "active",
   "title": "ISC License",
-  "url": "http://www.opensource.org/licenses/ISC"
+  "url": "https://opensource.org/licenses/ISC"
 }
 );

@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "Oracle Corporation", 
   "status": "active", 
   "title": "Sleepycat License", 
-  "url": "http://www.opensource.org/licenses/Sleepycat"
+  "url": "https://opensource.org/licenses/Sleepycat"
 }
 );

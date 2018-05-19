@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "",
   "status": "active",
   "title": "zlib/libpng license",
-  "url": "http://www.opensource.org/licenses/Zlib"
+  "url": "https://opensource.org/licenses/Zlib"
 }
 );

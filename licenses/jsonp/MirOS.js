@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "MirOS Licence", 
-  "url": "http://www.opensource.org/licenses/MirOS"
+  "url": "https://opensource.org/licenses/MirOS"
 }
 );

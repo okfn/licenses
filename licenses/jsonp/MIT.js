@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "",
   "status": "active",
   "title": "MIT License",
-  "url": "http://www.opensource.org/licenses/MIT"
+  "url": "https://opensource.org/licenses/MIT"
 }
 );

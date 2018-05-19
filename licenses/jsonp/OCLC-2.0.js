@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "",
   "status": "active",
   "title": "OCLC Research Public License 2.0",
-  "url": "http://www.opensource.org/licenses/OCLC-2.0"
+  "url": "https://opensource.org/licenses/OCLC-2.0"
 }
 );

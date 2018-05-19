@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "Eclipse Foundation",
   "status": "active",
   "title": "Eclipse Public License 1.0",
-  "url": "http://www.opensource.org/licenses/EPL-1.0"
+  "url": "https://opensource.org/licenses/EPL-1.0"
 }
 );

@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "Apache Foundation",
   "status": "active",
   "title": "Apache Software License 2.0",
-  "url": "http://www.opensource.org/licenses/Apache-2.0"
+  "url": "https://opensource.org/licenses/Apache-2.0"
 }
 );

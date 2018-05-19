@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "CeCILL License 2.1", 
-  "url": "http://www.opensource.org/licenses/CECILL-2.1"
+  "url": "https://opensource.org/licenses/CECILL-2.1"
 }
 );

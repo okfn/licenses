@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Fair License", 
-  "url": "http://www.opensource.org/licenses/Fair"
+  "url": "https://opensource.org/licenses/Fair"
 }
 );

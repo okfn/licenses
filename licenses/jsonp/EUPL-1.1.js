@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "European Union Public License 1.1", 
-  "url": "http://www.opensource.org/licenses/EUPL-1.1"
+  "url": "https://opensource.org/licenses/EUPL-1.1"
 }
 );

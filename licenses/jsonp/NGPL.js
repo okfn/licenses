@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Nethack General Public License", 
-  "url": "http://www.opensource.org/licenses/NGPL"
+  "url": "https://opensource.org/licenses/NGPL"
 }
 );

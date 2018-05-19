@@ -14,7 +14,7 @@ directory.
 All data (and associated content) is placed in the Public Domain using the
 [Public Domain Dedication and
 License](http://opendatacommons.org/licenses/pddl/1-0/). All code is licensed
-under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+under the [MIT License](https://opensource.org/licenses/mit-license.php).
 
 ## Contributions
 Your contributions are very welcome. [Learn how you can help](./CONTRIBUTING.md)

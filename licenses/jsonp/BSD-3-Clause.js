@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "BSD 3-Clause \"New\" or \"Revised\" License (BSD-3-Clause)", 
-  "url": "http://www.opensource.org/licenses/BSD-3-Clause"
+  "url": "https://opensource.org/licenses/BSD-3-Clause"
 }
 );

@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Naumen Public License", 
-  "url": "http://www.opensource.org/licenses/Naumen"
+  "url": "https://opensource.org/licenses/Naumen"
 }
 );

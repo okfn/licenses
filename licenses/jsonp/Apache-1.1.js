@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "Apache Foundation", 
   "status": "retired", 
   "title": "Apache Software License 1.1", 
-  "url": "http://www.opensource.org/licenses/Apache-1.1"
+  "url": "https://opensource.org/licenses/Apache-1.1"
 }
 );

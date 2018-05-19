@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Historical Permission Notice and Disclaimer", 
-  "url": "http://www.opensource.org/licenses/HPND"
+  "url": "https://opensource.org/licenses/HPND"
 }
 );

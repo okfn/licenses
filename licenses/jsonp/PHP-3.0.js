@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "PHP Group", 
   "status": "active", 
   "title": "PHP License 3.0", 
-  "url": "http://www.opensource.org/licenses/PHP-3.0"
+  "url": "https://opensource.org/licenses/PHP-3.0"
 }
 );

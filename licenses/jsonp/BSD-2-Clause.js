@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "BSD 2-Clause \"Simplified\" or \"FreeBSD\" License (BSD-2-Clause)", 
-  "url": "http://www.opensource.org/licenses/BSD-2-Clause"
+  "url": "https://opensource.org/licenses/BSD-2-Clause"
 }
 );

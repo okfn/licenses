@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "",
   "status": "active",
   "title": "Common Development and Distribution License 1.0",
-  "url": "http://www.opensource.org/licenses/CDDL-1.0"
+  "url": "https://opensource.org/licenses/CDDL-1.0"
 }
 );

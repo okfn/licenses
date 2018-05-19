@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Python License 2.0", 
-  "url": "http://www.opensource.org/licenses/Python-2.0"
+  "url": "https://opensource.org/licenses/Python-2.0"
 }
 );
