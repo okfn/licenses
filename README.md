@@ -3,10 +3,10 @@
 
 
 Machine readable list of licenses and web service - see
-<http://licenses.opendefinition.org/>.
+<https://licenses.opendefinition.org/>.
 
 For more information, including details of web service usage, see
-<http://licenses.opendefinition.org/> or <pre>index.html</pre> in this
+<https://licenses.opendefinition.org/> or <pre>index.html</pre> in this
 directory.
 
 ## License

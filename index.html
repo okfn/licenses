@@ -144,10 +144,10 @@
       <h3>Get the data</h3>
       <p>Download the licenses, either <a href="licenses/groups/all.json">all in one</a>, individually (see below) or in specific groups (see above).</p>
       <p>For example, here's how to use curl to access an individual license:</p>
-      <p><code>curl http://licenses.opendefinition.org/licenses/odc-by.json</code></p>
+      <p><code>curl https://licenses.opendefinition.org/licenses/odc-by.json</code></p>
 
       <p>And here's how to use curl to access the CKAN license group:</p>
-      <p><code>curl http://licenses.opendefinition.org/licenses/groups/ckan.json</code></p>
+      <p><code>curl https://licenses.opendefinition.org/licenses/groups/ckan.json</code></p>
 
       <h3>Git Access</h3>
       <p>You can also get the material as a git repo:</p>
@@ -165,7 +165,7 @@
       For example from jQuery:</p>
       <pre>
 $.ajax({
-  url:'http://licenses.opendefinition.org/groups/jsonp/ODC-BY-1.0.js',
+  url:'https://licenses.opendefinition.org/groups/jsonp/ODC-BY-1.0.js',
   dataType: 'jsonp',
   // you *must* set the callback function to be licenses_callback
   jsonpCallback: 'license_callback',

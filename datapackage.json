@@ -5,7 +5,7 @@
   "profile": "tabular-data-package",
   "sources": [{
     "title": "Open Definition Licenses Service",
-    "path": "http://licenses.opendefinition.org"
+    "path": "https://licenses.opendefinition.org"
   }],
   "licenses": [{
     "name": "ODC-PDDL-1.0",
