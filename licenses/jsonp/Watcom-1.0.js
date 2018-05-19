@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Sybase Open Watcom Public License 1.0", 
-  "url": "http://www.opensource.org/licenses/Watcom-1.0"
+  "url": "https://opensource.org/licenses/Watcom-1.0"
 }
 );

@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Against DRM", 
-  "url": "http://www.opendefinition.org/licenses/against-drm"
+  "url": "https://opendefinition.org/licenses/against-drm"
 }
 );

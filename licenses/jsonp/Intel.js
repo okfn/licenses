@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "Intel Corporation",
   "status": "retired",
   "title": "Intel Open Source License",
-  "url": "http://www.opensource.org/licenses/Intel"
+  "url": "https://opensource.org/licenses/Intel"
 }
 );

@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "Lawrence Rosen", 
   "status": "active", 
   "title": "Academic Free License 3.0", 
-  "url": "http://www.opensource.org/licenses/AFL-3.0"
+  "url": "https://opensource.org/licenses/AFL-3.0"
 }
 );

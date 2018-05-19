@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "wxWidgets Team", 
   "status": "active", 
   "title": "wxWindows Library License", 
-  "url": "http://www.opensource.org/licenses/WXwindows"
+  "url": "https://opensource.org/licenses/WXwindows"
 }
 );

@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "",
   "status": "active",
   "title": "NASA Open Source Agreement 1.3",
-  "url": "http://www.opensource.org/licenses/NASA-1.3"
+  "url": "https://opensource.org/licenses/NASA-1.3"
 }
 );

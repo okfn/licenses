@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "Free Software Foundation",
   "status": "active",
   "title": "GNU Affero General Public License v3",
-  "url": "http://www.opensource.org/licenses/AGPL-3.0"
+  "url": "https://opensource.org/licenses/AGPL-3.0"
 }
 );

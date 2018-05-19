@@ -8,7 +8,7 @@
 
   <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
   <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -72,7 +72,7 @@
 <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
-      <a class="nav-logo pull-left" href="http://okfn.org/" title="An Open Knowledge Foundation Project">
+      <a class="nav-logo pull-left" href="https://okfn.org/" title="An Open Knowledge Foundation Project">
         <img src="https://assets.okfn.org/p/okfn/img/logo_28x30.png" alt="Open Knowledge Foundation logo" />
       </a>
       <a class="brand" href="#">Open Definition Licenses Service</a>
@@ -82,9 +82,9 @@
         <li><a href="#all-licenses">Licenses List</a></li>
       </ul>
       <ul class="nav pull-right">
-        <li><a href="http://github.com/okfn/licenses">Repo</a></li>
-        <li><a href="http://github.com/okfn/licenses/issues">Issues</a></li>
-        <li><a href="http://opendefinition.org/">Open Definition Home</a></li>
+        <li><a href="https://github.com/okfn/licenses">Repo</a></li>
+        <li><a href="https://github.com/okfn/licenses/issues">Issues</a></li>
+        <li><a href="https://opendefinition.org/">Open Definition Home</a></li>
       </ul>
     </div>
   </div>
@@ -93,19 +93,19 @@
 <div class="container">
 <div class="content">
   <div class="page-header">
-    <h1>Open Licenses Service <small><a href="http://opensource.org/">Open Source</a>, <a href="http://opendefinition.org/">Open Data and Open Content</a> Licenses in JSON and API friendly form</small></h1>
+    <h1>Open Licenses Service <small><a href="https://opensource.org/">Open Source</a>, <a href="https://opendefinition.org/">Open Data and Open Content</a> Licenses in JSON and API friendly form</small></h1>
   </div>
 
   <blockquote>
-    <h2>The <a href="http://opendefinition.org">Open Definition</a> states: &quot;A piece of content or data is open if anyone is free to use, reuse, and redistribute it — subject only, at most, to the requirement to attribute and share-alike.&quot;</h2>
+    <h2>The <a href="https://opendefinition.org">Open Definition</a> states: &quot;A piece of content or data is open if anyone is free to use, reuse, and redistribute it — subject only, at most, to the requirement to attribute and share-alike.&quot;</h2>
   </blockquote>
 
   <div class="row">
     <div class="span6">
       <h3>Data on more than 100 open licenses</h3>
       <p>Including all <a
-        href="http://opensource.org/licenses">OSI-approved open source
-        licenses</a> and all <a href="http://opendefinition.org/licenses">Open
+        href="https://opensource.org/licenses">OSI-approved open source
+        licenses</a> and all <a href="https://opendefinition.org/licenses">Open
         Definition conformant open data and content licenses</a>. Provided in easy to use, <a href="#format">machine readable JSON</a> -- perfect if you need to drop a license chooser into your app.</p>
       <p><a href="#all-licenses" class="btn primary">View the licenses available</a></p>
       <h4>License Groups</h4>
@@ -114,7 +114,7 @@
         <li><a href="licenses/groups/all.json">All licenses</a></li>
         <li><a href="licenses/groups/osi.json">OSI compliant</a></li>
         <li><a href="licenses/groups/od.json">Open Definition compliant</a></li>
-        <li><a href="licenses/groups/ckan.json">Specially selected set</a> developed for <a href="http://ckan.org/">CKAN</a> that is perfect for data and content site license choosers.
+        <li><a href="licenses/groups/ckan.json">Specially selected set</a> developed for <a href="https://ckan.org/">CKAN</a> that is perfect for data and content site license choosers.
       </ul>
     </div>
     <div class="span6">
@@ -129,9 +129,9 @@
   "osd_conformance": "not reviewed", 
   "status": "active", 
   "title": "Open Data Commons Attribution License 1.0", 
-  "url": "http://opendatacommons.org/licenses/by"
+  "url": "https://opendatacommons.org/licenses/by"
 }</pre>
-      <p>Spot an error, think we should have more info? Please file an <a href="http://github.com/okfn/licenses/issues">issue</a> or submit a patch.
+      <p>Spot an error, think we should have more info? Please file an <a href="https://github.com/okfn/licenses/issues">issue</a> or submit a patch.
       .
     </div>
   </div>
@@ -144,14 +144,14 @@
       <h3>Get the data</h3>
       <p>Download the licenses, either <a href="licenses/groups/all.json">all in one</a>, individually (see below) or in specific groups (see above).</p>
       <p>For example, here's how to use curl to access an individual license:</p>
-      <p><code>curl http://licenses.opendefinition.org/licenses/odc-by.json</code></p>
+      <p><code>curl https://licenses.opendefinition.org/licenses/odc-by.json</code></p>
 
       <p>And here's how to use curl to access the CKAN license group:</p>
-      <p><code>curl http://licenses.opendefinition.org/licenses/groups/ckan.json</code></p>
+      <p><code>curl https://licenses.opendefinition.org/licenses/groups/ckan.json</code></p>
 
       <h3>Git Access</h3>
       <p>You can also get the material as a git repo:</p>
-      <p><code>git clone http://github.com/okfn/licenses</code></p>
+      <p><code>git clone https://github.com/okfn/licenses</code></p>
     </div>
 
     <div class="span6">
@@ -165,7 +165,7 @@
       For example from jQuery:</p>
       <pre>
 $.ajax({
-  url:'http://licenses.opendefinition.org/groups/jsonp/ODC-BY-1.0.js',
+  url:'https://licenses.opendefinition.org/groups/jsonp/ODC-BY-1.0.js',
   dataType: 'jsonp',
   // you *must* set the callback function to be licenses_callback
   jsonpCallback: 'license_callback',
@@ -201,14 +201,14 @@ $.ajax({
 
   <footer>
     <p>
-      The Licenses service is run by the <a href="http://okfn.org">Open
+      The Licenses service is run by the <a href="https://okfn.org">Open
         Knowledge Foundation</a>
     </p>
     <p>
-      <a href="http://github.com/okfn/licenses">Source Code and Data</a> &ndash; <a href="https://github.com/okfn/licenses/tree/master/licenses">Full License List in Repo</a></p>
+      <a href="https://github.com/okfn/licenses">Source Code and Data</a> &ndash; <a href="https://github.com/okfn/licenses/tree/master/licenses">Full License List in Repo</a></p>
     </p>
     <p>
-      <a href="http://opendefinition.org/ossd/" title="Open Online Software Service">
+      <a href="https://opendefinition.org/ossd/" title="Open Online Software Service">
         <img src="https://assets.okfn.org/images/ok_buttons/os_80x15_orange_grey.png" alt="" border="" />
       </a>
     </p>

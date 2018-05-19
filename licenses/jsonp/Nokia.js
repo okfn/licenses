@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Nokia Open Source License", 
-  "url": "http://www.opensource.org/licenses/Nokia"
+  "url": "https://opensource.org/licenses/Nokia"
 }
 );

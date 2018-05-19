@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Simple Public License 2.0", 
-  "url": "http://www.opensource.org/licenses/SimPL-2.0"
+  "url": "https://opensource.org/licenses/SimPL-2.0"
 }
 );

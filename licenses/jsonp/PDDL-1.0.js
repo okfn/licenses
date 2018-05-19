@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "",
   "status": "active",
   "title": "Open Data Commons Public Domain Dedication and Licence 1.0",
-  "url": "http://www.opendefinition.org/licenses/odc-pddl"
+  "url": "https://opendefinition.org/licenses/odc-pddl"
 }
 );

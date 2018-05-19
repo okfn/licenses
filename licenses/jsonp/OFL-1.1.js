@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Open Font License 1.1", 
-  "url": "http://www.opensource.org/licenses/OFL-1.1"
+  "url": "https://opensource.org/licenses/OFL-1.1"
 }
 );

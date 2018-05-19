@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "IBM Corporation",
   "status": "active",
   "title": "IBM Public License 1.0",
-  "url": "http://www.opensource.org/licenses/IPL-1.0"
+  "url": "https://opensource.org/licenses/IPL-1.0"
 }
 );

@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Reciprocal Public License 1.5", 
-  "url": "http://www.opensource.org/licenses/RPL-1.5"
+  "url": "https://opensource.org/licenses/RPL-1.5"
 }
 );

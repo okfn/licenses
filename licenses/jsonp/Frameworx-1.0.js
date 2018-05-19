@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Frameworx License 1.0", 
-  "url": "http://www.opensource.org/licenses/Frameworx-1.0"
+  "url": "https://opensource.org/licenses/Frameworx-1.0"
 }
 );

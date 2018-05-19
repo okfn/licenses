@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "Zope Foundation", 
   "status": "active", 
   "title": "Zope Public License 2.0", 
-  "url": "http://www.opensource.org/licenses/ZPL-2.0"
+  "url": "https://opensource.org/licenses/ZPL-2.0"
 }
 );

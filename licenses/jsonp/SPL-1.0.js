@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Sun Public License 1.0", 
-  "url": "http://www.opensource.org/licenses/SPL-1.0"
+  "url": "https://opensource.org/licenses/SPL-1.0"
 }
 );

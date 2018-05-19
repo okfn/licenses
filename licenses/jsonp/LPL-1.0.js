@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "retired", 
   "title": "Lucent Public License (\"Plan9\") 1.0", 
-  "url": "http://www.opensource.org/licenses/LPL-1.0"
+  "url": "https://opensource.org/licenses/LPL-1.0"
 }
 );

@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Multics License", 
-  "url": "http://www.opensource.org/licenses/Multics"
+  "url": "https://opensource.org/licenses/Multics"
 }
 );

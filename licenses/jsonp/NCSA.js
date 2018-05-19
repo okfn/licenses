@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "",
   "status": "active",
   "title": "University of Illinois/NCSA Open Source License",
-  "url": "http://www.opensource.org/licenses/NCSA"
+  "url": "https://opensource.org/licenses/NCSA"
 }
 );

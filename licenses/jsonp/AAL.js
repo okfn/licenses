@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Attribution Assurance Licenses", 
-  "url": "http://www.opensource.org/licenses/AAL"
+  "url": "https://opensource.org/licenses/AAL"
 }
 );

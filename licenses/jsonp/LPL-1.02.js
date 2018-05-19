@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Lucent Public License 1.02", 
-  "url": "http://www.opensource.org/licenses/LPL-1.02"
+  "url": "https://opensource.org/licenses/LPL-1.02"
 }
 );

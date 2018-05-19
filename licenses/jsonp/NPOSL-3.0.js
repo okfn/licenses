@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "Lawrence Rosen",
   "status": "active",
   "title": "Non-Profit Open Software License 3.0",
-  "url": "http://www.opensource.org/licenses/NPOSL-3.0"
+  "url": "https://opensource.org/licenses/NPOSL-3.0"
 }
 );

@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "EU DataGrid Software License", 
-  "url": "http://www.opensource.org/licenses/EUDatagrid"
+  "url": "https://opensource.org/licenses/EUDatagrid"
 }
 );

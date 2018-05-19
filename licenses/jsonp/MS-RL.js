@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "Microsoft Corporation", 
   "status": "active", 
   "title": "Microsoft Reciprocal License", 
-  "url": "http://www.opensource.org/licenses/MS-RL"
+  "url": "https://opensource.org/licenses/MS-RL"
 }
 );

@@ -3,18 +3,18 @@
 
 
 Machine readable list of licenses and web service - see
-<http://licenses.opendefinition.org/>.
+<https://licenses.opendefinition.org/>.
 
 For more information, including details of web service usage, see
-<http://licenses.opendefinition.org/> or <pre>index.html</pre> in this
+<https://licenses.opendefinition.org/> or <pre>index.html</pre> in this
 directory.
 
 ## License
 
 All data (and associated content) is placed in the Public Domain using the
 [Public Domain Dedication and
-License](http://opendatacommons.org/licenses/pddl/1-0/). All code is licensed
-under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+License](https://opendatacommons.org/licenses/pddl/1-0/). All code is licensed
+under the [MIT License](https://opensource.org/licenses/mit-license.php).
 
 ## Contributions
 Your contributions are very welcome. [Learn how you can help](./CONTRIBUTING.md)

@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "PostgreSQL Global Development Group", 
   "status": "active", 
   "title": "PostgreSQL License", 
-  "url": "http://www.opensource.org/licenses/PostgreSQL"
+  "url": "https://opensource.org/licenses/PostgreSQL"
 }
 );
