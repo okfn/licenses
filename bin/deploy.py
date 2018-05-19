@@ -74,7 +74,7 @@ class DeployCommand(object):
                 ('od_plus', od_plus),
                 ('ckan', ckan)]:
             fo = open(os.path.join(license_dir, 'groups', name + '.json'), 'w')
-            json.dump(dict_, fo, indent=2, sort_keys=True)
+            json.dump(dict_, fo, indent=2, sort_keys=True, separators=(',', ': '))
             fo.close()
         print('Writing group files: DONE')
 
