@@ -905,7 +905,7 @@ license_callback({
     "osd_conformance": "approved", 
     "status": "retired", 
     "title": "Sun Industry Standards Source License 1.1", 
-    "url": "http://opensource.org/licenses/SISSL"
+    "url": "https://opensource.org/licenses/SISSL"
   }, 
   "SPL-1.0": {
     "domain_content": false, 
@@ -1051,6 +1051,6 @@ license_callback({
     "osd_conformance": "approved", 
     "status": "active", 
     "title": "MITRE Collaborative Virtual Workspace License (CVW License)", 
-    "url": "http://opensource.org/licenses/CVW"
+    "url": "https://opensource.org/licenses/CVW"
   }
 });

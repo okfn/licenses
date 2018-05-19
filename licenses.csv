@@ -86,7 +86,7 @@ QPL-1.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Q Public License 1.0,ht
 RPL-1.5,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Reciprocal Public License 1.5,https://opensource.org/licenses/RPL-1.5
 RPSL-1.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,RealNetworks Public Source License 1.0,https://opensource.org/licenses/RPSL-1.0
 RSCPL,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Ricoh Source Code Public License,https://opensource.org/licenses/RSCPL
-SISSL,FALSE,FALSE,TRUE,,,,not reviewed,approved,retired,Sun Industry Standards Source License 1.1,http://opensource.org/licenses/SISSL
+SISSL,FALSE,FALSE,TRUE,,,,not reviewed,approved,retired,Sun Industry Standards Source License 1.1,https://opensource.org/licenses/SISSL
 SPL-1.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Sun Public License 1.0,https://opensource.org/licenses/SPL-1.0
 SimPL-2.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Simple Public License 2.0,https://opensource.org/licenses/SimPL-2.0
 Sleepycat,FALSE,FALSE,TRUE,,,Oracle Corporation,not reviewed,approved,active,Sleepycat License,https://opensource.org/licenses/Sleepycat
@@ -104,7 +104,7 @@ geogratis,FALSE,TRUE,FALSE,,,,not reviewed,not reviewed,retired,Geogratis,http:/
 hesa-withrights,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,Higher Education Statistics Agency Copyright with data.gov.uk rights,http://www.hesa.ac.uk/index.php?option=com_content&task=view&id=2619&Itemid=209
 localauth-withrights,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,Local Authority Copyright with data.gov.uk rights,
 met-office-cp,FALSE,FALSE,FALSE,,,,not reviewed,not reviewed,active,Met Office UK Climate Projections Licence Agreement,http://www.metoffice.gov.uk/climatechange/science/monitoring/ukcp09/UKCIP08_license_agreement_130709.pdf
-mitre,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,MITRE Collaborative Virtual Workspace License (CVW License),http://opensource.org/licenses/CVW
+mitre,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,MITRE Collaborative Virtual Workspace License (CVW License),https://opensource.org/licenses/CVW
 notspecified,FALSE,FALSE,FALSE,,TRUE,,not reviewed,not reviewed,active,License Not Specified,
 other-at,TRUE,FALSE,FALSE,,TRUE,,approved,not reviewed,active,Other (Attribution),
 other-closed,FALSE,FALSE,FALSE,,TRUE,,not reviewed,not reviewed,active,Other (Not Open),

@@ -10,6 +10,6 @@ license_callback({
   "maintainer": "",
   "status": "retired",
   "title": "Sun Industry Standards Source License 1.1",
-  "url": "http://opensource.org/licenses/SISSL"
+  "url": "https://opensource.org/licenses/SISSL"
 }
 );
