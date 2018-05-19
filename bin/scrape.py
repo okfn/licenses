@@ -8,7 +8,7 @@ import re
 import json
 
 opendefinition = {
-    'fqdn': 'http://www.opendefinition.org',
+    'fqdn': 'http://opendefinition.org',
     'list': '/licenses/',
     'rexp': '^/licenses/.+'
 }

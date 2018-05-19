@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Design Science License", 
-  "url": "http://www.opendefinition.org/licenses/dsl"
+  "url": "http://opendefinition.org/licenses/dsl"
 }
 );

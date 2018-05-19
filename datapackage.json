@@ -9,7 +9,7 @@
   }],
   "licenses": [{
     "name": "ODC-PDDL-1.0",
-    "path": "http://www.opendefinition.org/licenses/odc-pddl",
+    "path": "http://opendefinition.org/licenses/odc-pddl",
     "title": "Open Data Commons Public Domain Dedication and Licence 1.0"
   }],
   "resources": [{

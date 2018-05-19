@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Talis Community License", 
-  "url": "http://www.opendefinition.org/licenses/tcl"
+  "url": "http://opendefinition.org/licenses/tcl"
 }
 );

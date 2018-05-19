@@ -10,7 +10,7 @@ license_callback({
     "osd_conformance": "not reviewed", 
     "status": "active", 
     "title": "Against DRM", 
-    "url": "http://www.opendefinition.org/licenses/against-drm"
+    "url": "http://opendefinition.org/licenses/against-drm"
   }, 
   "CC-BY-4.0": {
     "domain_content": true, 
@@ -75,7 +75,7 @@ license_callback({
     "osd_conformance": "not reviewed", 
     "status": "active", 
     "title": "Design Science License", 
-    "url": "http://www.opendefinition.org/licenses/dsl"
+    "url": "http://opendefinition.org/licenses/dsl"
   }, 
   "FAL-1.3": {
     "domain_content": true, 
@@ -88,7 +88,7 @@ license_callback({
     "osd_conformance": "not reviewed", 
     "status": "active", 
     "title": "Free Art License 1.3", 
-    "url": "http://www.opendefinition.org/licenses/fal"
+    "url": "http://opendefinition.org/licenses/fal"
   }, 
   "GFDL-1.3-no-cover-texts-no-invariant-sections": {
     "domain_content": true, 
@@ -101,7 +101,7 @@ license_callback({
     "osd_conformance": "not reviewed", 
     "status": "active", 
     "title": "GNU Free Documentation License 1.3 with no cover texts and no invariant sections", 
-    "url": "http://www.opendefinition.org/licenses/gfdl"
+    "url": "http://opendefinition.org/licenses/gfdl"
   }, 
   "MirOS": {
     "domain_content": true, 
@@ -127,7 +127,7 @@ license_callback({
     "osd_conformance": "not reviewed", 
     "status": "active", 
     "title": "Open Data Commons Attribution License 1.0", 
-    "url": "http://www.opendefinition.org/licenses/odc-by"
+    "url": "http://opendefinition.org/licenses/odc-by"
   }, 
   "ODbL-1.0": {
     "domain_content": false, 
@@ -140,7 +140,7 @@ license_callback({
     "osd_conformance": "not reviewed", 
     "status": "active", 
     "title": "Open Data Commons Open Database License 1.0", 
-    "url": "http://www.opendefinition.org/licenses/odc-odbl"
+    "url": "http://opendefinition.org/licenses/odc-odbl"
   }, 
   "OGL-Canada-2.0": {
     "domain_content": true, 
@@ -201,7 +201,7 @@ license_callback({
     "osd_conformance": "not reviewed", 
     "status": "active", 
     "title": "Open Data Commons Public Domain Dedication and Licence 1.0", 
-    "url": "http://www.opendefinition.org/licenses/odc-pddl"
+    "url": "http://opendefinition.org/licenses/odc-pddl"
   }, 
   "Talis": {
     "domain_content": true, 
@@ -214,7 +214,7 @@ license_callback({
     "osd_conformance": "not reviewed", 
     "status": "active", 
     "title": "Talis Community License", 
-    "url": "http://www.opendefinition.org/licenses/tcl"
+    "url": "http://opendefinition.org/licenses/tcl"
   }, 
   "hesa-withrights": {
     "domain_content": true, 

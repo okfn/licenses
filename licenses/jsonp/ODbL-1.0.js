@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Open Data Commons Open Database License 1.0", 
-  "url": "http://www.opendefinition.org/licenses/odc-odbl"
+  "url": "http://opendefinition.org/licenses/odc-odbl"
 }
 );
