@@ -4,7 +4,7 @@ AFL-3.0,TRUE,FALSE,TRUE,,,Lawrence Rosen,not reviewed,approved,active,Academic F
 AGPL-3.0,FALSE,FALSE,TRUE,,,Free Software Foundation,not reviewed,approved,active,GNU Affero General Public License v3,http://www.opensource.org/licenses/AGPL-3.0
 APL-1.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Adaptive Public License 1.0,http://www.opensource.org/licenses/APL-1.0
 APSL-2.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Apple Public Source License 2.0,http://www.opensource.org/licenses/APSL-2.0
-Against-DRM,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,Against DRM,http://opendefinition.org/licenses/against-drm
+Against-DRM,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,Against DRM,https://opendefinition.org/licenses/against-drm
 Apache-1.1,FALSE,FALSE,TRUE,,,Apache Foundation,not reviewed,approved,retired,Apache Software License 1.1,http://www.opensource.org/licenses/Apache-1.1
 Apache-2.0,FALSE,FALSE,TRUE,,,Apache Foundation,not reviewed,approved,active,Apache Software License 2.0,http://www.opensource.org/licenses/Apache-2.0
 Artistic-2.0,FALSE,FALSE,TRUE,,,Perl Foundation,not reviewed,approved,active,Artistic License 2.0,http://www.opensource.org/licenses/Artistic-2.0
@@ -25,17 +25,17 @@ CECILL-2.1,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,CeCILL License 2.1,h
 CNRI-Python,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,CNRI Python License,http://www.opensource.org/licenses/CNRI-Python
 CPAL-1.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Common Public Attribution License 1.0,http://www.opensource.org/licenses/CPAL-1.0
 CUA-OPL-1.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,CUA Office Public License 1.0,http://www.opensource.org/licenses/CUA-OPL-1.0
-DSL,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,Design Science License,http://opendefinition.org/licenses/dsl
+DSL,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,Design Science License,https://opendefinition.org/licenses/dsl
 ECL-2.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Educational Community License 2.0,http://www.opensource.org/licenses/ECL-2.0
 EFL-2.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Eiffel Forum License 2.0,http://www.opensource.org/licenses/EFL-2.0
 EPL-1.0,FALSE,FALSE,TRUE,,,Eclipse Foundation,not reviewed,approved,active,Eclipse Public License 1.0,http://www.opensource.org/licenses/EPL-1.0
 EUDatagrid,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,EU DataGrid Software License,http://www.opensource.org/licenses/EUDatagrid
 EUPL-1.1,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,European Union Public License 1.1,http://www.opensource.org/licenses/EUPL-1.1
 Entessa,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Entessa Public License,http://www.opensource.org/licenses/Entessa
-FAL-1.3,TRUE,FALSE,FALSE,,,Copyleft Attitude,approved,not reviewed,active,Free Art License 1.3,http://opendefinition.org/licenses/fal
+FAL-1.3,TRUE,FALSE,FALSE,,,Copyleft Attitude,approved,not reviewed,active,Free Art License 1.3,https://opendefinition.org/licenses/fal
 Fair,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Fair License,http://www.opensource.org/licenses/Fair
 Frameworx-1.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Frameworx License 1.0,http://www.opensource.org/licenses/Frameworx-1.0
-GFDL-1.3-no-cover-texts-no-invariant-sections,TRUE,FALSE,FALSE,,,Free Software Foundation,approved,not reviewed,active,GNU Free Documentation License 1.3 with no cover texts and no invariant sections,http://opendefinition.org/licenses/gfdl
+GFDL-1.3-no-cover-texts-no-invariant-sections,TRUE,FALSE,FALSE,,,Free Software Foundation,approved,not reviewed,active,GNU Free Documentation License 1.3 with no cover texts and no invariant sections,https://opendefinition.org/licenses/gfdl
 GPL-2.0,FALSE,FALSE,TRUE,,,Free Software Foundation,not reviewed,approved,active,GNU General Public License 2.0,http://www.opensource.org/licenses/GPL-2.0
 GPL-3.0,FALSE,FALSE,TRUE,,,Free Software Foundation,not reviewed,approved,active,GNU General Public License 3.0,http://www.opensource.org/licenses/GPL-3.0
 HPND,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Historical Permission Notice and Disclaimer,http://www.opensource.org/licenses/HPND
@@ -66,8 +66,8 @@ NTP,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,NTP License,http://www.open
 Naumen,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Naumen Public License,http://www.opensource.org/licenses/Naumen
 Nokia,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Nokia Open Source License,http://www.opensource.org/licenses/Nokia
 OCLC-2.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,OCLC Research Public License 2.0,http://www.opensource.org/licenses/OCLC-2.0
-ODC-BY-1.0,FALSE,TRUE,FALSE,,,Open Data Commons,approved,not reviewed,active,Open Data Commons Attribution License 1.0,http://opendefinition.org/licenses/odc-by
-ODbL-1.0,FALSE,TRUE,FALSE,,,Open Data Commons,approved,not reviewed,active,Open Data Commons Open Database License 1.0,http://opendefinition.org/licenses/odc-odbl
+ODC-BY-1.0,FALSE,TRUE,FALSE,,,Open Data Commons,approved,not reviewed,active,Open Data Commons Attribution License 1.0,https://opendefinition.org/licenses/odc-by
+ODbL-1.0,FALSE,TRUE,FALSE,,,Open Data Commons,approved,not reviewed,active,Open Data Commons Open Database License 1.0,https://opendefinition.org/licenses/odc-odbl
 OFL-1.1,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Open Font License 1.1,http://www.opensource.org/licenses/OFL-1.1
 OGL-Canada-2.0,TRUE,TRUE,FALSE,,FALSE,Government of Canada,approved,not reviewed,active,Open Government License 2.0 (Canada),http://data.gc.ca/eng/open-government-licence-canada
 OGL-DE-BY-2.0,FALSE,TRUE,FALSE,,FALSE,German Government,approved,not reviewed,active,Data Licence Germany-attribution-version 2.0,https://www.govdata.de/dl-de/by-2-0
@@ -78,7 +78,7 @@ OGL-UK-2.0,TRUE,TRUE,TRUE,,FALSE,UK Government,approved,not reviewed,superceded,
 OGL-UK-3.0,TRUE,TRUE,TRUE,,FALSE,UK Government,approved,not reviewed,active,Open Government Licence 3.0 (United Kingdom),https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 OGTSL,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Open Group Test Suite License,http://www.opensource.org/licenses/OGTSL
 OSL-3.0,TRUE,FALSE,TRUE,,,Lawrence Rosen,not reviewed,approved,active,Open Software License 3.0,http://www.opensource.org/licenses/OSL-3.0
-PDDL-1.0,FALSE,TRUE,FALSE,,,Open Data Commons,approved,not reviewed,active,Open Data Commons Public Domain Dedication and Licence 1.0,http://opendefinition.org/licenses/odc-pddl
+PDDL-1.0,FALSE,TRUE,FALSE,,,Open Data Commons,approved,not reviewed,active,Open Data Commons Public Domain Dedication and Licence 1.0,https://opendefinition.org/licenses/odc-pddl
 PHP-3.0,FALSE,FALSE,TRUE,,,PHP Group,not reviewed,approved,active,PHP License 3.0,http://www.opensource.org/licenses/PHP-3.0
 PostgreSQL,FALSE,FALSE,TRUE,,,PostgreSQL Global Development Group,not reviewed,approved,active,PostgreSQL License,http://www.opensource.org/licenses/PostgreSQL
 Python-2.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Python License 2.0,http://www.opensource.org/licenses/Python-2.0
@@ -90,7 +90,7 @@ SISSL,FALSE,FALSE,TRUE,,,,not reviewed,approved,retired,Sun Industry Standards S
 SPL-1.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Sun Public License 1.0,http://www.opensource.org/licenses/SPL-1.0
 SimPL-2.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Simple Public License 2.0,http://www.opensource.org/licenses/SimPL-2.0
 Sleepycat,FALSE,FALSE,TRUE,,,Oracle Corporation,not reviewed,approved,active,Sleepycat License,http://www.opensource.org/licenses/Sleepycat
-Talis,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,Talis Community License,http://opendefinition.org/licenses/tcl
+Talis,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,Talis Community License,https://opendefinition.org/licenses/tcl
 Unlicense,FALSE,FALSE,TRUE,,,,not reviewed,not reviewed,active,Unlicense,http://unlicense.org/
 VSL-1.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Vovida Software License 1.0,http://www.opensource.org/licenses/VSL-1.0
 W3C,FALSE,FALSE,TRUE,,,World Wide Web Consortium,not reviewed,approved,active,W3C License,http://www.opensource.org/licenses/W3C
@@ -114,4 +114,4 @@ other-pd,TRUE,FALSE,FALSE,,TRUE,,approved,not reviewed,active,Other (Public Doma
 ukclickusepsi,TRUE,FALSE,FALSE,,,,rejected,not reviewed,active,UK Click Use PSI,
 ukcrown,FALSE,FALSE,FALSE,,,,rejected,not reviewed,active,UK Crown Copyright,
 ukcrown-withrights,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,UK Crown Copyright with data.gov.uk rights,
-ukpsi,TRUE,FALSE,FALSE,,,,rejected,not reviewed,active,UK PSI Public Sector Information,http://opendefinition.org/licenses/ukpsi
+ukpsi,TRUE,FALSE,FALSE,,,,rejected,not reviewed,active,UK PSI Public Sector Information,https://opendefinition.org/licenses/ukpsi

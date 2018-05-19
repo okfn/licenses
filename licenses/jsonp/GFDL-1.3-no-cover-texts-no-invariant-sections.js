@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "Free Software Foundation", 
   "status": "active", 
   "title": "GNU Free Documentation License 1.3 with no cover texts and no invariant sections", 
-  "url": "http://opendefinition.org/licenses/gfdl"
+  "url": "https://opendefinition.org/licenses/gfdl"
 }
 );

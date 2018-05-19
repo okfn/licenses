@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "Open Data Commons", 
   "status": "active", 
   "title": "Open Data Commons Attribution License 1.0", 
-  "url": "http://opendefinition.org/licenses/odc-by"
+  "url": "https://opendefinition.org/licenses/odc-by"
 }
 );

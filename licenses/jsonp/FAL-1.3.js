@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "Copyleft Attitude", 
   "status": "active", 
   "title": "Free Art License 1.3", 
-  "url": "http://opendefinition.org/licenses/fal"
+  "url": "https://opendefinition.org/licenses/fal"
 }
 );

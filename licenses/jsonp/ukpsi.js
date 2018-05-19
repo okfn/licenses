@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "UK PSI Public Sector Information", 
-  "url": "http://opendefinition.org/licenses/ukpsi"
+  "url": "https://opendefinition.org/licenses/ukpsi"
 }
 );
