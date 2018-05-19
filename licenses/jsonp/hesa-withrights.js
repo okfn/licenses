@@ -9,5 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Higher Education Statistics Agency Copyright with data.gov.uk rights", 
-  "url": "http://www.hesa.ac.uk/index.php?option=com_content&task=view&id=2619&Itemid=209"
-});
+  "url": "https://web.archive.org/web/20131009082944/http://www.hesa.ac.uk/index.php?option=com_content&task=view&id=2619&Itemid=209"
+}
+);

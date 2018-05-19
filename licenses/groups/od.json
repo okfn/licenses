@@ -144,7 +144,7 @@
     "osd_conformance": "not reviewed", 
     "status": "active", 
     "title": "Open Government License 2.0 (Canada)", 
-    "url": "http://data.gc.ca/eng/open-government-licence-canada"
+    "url": "https://open.canada.ca/en/open-government-licence-canada"
   }, 
   "OGL-UK-2.0": {
     "domain_content": true, 
@@ -214,7 +214,7 @@
     "osd_conformance": "not reviewed", 
     "status": "active", 
     "title": "Higher Education Statistics Agency Copyright with data.gov.uk rights", 
-    "url": "http://www.hesa.ac.uk/index.php?option=com_content&task=view&id=2619&Itemid=209"
+    "url": "https://web.archive.org/web/20131009082944/http://www.hesa.ac.uk/index.php?option=com_content&task=view&id=2619&Itemid=209"
   }, 
   "localauth-withrights": {
     "domain_content": true, 

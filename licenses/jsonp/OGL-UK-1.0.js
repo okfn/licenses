@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "superseded", 
   "title": "Open Government Licence 1.0 (United Kingdom)", 
-  "url": "http://reference.data.gov.uk/id/open-government-licence"
+  "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/"
 }
 );

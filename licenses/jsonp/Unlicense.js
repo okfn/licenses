@@ -9,6 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Unlicense", 
-  "url": "http://unlicense.org/"
+  "url": "https://unlicense.org/"
 }
 );
