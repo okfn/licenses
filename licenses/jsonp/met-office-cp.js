@@ -9,5 +9,6 @@ license_callback({
   "maintainer": "", 
   "status": "active", 
   "title": "Met Office UK Climate Projections Licence Agreement", 
-  "url": "http://www.metoffice.gov.uk/climatechange/science/monitoring/ukcp09/UKCIP08_license_agreement_130709.pdf"
-});
+  "url": "https://www.metoffice.gov.uk/climatechange/science/monitoring/ukcp09/UKCIP08_license_agreement_130709.pdf"
+}
+);

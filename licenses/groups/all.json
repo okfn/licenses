@@ -946,7 +946,7 @@
     "osd_conformance": "not reviewed", 
     "status": "active", 
     "title": "Open Government License 2.0 (Canada)", 
-    "url": "http://data.gc.ca/eng/open-government-licence-canada"
+    "url": "https://open.canada.ca/en/open-government-licence-canada"
   }, 
   "OGL-UK-1.0": {
     "domain_content": true, 
@@ -959,7 +959,7 @@
     "osd_conformance": "not reviewed", 
     "status": "superseded", 
     "title": "Open Government Licence 1.0 (United Kingdom)", 
-    "url": "http://reference.data.gov.uk/id/open-government-licence"
+    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/"
   }, 
   "OGL-UK-2.0": {
     "domain_content": true, 
@@ -1201,7 +1201,7 @@
     "osd_conformance": "not reviewed", 
     "status": "active", 
     "title": "Unlicense", 
-    "url": "http://unlicense.org/"
+    "url": "https://unlicense.org/"
   }, 
   "VSL-1.0": {
     "domain_content": false, 
@@ -1334,7 +1334,7 @@
     "osd_conformance": "not reviewed", 
     "status": "active", 
     "title": "Higher Education Statistics Agency Copyright with data.gov.uk rights", 
-    "url": "http://www.hesa.ac.uk/index.php?option=com_content&task=view&id=2619&Itemid=209"
+    "url": "https://web.archive.org/web/20131009082944/http://www.hesa.ac.uk/index.php?option=com_content&task=view&id=2619&Itemid=209"
   }, 
   "localauth-withrights": {
     "domain_content": true, 
@@ -1360,7 +1360,7 @@
     "osd_conformance": "not reviewed", 
     "status": "active", 
     "title": "Met Office UK Climate Projections Licence Agreement", 
-    "url": "http://www.metoffice.gov.uk/climatechange/science/monitoring/ukcp09/UKCIP08_license_agreement_130709.pdf"
+    "url": "https://www.metoffice.gov.uk/climatechange/science/monitoring/ukcp09/UKCIP08_license_agreement_130709.pdf"
   }, 
   "mitre": {
     "domain_content": false, 
