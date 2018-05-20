@@ -7,7 +7,8 @@ license_callback({
   "od_conformance": "",
   "osd_conformance": "not reviewed",
   "maintainer": "",
-  "status": "active",
+  "status": "reitred",
   "title": "Geogratis",
   "url": "http://geogratis.gc.ca/geogratis/licenceGG"
-});
+}
+);
