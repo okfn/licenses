@@ -1319,7 +1319,7 @@ license_callback({
     "maintainer": "",
     "od_conformance": "",
     "osd_conformance": "not reviewed",
-    "status": "reitred",
+    "status": "retired",
     "title": "Geogratis",
     "url": "http://geogratis.gc.ca/geogratis/licenceGG"
   },
