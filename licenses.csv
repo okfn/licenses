@@ -28,7 +28,8 @@ CUA-OPL-1.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,CUA Office Public L
 DSL,TRUE,FALSE,FALSE,,,,approved,not reviewed,active,Design Science License,https://opendefinition.org/licenses/dsl
 ECL-2.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Educational Community License 2.0,https://opensource.org/licenses/ECL-2.0
 EFL-2.0,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Eiffel Forum License 2.0,https://opensource.org/licenses/EFL-2.0
-EPL-1.0,FALSE,FALSE,TRUE,,,Eclipse Foundation,not reviewed,approved,active,Eclipse Public License 1.0,https://opensource.org/licenses/EPL-1.0
+EPL-1.0,FALSE,FALSE,TRUE,,,Eclipse Foundation,not reviewed,approved,retired,Eclipse Public License 1.0,https://opensource.org/licenses/EPL-1.0
+EPL-2.0,FALSE,FALSE,TRUE,,,Eclipse Foundation,not reviewed,approved,active,Eclipse Public License 2.0,https://opensource.org/licenses/EPL-2.0
 EUDatagrid,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,EU DataGrid Software License,https://opensource.org/licenses/EUDatagrid
 EUPL-1.1,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,European Union Public License 1.1,https://opensource.org/licenses/EUPL-1.1
 Entessa,FALSE,FALSE,TRUE,,,,not reviewed,approved,active,Entessa Public License,https://opensource.org/licenses/Entessa
