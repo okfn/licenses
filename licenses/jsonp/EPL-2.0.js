@@ -1,4 +1,3 @@
-
 license_callback({
   "domain_content": false,
   "domain_data": false,
