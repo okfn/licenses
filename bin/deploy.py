@@ -65,7 +65,7 @@ class DeployCommand(object):
         with open(filename, 'wb') as csv_file:
             csv_writer = csv.DictWriter(csv_file, field_names, lineterminator='\n')
             csv_writer.writeheader()
-            csv_writer.writerows(licenses.values())
+            csv_writer.writerows(sorted(licenses.values()))
         print('Updating csv file: DONE')
 
     def write_group_files(self):
