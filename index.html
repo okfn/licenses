@@ -173,7 +173,7 @@
 $.ajax({
   url:'https://licenses.opendefinition.org/groups/jsonp/ODC-BY-1.0.js',
   dataType: 'jsonp',
-  // you *must* set the callback function to be licenses_callback
+  // you *must* set the callback function to be license_callback
   jsonpCallback: 'license_callback',
   success: function(data) {
     alert('License title is ' + data.title);
