@@ -63,7 +63,7 @@ class DeployCommand(object):
                        'od_conformance', 'osd_conformance', 'status', 'title', 'url', 'legacy_ids']
         filename = 'licenses.csv'
         with open(filename, 'wb') as csv_file:
-            csv_writer = csv.DictWriter(csv_file, field_names)
+            csv_writer = csv.DictWriter(csv_file, field_names, lineterminator='\n')
             csv_writer.writeheader()
             csv_writer.writerows(licenses.values())
         print('Updating csv file: DONE')
