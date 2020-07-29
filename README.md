@@ -6,8 +6,7 @@ Machine readable list of licenses and web service - see
 <https://licenses.opendefinition.org/>.
 
 For more information, including details of web service usage, see
-<https://licenses.opendefinition.org/> or <pre>index.html</pre> in this
-directory.
+<https://licenses.opendefinition.org/>.
 
 ## License
 
