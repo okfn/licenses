@@ -1,9 +1,4 @@
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/okfn/chat)
-[![goodtables.io](https://goodtables.io/badge/github/okfn/licenses.svg)](https://goodtables.io/github/okfn/licenses)
-
-
-Machine readable list of licenses and web service - see
-<https://licenses.opendefinition.org/>.
+Machine readable list of licenses and web service - see https://licenses.opendefinition.org/.
 
 For more information, including details of web service usage, see
 <https://licenses.opendefinition.org/>.
