@@ -8,7 +8,7 @@ license_callback({
   "osd_conformance": "not reviewed", 
   "maintainer": "Creative Commons", 
   "status": "active", 
-  "title": "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) ", 
+  "title": "Attribution-NonCommercial-ShareAlike 4.0",
   "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
 }
 );

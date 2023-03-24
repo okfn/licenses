@@ -8,7 +8,7 @@ license_callback({
   "osd_conformance": "not reviewed", 
   "maintainer": "Creative Commons", 
   "status": "active", 
-  "title": "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) ", 
+  "title": "Attribution-NoDerivatives 4.0",
   "url": "https://creativecommons.org/licenses/by-nd/4.0/"
 }
 );

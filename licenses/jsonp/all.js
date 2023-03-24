@@ -235,7 +235,7 @@ license_callback({
     "od_conformance": "rejected",
     "osd_conformance": "not reviewed",
     "status": "active",
-    "title": "Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)",
+    "title": "Attribution-NonCommercial-NoDerivatives 4.0",
     "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
   },
   "CC-BY-NC-SA-4.0": {
@@ -248,7 +248,7 @@ license_callback({
     "od_conformance": "rejected",
     "osd_conformance": "not reviewed",
     "status": "active",
-    "title": "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) ",
+    "title": "Attribution-NonCommercial-ShareAlike 4.0",
     "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
   },
   "CC-BY-ND-4.0": {
@@ -261,7 +261,7 @@ license_callback({
     "od_conformance": "rejected",
     "osd_conformance": "not reviewed",
     "status": "active",
-    "title": "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) ",
+    "title": "Attribution-NoDerivatives 4.0",
     "url": "https://creativecommons.org/licenses/by-nd/4.0/"
   },
   "CC-BY-SA-4.0": {
