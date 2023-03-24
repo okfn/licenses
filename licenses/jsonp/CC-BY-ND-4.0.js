@@ -1,4 +1,4 @@
-{
+license_callback({
   "domain_content": true, 
   "domain_data": true, 
   "domain_software": false, 
@@ -11,3 +11,4 @@
   "title": "Attribution-NoDerivatives 4.0",
   "url": "https://creativecommons.org/licenses/by-nd/4.0/"
 }
+);
