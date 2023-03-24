@@ -62,10 +62,10 @@ class DeployCommand(object):
         field_names = ['id', 'domain_content', 'domain_data', 'domain_software', 'family', 'is_generic', 'maintainer',
                        'od_conformance', 'osd_conformance', 'status', 'title', 'url', 'legacy_ids']
         filename = 'licenses.csv'
-        with open(filename, 'wb') as csv_file:
+        with open(filename, 'w') as csv_file:
             csv_writer = csv.DictWriter(csv_file, field_names, lineterminator='\n')
             csv_writer.writeheader()
-            csv_writer.writerows(sorted(licenses.values()))
+            csv_writer.writerows(sorted(licenses.values(), key=lambda x: x['id']))
         print('Updating csv file: DONE')
 
     def write_group_files(self):
@@ -127,7 +127,7 @@ if __name__ == "__main__":
 
 Create license groups and JSONP versions."""
     if len(sys.argv) < 2:
-        print usage
+        print(usage)
         sys.exit(1)
     action = sys.argv[1]
     if action == 'run':
@@ -135,4 +135,4 @@ Create license groups and JSONP versions."""
     elif action == 'clean':
         DeployCommand().clean()
     else:
-        print usage
+        print(usage)
