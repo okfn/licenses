@@ -5,8 +5,8 @@ AGPL-3.0,False,False,True,,,Free Software Foundation,not reviewed,approved,activ
 APL-1.0,False,False,True,,,,not reviewed,approved,active,Adaptive Public License 1.0,https://opensource.org/licenses/APL-1.0,['apl1.0']
 APSL-2.0,False,False,True,,,,not reviewed,approved,active,Apple Public Source License 2.0,https://opensource.org/licenses/APSL-2.0,
 Against-DRM,True,False,False,,,,approved,not reviewed,active,Against DRM,https://opendefinition.org/licenses/against-drm,
-Apache-1.1,False,False,True,,,Apache Foundation,not reviewed,approved,retired,Apache Software License 1.1,https://opensource.org/licenses/Apache-1.1,
-Apache-2.0,False,False,True,,,Apache Foundation,not reviewed,approved,active,Apache Software License 2.0,https://opensource.org/licenses/Apache-2.0,['apache2.0']
+Apache-1.1,False,False,True,,,Apache Software Foundation,not reviewed,approved,retired,Apache License 1.1,https://opensource.org/licenses/Apache-1.1,
+Apache-2.0,False,False,True,,,Apache Software Foundation,not reviewed,approved,active,Apache License 2.0,https://opensource.org/licenses/Apache-2.0,['apache2.0']
 Artistic-2.0,False,False,True,,,Perl Foundation,not reviewed,approved,active,Artistic License 2.0,https://opensource.org/licenses/Artistic-2.0,['artistic-license-2.0']
 BSD-2-Clause,False,False,True,,,,not reviewed,approved,active,"BSD 2-Clause ""Simplified"" or ""FreeBSD"" License (BSD-2-Clause)",https://opensource.org/licenses/BSD-2-Clause,
 BSD-3-Clause,False,False,True,,,,not reviewed,approved,active,"BSD 3-Clause ""New"" or ""Revised"" License (BSD-3-Clause)",https://opensource.org/licenses/BSD-3-Clause,

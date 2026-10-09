@@ -76,11 +76,11 @@ license_callback({
     "domain_software": true,
     "family": "",
     "id": "Apache-1.1",
-    "maintainer": "Apache Foundation",
+    "maintainer": "Apache Software Foundation",
     "od_conformance": "not reviewed",
     "osd_conformance": "approved",
     "status": "retired",
-    "title": "Apache Software License 1.1",
+    "title": "Apache License 1.1",
     "url": "https://opensource.org/licenses/Apache-1.1"
   },
   "Apache-2.0": {
@@ -92,11 +92,11 @@ license_callback({
     "legacy_ids": [
       "apache2.0"
     ],
-    "maintainer": "Apache Foundation",
+    "maintainer": "Apache Software Foundation",
     "od_conformance": "not reviewed",
     "osd_conformance": "approved",
     "status": "active",
-    "title": "Apache Software License 2.0",
+    "title": "Apache License 2.0",
     "url": "https://opensource.org/licenses/Apache-2.0"
   },
   "Artistic-2.0": {

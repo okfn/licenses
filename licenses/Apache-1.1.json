@@ -6,8 +6,8 @@
   "id": "Apache-1.1", 
   "od_conformance": "not reviewed", 
   "osd_conformance": "approved", 
-  "maintainer": "Apache Foundation", 
+  "maintainer": "Apache Software Foundation", 
   "status": "retired", 
-  "title": "Apache Software License 1.1", 
+  "title": "Apache License 1.1", 
   "url": "https://opensource.org/licenses/Apache-1.1"
 }
