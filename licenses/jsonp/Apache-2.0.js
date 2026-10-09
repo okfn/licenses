@@ -7,9 +7,9 @@ license_callback({
   "legacy_ids": ["apache2.0"],
   "od_conformance": "not reviewed",
   "osd_conformance": "approved",
-  "maintainer": "Apache Foundation",
+  "maintainer": "Apache Software Foundation",
   "status": "active",
-  "title": "Apache Software License 2.0",
+  "title": "Apache License 2.0",
   "url": "https://opensource.org/licenses/Apache-2.0"
 }
 );
